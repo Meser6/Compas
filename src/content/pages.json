@@ -2,7 +2,7 @@
   "navigation": {
     "tabs": [
       { "id": "start", "label": "Start" },
-      { "id": "o-mnie", "label": "O nas" },
+      { "id": "o-mnie", "label": "O mnie" },
       { "id": "oferta", "label": "Oferta" },
       { "id": "faq", "label": "FAQ" },
       { "id": "kontakt", "label": "Kontakt" }
