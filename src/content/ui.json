@@ -1,15 +1,18 @@
 {
   "header": {
     "brandAriaLabel": "Compas — strona główna",
-    "cta": "Napisz do mnie",
+    "cta": "Napisz do nas",
     "navAriaLabel": "Sekcje strony",
     "logoTitle": "Compas",
-    "logoSubtitle": "dr Syrek"
+    "logoSubtitle": "szkolenia i edukacja"
   },
   "footer": {
-    "copyright": "© {{year}} Compas · dr Syrek",
+    "tagline": "Szkolenia i warsztaty dla szkół, placówek oświatowych i branży edukacyjnej — stacjonarnie, online i hybrydowo.",
+    "navHeading": "Nawigacja",
+    "contactHeading": "Kontakt",
+    "copyright": "© {{year}} Compas",
     "instagramAria": "Profil Instagram Compas",
-    "linkedinAria": "Profil LinkedIn — Daniel Syrek",
+    "linkedinAria": "Profil LinkedIn Compas",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "showKeys": "Pokaż klucze",
@@ -29,7 +32,9 @@
     "ribbon": "Polecamy",
     "paginationAria": "Strony listy szkoleń",
     "prev": "Poprzednia",
-    "next": "Następna"
+    "next": "Następna",
+    "badgeDurationAria": "Czas trwania: {{value}}",
+    "badgeTargetAria": "Grupa docelowa: {{value}}"
   },
   "trainingModal": {
     "notFound": "Nie znaleziono szczegółów tej pozycji. Odśwież stronę lub skontaktuj się bezpośrednio.",
@@ -50,6 +55,35 @@
   "trustedBy": {
     "heading": "Zaufali nam",
     "regionAria": "Logotypy partnerów, przewijane automatycznie"
+  },
+  "testimonials": {
+    "heading": "Opinie",
+    "sub": "Kilka słów od dyrekcji, kadry i rodziców po wspólnych szkoleniach.",
+    "regionAria": "Opinie uczestników szkoleń",
+    "ratingAria": "Ocena: {{value}} na 5"
+  },
+  "contactForm": {
+    "heading": "Napisz do nas",
+    "sub": "Odpowiadamy zwykle w ciągu 1–2 dni roboczych.",
+    "nameLabel": "Imię i nazwisko",
+    "namePlaceholder": "Jan Kowalski",
+    "orgLabel": "Szkoła / organizacja",
+    "orgPlaceholder": "np. Szkoła Podstawowa nr 1",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "jan.kowalski@przyklad.pl",
+    "phoneLabel": "Telefon (opcjonalnie)",
+    "phonePlaceholder": "+48 600 000 000",
+    "participantsLabel": "Liczba uczestników",
+    "participantsPlaceholder": "np. 20",
+    "formatLabel": "Preferowana forma",
+    "formatOptions": ["Na miejscu", "Online", "Hybryda", "Nie wiem jeszcze"],
+    "messageLabel": "Wiadomość",
+    "messagePlaceholder": "Opisz temat, termin i kontekst grupy…",
+    "submit": "Wyślij zapytanie",
+    "requiredNote": "Pola oznaczone * są wymagane.",
+    "successTitle": "Dziękujemy!",
+    "successBody": "Otworzyliśmy dla Ciebie szkic e-maila z wypełnioną treścią — wystarczy go wysłać z Twojej skrzynki pocztowej.",
+    "errorRequired": "Uzupełnij wymagane pola przed wysłaniem."
   },
   "aboutCarousel": {
     "regionAria": "Galeria zdjęć",

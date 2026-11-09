@@ -8,6 +8,10 @@ import { OfferTrainings } from "./OfferTrainings.jsx";
 import { SmartImage } from "./SmartImage";
 import { TrustedByMarquee } from "./TrustedByMarquee.jsx";
 import { FaqSection } from "./FaqSection.jsx";
+import { FeatureGrid } from "./FeatureGrid.jsx";
+import { ProcessSteps } from "./ProcessSteps.jsx";
+import { Testimonials } from "./Testimonials.jsx";
+import { ContactForm } from "./ContactForm.jsx";
 
 function Panel({ id, active, labelledBy, children }) {
   return (
@@ -39,7 +43,10 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
       <Panel id="start" active={is("start")} labelledBy="tab-start">
         <h2 className="section-title">{tx("pages.start.title", s.title)}</h2>
         <p className="section-sub section-sub--wide">{tx("pages.start.sub", s.sub)}</p>
-        <div className="split">
+
+        <FeatureGrid items={s.features} trPrefix="pages.start.features" />
+
+        <div className="split split--reverse-mobile split--process">
           <Reveal>
             <div className="media-frame media-frame--natural">
               <SmartImage
@@ -50,35 +57,11 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
               />
             </div>
           </Reveal>
-          <Reveal>
-            <ul className="list-check">
-              {s.listA.map((line, i) => (
-                <li key={line}>{tx(`pages.start.listA[${i}]`, line)}</li>
-              ))}
-            </ul>
-          </Reveal>
+          <ProcessSteps />
         </div>
 
-        <div className="split split--reverse-mobile">
-          <Reveal>
-            <ul className="list-check">
-              {s.listB.map((line, i) => (
-                <li key={line}>{tx(`pages.start.listB[${i}]`, line)}</li>
-              ))}
-            </ul>
-          </Reveal>
-          <Reveal>
-            <div className="media-frame media-frame--natural">
-              <SmartImage
-                imageKey="featuresRight"
-                {...imgPair(IMG.featuresRight)}
-                alt={tx("pages.start.altWorkshop", s.altWorkshop)}
-                loading="lazy"
-              />
-            </div>
-          </Reveal>
-        </div>
         <TrustedByMarquee />
+        <Testimonials />
       </Panel>
 
       <Panel id="o-mnie" active={is("o-mnie")} labelledBy="tab-o-mnie">
@@ -162,38 +145,12 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
       <Panel id="kontakt" active={is("kontakt")} labelledBy="tab-kontakt">
         <h2 className="section-title">{tx("pages.contact.title", c.title)}</h2>
         <p className="section-sub">{tx("pages.contact.sub", c.sub)}</p>
-        <div className="split">
-          <Reveal className="card" style={{ padding: "1.5rem" }}>
-            <p>
-              <strong>{tx("pages.contact.instagramLabel", c.instagramLabel)}</strong>
-              <br />
-              <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-                {tx("pages.contact.instagramDisplayPath", c.instagramDisplayPath)}
-              </a>
-            </p>
-            <p>
-              <strong>{tx("pages.contact.linkedinLabel", c.linkedinLabel)}</strong>
-              <br />
-              <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
-                {tx("pages.contact.linkedinDisplayPath", c.linkedinDisplayPath)}
-              </a>
-            </p>
-            <p>
-              <strong>{tx("pages.contact.phoneLabel", c.phoneLabel)}</strong>
-              <br />
-              <a href={`tel:${co.phoneTel}`}>{tx("contact.phoneDisplay", co.phoneDisplay)}</a>
-            </p>
-            <p>
-              <strong>{tx("pages.contact.emailLabel", c.emailLabel)}</strong>{" "}
-              <a href={`mailto:${co.email}`}>{tx("contact.email", co.email)}</a>
-            </p>
-            <p style={{ color: "var(--muted)", marginBottom: 0 }}>{tx("pages.contact.hint", c.hint)}</p>
-            <button type="button" className="btn btn-primary" style={{ marginTop: "1rem" }} onClick={() => onOpenModal("contact")}>
-              {tx("pages.contact.openModalCta", c.openModalCta)}
-            </button>
+        <div className="split split--contact">
+          <Reveal className="card contact-form-card">
+            <ContactForm />
           </Reveal>
           <Reveal>
-            <div className="media-frame media-frame--natural">
+            <div className="media-frame media-frame--natural contact-visual">
               <SmartImage
                 imageKey="registerRight"
                 {...imgPair(IMG.registerRight)}
@@ -201,6 +158,34 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
                 loading="lazy"
               />
             </div>
+            <div className="card contact-channels-card">
+              <p>
+                <strong>{tx("pages.contact.instagramLabel", c.instagramLabel)}</strong>
+                <br />
+                <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+                  {tx("pages.contact.instagramDisplayPath", c.instagramDisplayPath)}
+                </a>
+              </p>
+              <p>
+                <strong>{tx("pages.contact.linkedinLabel", c.linkedinLabel)}</strong>
+                <br />
+                <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+                  {tx("pages.contact.linkedinDisplayPath", c.linkedinDisplayPath)}
+                </a>
+              </p>
+              <p>
+                <strong>{tx("pages.contact.phoneLabel", c.phoneLabel)}</strong>
+                <br />
+                <a href={`tel:${co.phoneTel}`}>{tx("contact.phoneDisplay", co.phoneDisplay)}</a>
+              </p>
+              <p style={{ marginBottom: 0 }}>
+                <strong>{tx("pages.contact.emailLabel", c.emailLabel)}</strong>{" "}
+                <a href={`mailto:${co.email}`}>{tx("contact.email", co.email)}</a>
+              </p>
+            </div>
+            <button type="button" className="btn btn-ghost contact-hint-btn" onClick={() => onOpenModal("contact")}>
+              {tx("pages.contact.openModalCta", c.openModalCta)}
+            </button>
           </Reveal>
         </div>
       </Panel>

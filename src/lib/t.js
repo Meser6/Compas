@@ -3,10 +3,11 @@ import about from "../content/about.json";
 import contact from "../content/contact.json";
 import modals from "../content/modals.json";
 import pages from "../content/pages.json";
+import testimonials from "../content/testimonials.json";
 import trustedBy from "../content/trustedBy.json";
 import ui from "../content/ui.json";
 
-export const CONTENT = { ui, pages, about, trustedBy, modals, contact };
+export const CONTENT = { ui, pages, about, trustedBy, modals, contact, testimonials };
 
 function defaultVars() {
   return {

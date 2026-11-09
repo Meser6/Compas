@@ -6,7 +6,7 @@
 export const IMG = {
   /** Logo w nagłówku — `public/images/brand/logo.svg` (lub sam `url`). */
   logo: {
-   url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnvL0Q4cssjI9-YIK60fS9oPz2DXx1RU4nw&s"
+    file: "/images/brand/logo.svg",
   },
   hero: {
     url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80",
@@ -27,11 +27,11 @@ export const IMG = {
     url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
   },
   registerRight: {
-    url: "https://polska-flaga.pl/userdata/public/gfx/3548/arka.jpg",
+    url: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=1200&q=80",
   },
-  /** Portret „O mnie” — plik: `public/images/about/portrait.avif` (URL `/images/about/…`) lub zostaw url. */
+  /** Portret „O nas” — plik: `public/images/about/portrait.avif` (URL `/images/about/…`) lub zostaw url. */
   aboutPortrait: {
-    file: "/images/about/test.jpg",
+    url: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=900&q=80",
   },
 };
 

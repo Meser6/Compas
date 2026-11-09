@@ -10,12 +10,38 @@ import { TabPanels } from "./components/TabPanels.jsx";
 import { getTrainingDetail, offerTrainings } from "./data/offerTrainings.js";
 import { TrainingModalBody } from "./components/TrainingModalBody.jsx";
 import { TrainingConspectButton } from "./components/TrainingConspectButton.jsx";
+import { CONTENT } from "./lib/t.js";
+
+const TAB_IDS = CONTENT.pages.navigation.tabs.map((t) => t.id);
+
+function tabFromHash() {
+  const id = window.location.hash.replace(/^#/, "");
+  return TAB_IDS.includes(id) ? id : "start";
+}
 
 function AppShell() {
   const { showKeys, getStaticModal } = useContentStrings();
-  const [tab, setTab] = useState("start");
+  const [tab, setTabState] = useState(tabFromHash);
   const [modal, setModal] = useState(null);
   const trainingPdfTargetRef = useRef(null);
+
+  const setTab = (next) => {
+    setTabState(next);
+    const hash = `#${next}`;
+    if (window.location.hash !== hash) {
+      window.history.pushState(null, "", next === "start" ? "#start" : hash);
+    }
+  };
+
+  useEffect(() => {
+    const onHashChange = () => setTabState(tabFromHash());
+    window.addEventListener("hashchange", onHashChange);
+    window.addEventListener("popstate", onHashChange);
+    return () => {
+      window.removeEventListener("hashchange", onHashChange);
+      window.removeEventListener("popstate", onHashChange);
+    };
+  }, []);
 
   const openStatic = (key) => {
     const d = getStaticModal(key);
@@ -55,19 +81,19 @@ function AppShell() {
       <Header
         activeTab={tab}
         onTab={setTab}
-        onOpenContact={() => openStatic("contact")}
+        onOpenContact={() => setTab("kontakt")}
         onBrandClick={() => {
           setTab("start");
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
       />
       <main className={tab === "start" ? "" : "main--subpage"}>
-        {tab === "start" && <Hero />}
+        {tab === "start" && <Hero onNavigateTab={setTab} onOpenContact={() => setTab("kontakt")} />}
         <TabPanels activeTab={tab} onOpenModal={openStatic} onOpenTraining={openTraining} />
         {/* Portal lightboxa galerii — poniżej headera i dolnego menu (z-index w App.css) */}
         <div id="gallery-lightbox-mount" className="gallery-lightbox-mount" />
       </main>
-      <Footer />
+      <Footer onTab={setTab} />
       <Modal
         open={!!modal}
         onClose={closeModal}

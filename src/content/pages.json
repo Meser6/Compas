@@ -2,13 +2,14 @@
   "navigation": {
     "tabs": [
       { "id": "start", "label": "Start" },
-      { "id": "o-mnie", "label": "O mnie" },
+      { "id": "o-mnie", "label": "O nas" },
       { "id": "oferta", "label": "Oferta" },
       { "id": "faq", "label": "FAQ" },
       { "id": "kontakt", "label": "Kontakt" }
     ]
   },
   "hero": {
+    "eyebrow": "Szkolenia dla szkół i branży edukacyjnej",
     "title": "Nauczam, wykładam i szkolę — z godnością i energią",
     "leadBefore": "Jestem ",
     "leadHighlight": "dr Syrek",
@@ -18,28 +19,60 @@
     "visualAlt": "Wizual — rozwój i edukacja",
     "badgeBefore": "♥️ Z przyjemnością dzielę się ofertą — na żywo i online. Śledź też mój profil ",
     "badgeStrong": "@compas.dr.syrek",
-    "badgeAfter": " na Instagramie."
+    "badgeAfter": " na Instagramie.",
+    "ctaPrimary": "Umów bezpłatną konsultację",
+    "ctaSecondary": "Zobacz ofertę szkoleń",
+    "statsAria": "Statystyki",
+    "stats": [
+      { "value": "120+", "label": "zrealizowanych szkoleń" },
+      { "value": "40+", "label": "szkół i placówek" },
+      { "value": "4,9/5", "label": "średnia ocena uczestników" }
+    ]
   },
   "start": {
     "title": "Dlaczego Compas?",
-    "sub": "Nazwa nie jest przypadkiem: tak jak kompas wskazuje stronę świata, tak ja pomagam ustalić kierunek nauki, rozwoju zespołu albo Twojej indywidualnej ścieżki — bez chaosu i bez „jednego rozmiaru dla wszystkich”.",
+    "sub": "Nazwa nie jest przypadkiem: tak jak kompas wskazuje stronę świata, tak my pomagamy ustalić kierunek nauki, rozwoju zespołu albo Twojej indywidualnej ścieżki — bez chaosu i bez „jednego rozmiaru dla wszystkich”.",
     "altFeatures": "Materiały i proces pracy",
     "altWorkshop": "Warsztat i praca z grupą",
-    "listA": [
-      "Spójna narracja: od celów biznesowych po cele osobiste ucznia",
-      "Materiały po spotkaniu: skróty, szablony, ćwiczenia do domu",
-      "Format dopasowany: stacjonarnie, online albo hybryda",
-      "Jasne cele i kontrakt spotkania — wiadomo, co jest po drodze, a co na koniec",
-      "Tempo dopasowane do grupy — bez wyścigu ze slajdami „na siłę”",
-      "Mniej żargonu, więcej sensu: język dopasowany do audytorii"
+    "features": [
+      {
+        "icon": "compass",
+        "title": "Najpierw kierunek, potem treść",
+        "desc": "Wspólnie ustalamy cel i kontrakt spotkania, zanim ułożymy program — bez przypadkowego „zbioru tematów”."
+      },
+      {
+        "icon": "layers",
+        "title": "Format dopasowany do grupy",
+        "desc": "Stacjonarnie, online albo hybryda — tempo i narzędzia dobieramy do sali, nie na odwrót."
+      },
+      {
+        "icon": "file",
+        "title": "Materiały, które zostają",
+        "desc": "Po spotkaniu: skróty, szablony i plan na kolejne 30 dni — nie tylko wrażenie z jednego dnia."
+      },
+      {
+        "icon": "users",
+        "title": "Przestrzeń na pytania",
+        "desc": "Praca w parach i małych zespołach tam, gdzie pomaga — bez wyścigu ze slajdami „na siłę”."
+      },
+      {
+        "icon": "chat",
+        "title": "Kultura feedbacku",
+        "desc": "Krótka ankieta albo rozmowa po szkoleniu — i realny wpływ na kolejne spotkania."
+      },
+      {
+        "icon": "check",
+        "title": "Jasne zasady kontaktu",
+        "desc": "Follow-up uzgodniony z góry: wiadomo, kiedy i w jakiej formie wracamy z materiałami."
+      }
     ],
-    "listB": [
-      "Kultura feedbacku: krótka ankieta lub rozmowa po szkoleniu",
-      "Wspólnie ustalamy kierunek: najpierw intencja i cele, potem treść — bez przypadkowego „zbioru tematów”",
-      "Przestrzeń na pytania i pomyłki — bez presji „idealnego” udziału od pierwszej minuty",
-      "Praca w parach i małych zespołach tam, gdzie to pomaga, nie dla samego ruchu",
-      "Podsumowanie z planem na kolejne dni — żeby zostało coś po spotkaniu, nie tylko wrażenie",
-      "Kontakt po szkoleniu uzgodniony z góry — bez natarczywego follow-upu"
+    "processTitle": "Jak wygląda współpraca",
+    "processSub": "Od pierwszej wiadomości do materiałów po szkoleniu — cztery proste kroki.",
+    "process": [
+      { "title": "Pierwszy kontakt", "desc": "Piszesz do nas z tematem, terminem i liczbą osób — online, mailowo albo telefonicznie." },
+      { "title": "Krótka diagnoza", "desc": "Rozmawiamy o celach grupy i kontekście placówki, żeby dobrać właściwy format." },
+      { "title": "Szkolenie lub program", "desc": "Realizujemy spotkanie: stacjonarnie, online albo hybrydowo — w ustalonym wcześniej rytmie." },
+      { "title": "Materiały i follow-up", "desc": "Zostają skróty, szablony i plan działania — oraz jasno ustalony kontakt po spotkaniu." }
     ]
   },
   "about": {

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { offerFilterTypes, offerTrainings } from "../data/offerTrainings.js";
 import { Reveal } from "../hooks/Reveal";
 import { SmartImage } from "./SmartImage";
+import { ClockIcon, TargetIcon } from "./Icons.jsx";
 import { CONTENT } from "../lib/t.js";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
 
@@ -70,6 +71,8 @@ export function OfferTrainings({ onOpenTraining }) {
             const suf = t("ui.offer.cardAriaSuffix");
             const ariaLabel = `${item.recommended ? rec : ""}${item.title}, ${item.price}. ${suf}`;
             const ariaKeyHint = `offer.card · ${item.id} · aria-label (ui.offer.recommendedPrefix + trainings.* + ui.offer.cardAriaSuffix)`;
+            const duration = item.detail?.duration;
+            const target = item.detail?.target;
             return (
               <article
                 key={item.id}
@@ -104,6 +107,32 @@ export function OfferTrainings({ onOpenTraining }) {
                   </div>
                   <h3>{tx(`offer.trainings.${item.id}.title`, item.title)}</h3>
                   <p>{tx(`offer.trainings.${item.id}.summary`, item.summary)}</p>
+                  {duration || target ? (
+                    <div className="offer-card__badges">
+                      {duration ? (
+                        <span
+                          className="offer-card__badge"
+                          title={t("ui.offer.badgeDurationAria", { value: duration })}
+                        >
+                          <ClockIcon size={14} />
+                          <span className="offer-card__badge-text">
+                            {tx(`offer.trainings.${item.id}.detail.duration`, duration)}
+                          </span>
+                        </span>
+                      ) : null}
+                      {target ? (
+                        <span
+                          className="offer-card__badge"
+                          title={t("ui.offer.badgeTargetAria", { value: target })}
+                        >
+                          <TargetIcon size={14} />
+                          <span className="offer-card__badge-text">
+                            {tx(`offer.trainings.${item.id}.detail.target`, target)}
+                          </span>
+                        </span>
+                      ) : null}
+                    </div>
+                  ) : null}
                   <div className="card-actions card-actions--offer">
                     <span className="btn btn-ghost offer-card__cta">{tx("ui.offer.cta", u.cta)}</span>
                     <span className="offer-card__price">{tx(`offer.trainings.${item.id}.price`, item.price)}</span>

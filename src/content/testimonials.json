@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": "t1",
+      "quote": "Szkolenie dla naszej rady pedagogicznej było dopasowane co do minuty — bez lania wody i z konkretnymi narzędziami do codziennej pracy z klasą.",
+      "name": "Anna Kowalska",
+      "role": "Dyrektorka",
+      "org": "Szkoła Podstawowa nr 12 w Gdańsku",
+      "rating": 5
+    },
+    {
+      "id": "t2",
+      "quote": "Program modułowy dla nauczycieli dał zespołowi wspólny język i realny plan na kolejny semestr. Materiały po spotkaniach wracają do nas do dziś.",
+      "name": "Marek Wiśniewski",
+      "role": "Wicedyrektor",
+      "org": "Zespół Szkół Ogólnokształcących, Poznań",
+      "rating": 5
+    },
+    {
+      "id": "t3",
+      "quote": "Warsztat online dla kadry był prowadzony tak, że osoby zdalne czuły się tak samo zaangażowane jak te na sali. Bardzo profesjonalne przygotowanie.",
+      "name": "Katarzyna Lis",
+      "role": "Koordynatorka ds. rozwoju",
+      "org": "Kuratorium Oświaty (przykład)",
+      "rating": 5
+    },
+    {
+      "id": "t4",
+      "quote": "Tutoring 1:1 pomógł naszemu uczniowi przygotować się do olimpiady — spokojnie, bez presji, z jasnym planem na każdy tydzień.",
+      "name": "Piotr Zalewski",
+      "role": "Rodzic",
+      "org": "Liceum Ogólnokształcące, Wrocław",
+      "rating": 5
+    }
+  ]
+}
