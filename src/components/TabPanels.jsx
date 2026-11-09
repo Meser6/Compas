@@ -11,7 +11,9 @@ import { FaqSection } from "./FaqSection.jsx";
 import { FeatureGrid } from "./FeatureGrid.jsx";
 import { ProcessSteps } from "./ProcessSteps.jsx";
 import { Testimonials } from "./Testimonials.jsx";
-import { ContactForm } from "./ContactForm.jsx";
+import { InstagramIcon } from "./InstagramIcon.jsx";
+import { LinkedInIcon } from "./LinkedInIcon.jsx";
+import { MailIcon, PhoneIcon, ArrowRightIcon } from "./Icons.jsx";
 
 function Panel({ id, active, labelledBy, children }) {
   return (
@@ -145,10 +147,60 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
       <Panel id="kontakt" active={is("kontakt")} labelledBy="tab-kontakt">
         <h2 className="section-title">{tx("pages.contact.title", c.title)}</h2>
         <p className="section-sub">{tx("pages.contact.sub", c.sub)}</p>
-        <div className="split split--contact">
-          <Reveal className="card contact-form-card">
-            <ContactForm />
-          </Reveal>
+
+        <div className="contact-layout">
+          <div className="contact-tiles">
+            <Reveal as="a" className="contact-tile contact-tile--insta" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+              <span className="contact-tile__icon">
+                <InstagramIcon width={22} height={22} />
+              </span>
+              <span className="contact-tile__body">
+                <span className="contact-tile__label">{tx("pages.contact.instagramLabel", c.instagramLabel)}</span>
+                <span className="contact-tile__value">{tx("pages.contact.instagramDisplayPath", c.instagramDisplayPath)}</span>
+              </span>
+              <ArrowRightIcon size={18} className="contact-tile__arrow" />
+            </Reveal>
+
+            <Reveal as="a" className="contact-tile contact-tile--linkedin" href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+              <span className="contact-tile__icon">
+                <LinkedInIcon width={22} height={22} />
+              </span>
+              <span className="contact-tile__body">
+                <span className="contact-tile__label">{tx("pages.contact.linkedinLabel", c.linkedinLabel)}</span>
+                <span className="contact-tile__value">{tx("pages.contact.linkedinDisplayPath", c.linkedinDisplayPath)}</span>
+              </span>
+              <ArrowRightIcon size={18} className="contact-tile__arrow" />
+            </Reveal>
+
+            <Reveal as="a" className="contact-tile" href={`tel:${co.phoneTel}`}>
+              <span className="contact-tile__icon">
+                <PhoneIcon size={22} />
+              </span>
+              <span className="contact-tile__body">
+                <span className="contact-tile__label">{tx("pages.contact.phoneLabel", c.phoneLabel)}</span>
+                <span className="contact-tile__value">{tx("contact.phoneDisplay", co.phoneDisplay)}</span>
+              </span>
+              <ArrowRightIcon size={18} className="contact-tile__arrow" />
+            </Reveal>
+
+            <Reveal as="a" className="contact-tile" href={`mailto:${co.email}`}>
+              <span className="contact-tile__icon">
+                <MailIcon size={22} />
+              </span>
+              <span className="contact-tile__body">
+                <span className="contact-tile__label">{tx("pages.contact.emailLabel", c.emailLabel)}</span>
+                <span className="contact-tile__value">{tx("contact.email", co.email)}</span>
+              </span>
+              <ArrowRightIcon size={18} className="contact-tile__arrow" />
+            </Reveal>
+
+            <Reveal>
+              <button type="button" className="btn btn-ghost contact-hint-btn" onClick={() => onOpenModal("contact")}>
+                {tx("pages.contact.openModalCta", c.openModalCta)}
+              </button>
+            </Reveal>
+          </div>
+
           <Reveal>
             <div className="media-frame media-frame--natural contact-visual">
               <SmartImage
@@ -158,34 +210,6 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
                 loading="lazy"
               />
             </div>
-            <div className="card contact-channels-card">
-              <p>
-                <strong>{tx("pages.contact.instagramLabel", c.instagramLabel)}</strong>
-                <br />
-                <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-                  {tx("pages.contact.instagramDisplayPath", c.instagramDisplayPath)}
-                </a>
-              </p>
-              <p>
-                <strong>{tx("pages.contact.linkedinLabel", c.linkedinLabel)}</strong>
-                <br />
-                <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
-                  {tx("pages.contact.linkedinDisplayPath", c.linkedinDisplayPath)}
-                </a>
-              </p>
-              <p>
-                <strong>{tx("pages.contact.phoneLabel", c.phoneLabel)}</strong>
-                <br />
-                <a href={`tel:${co.phoneTel}`}>{tx("contact.phoneDisplay", co.phoneDisplay)}</a>
-              </p>
-              <p style={{ marginBottom: 0 }}>
-                <strong>{tx("pages.contact.emailLabel", c.emailLabel)}</strong>{" "}
-                <a href={`mailto:${co.email}`}>{tx("contact.email", co.email)}</a>
-              </p>
-            </div>
-            <button type="button" className="btn btn-ghost contact-hint-btn" onClick={() => onOpenModal("contact")}>
-              {tx("pages.contact.openModalCta", c.openModalCta)}
-            </button>
           </Reveal>
         </div>
       </Panel>

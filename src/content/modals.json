@@ -1,7 +1,7 @@
 {
   "contact": {
     "title": "Jak się odezwać?",
-    "bodyHtml": "<p>Najszybciej na Instagramie: <a href=\"{{instagramUrl}}\" target=\"_blank\" rel=\"noopener noreferrer\">@compas.dr.syrek</a> — napisz DM z krótkim kontekstem.</p>\n<p>Na LinkedIn: <a href=\"{{linkedinUrl}}\" target=\"_blank\" rel=\"noopener noreferrer\">Daniel Syrek</a> — zapraszam do kontaktu zawodowego.</p>\n<p>Telefon: <a href=\"tel:{{phoneTel}}\">{{phoneDisplay}}</a> · e-mail: <a href=\"mailto:{{contactEmail}}\">{{contactEmail}}</a></p>\n<p>W mailu podaj: <strong>czego dotyczy zapytanie</strong>, <strong>termin orientacyjny</strong>, <strong>liczba osób</strong> (jeśli firma) oraz <strong>forma</strong> (online / na miejscu).</p>\n<p style=\"margin-top:1rem;color:var(--muted);\">Ta strona jest lekką wizytówką — formularz HTML możesz tu podłączyć później (np. Formspree), jeśli zechcesz zbierać wiadomości bez social media.</p>"
+    "bodyHtml": "<p>Najszybciej na Instagramie: <a href=\"{{instagramUrl}}\" target=\"_blank\" rel=\"noopener noreferrer\">@compas.dr.syrek</a> — napisz DM z krótkim kontekstem.</p>\n<p>Na LinkedIn: <a href=\"{{linkedinUrl}}\" target=\"_blank\" rel=\"noopener noreferrer\">Daniel Syrek</a> — zapraszam do kontaktu zawodowego.</p>\n<p>Telefon: <a href=\"tel:{{phoneTel}}\">{{phoneDisplay}}</a> · e-mail: <a href=\"mailto:{{contactEmail}}\">{{contactEmail}}</a></p>\n<p>W wiadomości podaj: <strong>czego dotyczy zapytanie</strong>, <strong>termin orientacyjny</strong>, <strong>liczba osób</strong> (jeśli firma) oraz <strong>forma</strong> (online / na miejscu).</p>"
   },
   "bio": {
     "title": "Compas — kilka słów więcej",

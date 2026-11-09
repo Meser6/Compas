@@ -5,11 +5,11 @@ import { Footer } from "./components/Footer.jsx";
 import { Header } from "./components/Header.jsx";
 import { Hero } from "./components/Hero.jsx";
 import { Modal } from "./components/Modal.jsx";
-import { BackgroundThreads } from "./components/BackgroundThreads.jsx";
 import { TabPanels } from "./components/TabPanels.jsx";
 import { getTrainingDetail, offerTrainings } from "./data/offerTrainings.js";
 import { TrainingModalBody } from "./components/TrainingModalBody.jsx";
 import { TrainingConspectButton } from "./components/TrainingConspectButton.jsx";
+import { useSwipeNav } from "./hooks/useSwipeNav.js";
 import { CONTENT } from "./lib/t.js";
 
 const TAB_IDS = CONTENT.pages.navigation.tabs.map((t) => t.id);
@@ -24,6 +24,7 @@ function AppShell() {
   const [tab, setTabState] = useState(tabFromHash);
   const [modal, setModal] = useState(null);
   const trainingPdfTargetRef = useRef(null);
+  const mainRef = useRef(null);
 
   const setTab = (next) => {
     setTabState(next);
@@ -74,10 +75,11 @@ function AppShell() {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [tab]);
 
+  useSwipeNav({ containerRef: mainRef, tabIds: TAB_IDS, activeTab: tab, onNavigate: setTab });
+
   return (
     <div id="top" className="page-shell">
       <div className="bg-gradient" aria-hidden="true" />
-      <BackgroundThreads />
       <Header
         activeTab={tab}
         onTab={setTab}
@@ -87,7 +89,7 @@ function AppShell() {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
       />
-      <main className={tab === "start" ? "" : "main--subpage"}>
+      <main ref={mainRef} className={tab === "start" ? "" : "main--subpage"}>
         {tab === "start" && <Hero onNavigateTab={setTab} onOpenContact={() => setTab("kontakt")} />}
         <TabPanels activeTab={tab} onOpenModal={openStatic} onOpenTraining={openTraining} />
         {/* Portal lightboxa galerii — poniżej headera i dolnego menu (z-index w App.css) */}
