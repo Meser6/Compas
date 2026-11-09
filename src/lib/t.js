@@ -1,19 +1,17 @@
-import { INSTAGRAM_URL, LINKEDIN_URL } from "../constants/social.js";
+import { INSTAGRAM_URL } from "../constants/social.js";
 import about from "../content/about.json";
 import contact from "../content/contact.json";
 import modals from "../content/modals.json";
 import pages from "../content/pages.json";
-import testimonials from "../content/testimonials.json";
-import trustedBy from "../content/trustedBy.json";
+import offer from "../content/offer.json";
 import ui from "../content/ui.json";
 
-export const CONTENT = { ui, pages, about, trustedBy, modals, contact, testimonials };
+export const CONTENT = { ui, pages, about, modals, contact, offer };
 
 function defaultVars() {
   return {
     year: String(new Date().getFullYear()),
     instagramUrl: INSTAGRAM_URL,
-    linkedinUrl: LINKEDIN_URL,
     phoneDisplay: contact.phoneDisplay,
     phoneTel: contact.phoneTel,
     contactEmail: contact.email,
@@ -31,7 +29,7 @@ function interpolate(str, vars) {
 
 /**
  * Tekst z plików w `src/content/*.json`.
- * Ścieżka: `ui.*`, `pages.*`, `about.*`, `trustedBy.*`, `contact.*` (telefon, e-mail, imię).
+ * Ścieżka: `ui.*`, `pages.*`, `about.*`, `offer.*`, `contact.*` (telefon, e-mail, imię).
  * W stringach możesz użyć {{year}}, {{instagramUrl}}, {{linkedinUrl}}, {{phoneDisplay}}, {{phoneTel}}, {{contactEmail}} oraz własnych kluczy z `extra`.
  * W komponentach użyj `useContentStrings().t` (tryb „XD” pokazuje sam klucz).
  */

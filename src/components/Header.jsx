@@ -20,10 +20,6 @@ export function Header({ activeTab, onTab, onOpenContact, onBrandClick }) {
             }}
           >
             <BrandMark />
-            <span className="logo">
-              {t("ui.header.logoTitle")}
-              <small>{t("ui.header.logoSubtitle")}</small>
-            </span>
           </a>
           <button type="button" className="header-cta" onClick={onOpenContact}>
             {t("ui.header.cta")}

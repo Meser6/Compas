@@ -1,94 +1,47 @@
 {
   "gallery": [
     {
-      "primary": "/images/landing/main-left.avif",
-      "fallback": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&q=80",
-      "alt": "Prowadzenie zajęć z grupą"
+      "primary": "/images/about/group-teachers.jpg",
+      "alt": "Szkolenie rady pedagogicznej — praca z gronem nauczycielskim"
     },
     {
-      "primary": "/images/features/features-left.avif",
-      "fallback": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=80",
-      "alt": "Materiały i praca warsztatowa"
+      "primary": "/images/about/group-teens.jpg",
+      "alt": "Zajęcia integracyjne z młodzieżą"
     },
     {
-      "primary": "/images/features/features-right.avif",
-      "fallback": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
-      "alt": "Warsztat i dyskusja przy stole"
+      "primary": "/images/offer/travel-elephant.jpg",
+      "alt": "Prelekcja podróżnicza — Indie"
     },
     {
-      "primary": "/images/landing/main-right.avif",
-      "fallback": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80",
-      "alt": "Scena prezentacji i uczenia się"
+      "primary": "/images/offer/travel-tajmahal.jpg",
+      "alt": "Prelekcja podróżnicza — Taj Mahal"
     },
     {
-      "primary": "/images/pricing/pricing-left.jpeg",
-      "fallback": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
-      "alt": "Spotkanie zespołu i omówienie celów"
-    },
-    {
-      "primary": "/assets/auth/register-right.avif",
-      "fallback": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=1200&q=80",
-      "alt": "Kontakt i ustalenia po spotkaniu"
-    },
-    {
-      "primary": "/images/pricing/pricing-right.avif",
-      "fallback": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
-      "alt": "Praca z ludźmi w konwersacji"
-    },
-    {
-      "primary": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900&q=80",
-      "fallback": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900&q=80",
-      "alt": "Warsztat w grupie przy flipboardzie"
-    },
-    {
-      "primary": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&q=80",
-      "fallback": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&q=80",
-      "alt": "Praca warsztatowa z zespołem"
+      "primary": "/images/misc/stock-meeting.jpg",
+      "alt": "Konsultacja i omówienie programu współpracy"
     }
   ],
-  "education": [
-    {
-      "title": "Doktorat",
-      "meta": "nauki społeczne · uczelnia i rok obrony — do uzupełnienia",
-      "note": "Temat dysertacji i promotor możesz dopisać tutaj."
-    },
-    {
-      "title": "Studia magisterskie",
-      "meta": "kierunek · uczelnia — do uzupełnienia"
-    },
-    {
-      "title": "Studia podyplomowe",
-      "meta": "specjalizacja · rok — do uzupełnienia"
-    },
-    {
-      "title": "Szkolenia trenerskie / warsztatowe",
-      "meta": "np. prowadzenie grup, facylitacja, moderacja — organizator i rok"
-    },
-    {
-      "title": "Certyfikaty i warsztaty merytoryczne",
-      "meta": "np. metodyki pracy z grupą, narzędzia, branżowe standardy"
-    }
+  "qualifications": [
+    "trener i szkoleniowiec",
+    "psycholog",
+    "pedagog",
+    "oligofrenopedagog",
+    "tyflopedagog",
+    "surdopedagog",
+    "logopeda",
+    "specjalista wczesnego wspomagania rozwoju i edukacji dzieci z autyzmem i zespołem Aspergera",
+    "Trener Umiejętności Społecznych",
+    "Terapeuta Ręki",
+    "Asystent Turystyczny Osoby Niepełnosprawnej",
+    "Tutor Rozwojowy",
+    "przedmiotowiec – przyroda, geografia, WOS, edukacja zdrowotna"
   ],
-  "experience": [
-    {
-      "title": "Uczelnia",
-      "meta": "wykładowca / asystent · przedmioty i lata — do uzupełnienia",
-      "summary": "Wykłady, ćwiczenia, konsultacje dla studentów."
-    },
-    {
-      "title": "Warsztaty i szkolenia biznesowe",
-      "meta": "firmy, zespoły, format stacjonarny i online",
-      "summary": "Programy jedno- i wielodniowe: diagnoza, praca na sali, podsumowanie z planem działania."
-    },
-    {
-      "title": "Tutoring 1:1",
-      "meta": "indywidualnie",
-      "summary": "Egzaminy, prezentacje, pisma, przygotowanie do wystąpień — tempo dopasowane do Ciebie."
-    },
-    {
-      "title": "Instagram · LinkedIn",
-      "meta": "bieżąco",
-      "summary": "Krótkie treści, zapowiedzi i kontekst pracy — wygodny pierwszy kontakt przed rozmową o współpracy."
-    }
+  "values": [
+    "Autentyczność",
+    "Współpraca",
+    "Otwartość",
+    "Szacunek",
+    "Relacje",
+    "Pasja"
   ]
 }

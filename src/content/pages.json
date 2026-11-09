@@ -2,106 +2,81 @@
   "navigation": {
     "tabs": [
       { "id": "start", "label": "Start" },
-      { "id": "o-mnie", "label": "O mnie" },
+      { "id": "o-mnie", "label": "O autorze" },
       { "id": "oferta", "label": "Oferta" },
-      { "id": "faq", "label": "FAQ" },
       { "id": "kontakt", "label": "Kontakt" }
     ]
   },
   "hero": {
-    "eyebrow": "Szkolenia dla szkół i branży edukacyjnej",
-    "title": "Nauczam, wykładam i szkolę — z godnością i energią",
-    "leadBefore": "Jestem ",
-    "leadHighlight": "dr Syrek",
-    "leadAfter": ". Tworzę przestrzeń, w której wiedza spotyka się z praktyką: od wykładów i warsztatów po tutoring. Jak na kompasie — ważny jest kierunek, który wspólnie ustalamy.",
-    "tagsAria": "Role",
-    "tags": ["edukator", "pedagog", "wykładowca", "szkoleniowiec", "tutor"],
-    "visualAlt": "Wizual — rozwój i edukacja",
-    "badgeBefore": "♥️ Z przyjemnością dzielę się ofertą — na żywo i online. Śledź też mój profil ",
-    "badgeStrong": "@compas.dr.syrek",
-    "badgeAfter": " na Instagramie.",
-    "ctaPrimary": "Umów bezpłatną konsultację",
-    "ctaSecondary": "Zobacz ofertę szkoleń",
-    "statsAria": "Statystyki",
-    "stats": [
-      { "value": "120+", "label": "zrealizowanych szkoleń" },
-      { "value": "40+", "label": "szkół i placówek" },
-      { "value": "4,9/5", "label": "średnia ocena uczestników" }
-    ]
+    "eyebrow": "oferta dla przedszkoli, szkół podstawowych i ponadpodstawowych",
+    "kicker": "dr n. społ. Daniel Syrek",
+    "kickerSub": "autor projektu",
+    "instagramHandle": "compas.dr.syrek",
+    "servicesLeft": ["Warsztaty", "Szkolenia", "Doradztwo"],
+    "servicesRight": ["Tutoring", "Superwizje pedagogiczne", "Rozwój osobisty"],
+    "ctaPrimary": "Umów rozmowę",
+    "ctaSecondary": "Zobacz obszary współpracy"
   },
   "start": {
-    "title": "Dlaczego Compas?",
-    "sub": "Nazwa nie jest przypadkiem: tak jak kompas wskazuje stronę świata, tak my pomagamy ustalić kierunek nauki, rozwoju zespołu albo Twojej indywidualnej ścieżki — bez chaosu i bez „jednego rozmiaru dla wszystkich”.",
-    "altFeatures": "Materiały i proces pracy",
-    "altWorkshop": "Warsztat i praca z grupą",
-    "features": [
+    "cooperationTitle": "obszary współpracy",
+    "cooperationSub": "Pięć ścieżek, w których najczęściej się spotykamy — każdą dopasowujemy do konkretnej grupy i placówki.",
+    "cooperation": [
       {
-        "icon": "compass",
-        "title": "Najpierw kierunek, potem treść",
-        "desc": "Wspólnie ustalamy cel i kontrakt spotkania, zanim ułożymy program — bez przypadkowego „zbioru tematów”."
+        "icon": "headLightbulb",
+        "title": "Szkolenia Rad Pedagogicznych",
+        "items": ["przedszkola", "szkoły podstawowe", "szkoły ponadpodstawowe"]
       },
       {
-        "icon": "layers",
-        "title": "Format dopasowany do grupy",
-        "desc": "Stacjonarnie, online albo hybryda — tempo i narzędzia dobieramy do sali, nie na odwrót."
+        "icon": "handHeart",
+        "title": "Warsztaty dla rodziców",
+        "items": ["kształtowanie postaw rodzicielskich", "pedagogika specjalna", "grupy wsparcia", "bezpieczeństwo nieletnich"]
       },
       {
-        "icon": "file",
-        "title": "Materiały, które zostają",
-        "desc": "Po spotkaniu: skróty, szablony i plan na kolejne 30 dni — nie tylko wrażenie z jednego dnia."
+        "icon": "atom",
+        "title": "Zajęcia dla uczniów",
+        "items": ["zajęcia integracyjne", "prelekcje podróżnicze", "komunikacja NVC", "samorozwój"]
       },
       {
-        "icon": "users",
-        "title": "Przestrzeń na pytania",
-        "desc": "Praca w parach i małych zespołach tam, gdzie pomaga — bez wyścigu ze slajdami „na siłę”."
+        "icon": "sprout",
+        "title": "Tutoring rozwojowy",
+        "items": ["obszar zawodowy", "obszar edukacyjny", "obszar „ja”", "obszar relacyjny"]
       },
       {
-        "icon": "chat",
-        "title": "Kultura feedbacku",
-        "desc": "Krótka ankieta albo rozmowa po szkoleniu — i realny wpływ na kolejne spotkania."
-      },
-      {
-        "icon": "check",
-        "title": "Jasne zasady kontaktu",
-        "desc": "Follow-up uzgodniony z góry: wiadomo, kiedy i w jakiej formie wracamy z materiałami."
+        "icon": "handHeart",
+        "title": "Superwizje pedagogiczne",
+        "items": ["w placówce", "telefonicznie", "online"]
       }
     ],
-    "processTitle": "Jak wygląda współpraca",
-    "processSub": "Od pierwszej wiadomości do materiałów po szkoleniu — cztery proste kroki.",
-    "process": [
-      { "title": "Pierwszy kontakt", "desc": "Piszesz do nas z tematem, terminem i liczbą osób — online, mailowo albo telefonicznie." },
-      { "title": "Krótka diagnoza", "desc": "Rozmawiamy o celach grupy i kontekście placówki, żeby dobrać właściwy format." },
-      { "title": "Szkolenie lub program", "desc": "Realizujemy spotkanie: stacjonarnie, online albo hybrydowo — w ustalonym wcześniej rytmie." },
-      { "title": "Materiały i follow-up", "desc": "Zostają skróty, szablony i plan działania — oraz jasno ustalony kontakt po spotkaniu." }
-    ]
+    "valuesTitle": "główne",
+    "valuesTitleAccent": "wartości",
+    "bannerBefore": "Szkolenia",
+    "bannerAccent": "łączą",
+    "bannerAfter": "refleksję i praktykę",
+    "bannerNote": "Dokładna tematyka szkoleń, warsztatów i prelekcji zostaje w pełni dostosowana do potrzeb klienta.",
+    "bannerCta": "Zapraszam do kontaktu, aby ustalić szczegóły spotkania"
   },
   "about": {
-    "portraitAlt": "dr Syrek — zdjęcie",
-    "lead": "Edukacja to dla mnie relacja — nie tylko transfer informacji. Łączę środowisko akademickie z praktyką pracy z grupą: wykłady, warsztaty i konsultacje. Zależy mi, żeby uczestnik wychodził z mapą — wiedział, co ćwiczyć dalej i po co.",
-    "p2": "W skrócie: zamiast „przerzucać slajdy na siłę”, wolę porozumieć się z salą: kto tu jest, czego potrzebujecie dziś, gdzie możecie to zastosować jutro. Dlatego przed dłuższą współpracą ustalamy intencję i ramy — żeby treść miała sens w Waszym kontekście, a nie tylko w moim planie warsztatu.",
-    "p3": "Pracuję też z osobami indywidualnie: od przygotowania do egzaminu czy prezentacji po uporządkowanie nauki i feedback po próbach. Jeśli szukasz konkretu bez nachalnej sprzedaży — zacznijmy od krótkiej rozmowy (np. na Instagramie): opisz cel, termin i formę, a ja odpiszę, czy i jak mogę pomóc.",
-    "educationTitle": "Wykształcenie i szkolenia",
-    "experienceTitle": "Doświadczenie"
+    "portraitAlt": "dr Daniel Syrek",
+    "kickerTop": "dr Daniel Syrek",
+    "titleAccent": "Autor",
+    "titleRest": "projektu",
+    "lead": "Nazywam się Daniel Syrek — jestem trenerem, szkoleniowcem i pedagogiem. Od lat pracuję z radami pedagogicznymi, rodzicami i uczniami, łącząc kilkanaście specjalizacji pedagogicznych i psychologicznych w jeden, praktyczny sposób pracy z grupą.",
+    "p2": "COMPAS — kierujemy na rozwój — to nie przypadkowa nazwa. Zanim zaproponuję konkretny program, ustalamy wspólnie kierunek: czego potrzebuje dana rada pedagogiczna, klasa albo rodzic. Dokładna tematyka każdego spotkania jest w pełni dostosowywana do potrzeb placówki.",
+    "qualificationsTitle": "Kwalifikacje i uprawnienia"
   },
   "offer": {
     "title": "Oferta",
-    "sub": "Wybierz typ szkolenia — lista pokaże dopasowane pozycje. Na jednej stronie widzisz do dziewięciu pozycji (trzy w rzędzie); szczegóły i ramy czasowe otwierasz w modalu."
-  },
-  "faq": {
-    "title": "FAQ",
-    "sub": "Krótkie odpowiedzi na typowe pytania przed współpracą. Jeśli czegoś tu nie ma — napisz na Instagramie, LinkedIn albo mailowo (szczegóły w zakładce Kontakt)."
+    "sub": "Pięć obszarów współpracy i prelekcje podróżnicze — każdy z własną, szczegółową tematyką do wyboru. Kliknij kartę, aby zobaczyć pełen zakres i pobrać konspekt."
   },
   "contact": {
     "title": "Kontakt",
-    "sub": "Najszybciej na Instagramie — wyślij DM. Jestem też na LinkedIn; e‑mail z krótkim kontekstem też OK.",
-    "instagramLabel": "Instagram (preferowane):",
-    "linkedinLabel": "LinkedIn:",
+    "sub": "Zapraszam do kontaktu, aby ustalić szczegóły spotkania — dokładna tematyka szkoleń, warsztatów i prelekcji zostaje w pełni dostosowana do potrzeb klienta.",
+    "instagramLabel": "Instagram:",
     "phoneLabel": "Telefon:",
     "emailLabel": "E-mail:",
-    "hint": "W wiadomości napisz: temat, liczba osób (jeśli firma), termin i forma (online / na miejscu).",
+    "hint": "W wiadomości napisz: dla kogo jest spotkanie (przedszkole / szkoła / rodzice), orientacyjny termin oraz formę — stacjonarnie, telefonicznie czy online.",
     "openModalCta": "Co napisać w wiadomości",
-    "visualAlt": "Kontakt",
-    "instagramDisplayPath": "instagram.com/compas.dr.syrek",
-    "linkedinDisplayPath": "linkedin.com/in/daniel-syrek-175009289"
+    "visualAlt": "dr Daniel Syrek — kontakt",
+    "instagramDisplayPath": "instagram.com/compas.dr.syrek"
   }
 }

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2200" preserveAspectRatio="xMidYMin slice" aria-hidden="true">
+  <defs>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+    <filter id="soft-sm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="2200" fill="#f1ebda" />
+
+  <!-- bokeh: ciepłe, rozmyte plamy światła -->
+  <g filter="url(#soft)" opacity="0.8">
+    <circle cx="980" cy="120" r="150" fill="#fbf8f0" />
+    <circle cx="220" cy="340" r="110" fill="#fdfbf4" />
+    <circle cx="760" cy="560" r="130" fill="#f6efdc" />
+    <circle cx="140" cy="900" r="160" fill="#fbf8f0" />
+    <circle cx="1020" cy="1120" r="120" fill="#fdfbf4" />
+    <circle cx="520" cy="1340" r="150" fill="#f6efdc" />
+    <circle cx="900" cy="1680" r="130" fill="#fbf8f0" />
+    <circle cx="260" cy="1900" r="140" fill="#fdfbf4" />
+    <circle cx="700" cy="2120" r="120" fill="#f6efdc" />
+  </g>
+
+  <!-- wielkie, półprzezroczyste koła khaki, ucięte krawędzią -->
+  <circle cx="60" cy="520" r="300" fill="#e2d1a2" opacity="0.28" />
+  <circle cx="1180" cy="980" r="260" fill="#dccc9d" opacity="0.22" />
+  <circle cx="-40" cy="1560" r="320" fill="#e2d1a2" opacity="0.24" />
+  <circle cx="1220" cy="1980" r="240" fill="#dccc9d" opacity="0.2" />
+
+  <!-- cienie liści / traw w narożnikach -->
+  <g filter="url(#soft-sm)" opacity="0.16" fill="#2f5733">
+    <path d="M-40 -20 C40 60 70 160 20 230 C120 190 180 100 150 10 C110 -40 20 -60 -40 -20 Z" />
+    <path d="M30 120 C70 150 90 190 70 230 C110 210 130 170 115 135 C95 105 60 100 30 120 Z" />
+  </g>
+  <g filter="url(#soft-sm)" opacity="0.14" fill="#2f5733" transform="translate(0 1980)">
+    <path d="M-40 60 C60 10 140 20 180 90 C140 40 60 30 10 70 C-10 90 -30 110 -40 60 Z" />
+    <path d="M10 150 C60 120 110 130 130 170 C100 150 70 148 45 165 C25 178 5 180 10 150 Z" />
+  </g>
+  <g filter="url(#soft-sm)" opacity="0.12" fill="#2f5733" transform="translate(1200 900) scale(-1 1)">
+    <path d="M-20 -10 C50 40 70 120 30 170 C100 140 140 70 120 10 C95 -30 20 -45 -20 -10 Z" />
+  </g>
+</svg>

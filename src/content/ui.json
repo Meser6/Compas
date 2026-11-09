@@ -1,20 +1,16 @@
 {
   "header": {
-    "brandAriaLabel": "Compas — strona główna",
-    "cta": "Napisz do nas",
-    "navAriaLabel": "Sekcje strony",
-    "logoTitle": "Compas",
-    "logoSubtitle": "szkolenia i edukacja"
+    "brandAriaLabel": "COMPAS — strona główna",
+    "cta": "Umów rozmowę",
+    "navAriaLabel": "Sekcje strony"
   },
   "footer": {
-    "tagline": "Szkolenia i warsztaty dla szkół, placówek oświatowych i branży edukacyjnej — stacjonarnie, online i hybrydowo.",
+    "tagline": "Szkolenia rad pedagogicznych, warsztaty dla rodziców, zajęcia dla uczniów, tutoring rozwojowy i superwizje pedagogiczne — dla przedszkoli, szkół podstawowych i ponadpodstawowych.",
     "navHeading": "Nawigacja",
     "contactHeading": "Kontakt",
-    "copyright": "© {{year}} Compas",
-    "instagramAria": "Profil Instagram Compas",
-    "linkedinAria": "Profil LinkedIn Compas",
+    "copyright": "© {{year}} COMPAS — kierujemy na rozwój",
+    "instagramAria": "Profil Instagram COMPAS",
     "instagram": "Instagram",
-    "linkedin": "LinkedIn",
     "showKeys": "Pokaż klucze",
     "hideKeys": "Ukryj klucze",
     "toggleKeysTitle": "Przełącz widok: treść strony albo klucze z plików JSON w src/content"
@@ -23,44 +19,25 @@
     "closeAria": "Zamknij"
   },
   "offer": {
-    "filterToolbarAria": "Filtr typu szkolenia",
-    "typeLabel": "Typ szkolenia",
-    "empty": "Brak szkoleń w tej kategorii — wybierz inny typ albo „Wszystkie”.",
-    "recommendedPrefix": "Polecane. ",
+    "filterToolbarAria": "Filtr obszaru współpracy",
+    "typeLabel": "Obszar współpracy",
+    "empty": "Brak pozycji w tej kategorii — wybierz inny obszar albo „Wszystkie”.",
     "cardAriaSuffix": "Kliknij lub Enter, aby otworzyć szczegóły.",
-    "cta": "Szczegóły",
-    "ribbon": "Polecamy",
-    "paginationAria": "Strony listy szkoleń",
+    "cta": "Zobacz tematykę",
+    "paginationAria": "Strony listy oferty",
     "prev": "Poprzednia",
     "next": "Następna",
-    "badgeDurationAria": "Czas trwania: {{value}}",
     "badgeTargetAria": "Grupa docelowa: {{value}}"
   },
   "trainingModal": {
     "notFound": "Nie znaleziono szczegółów tej pozycji. Odśwież stronę lub skontaktuj się bezpośrednio.",
     "orgHeading": "Informacje organizacyjne",
-    "orgFallback": "Szczegóły organizacyjne ustalamy indywidualnie przy zapytaniu ofertowym.",
     "introHeading": "Charakter i zakres",
-    "programHeading": "Program",
-    "programFallback": "Ramowy program ustalamy po rozpoznaniu potrzeb zamawiającego i dopasowujemy do kontekstu grupy.",
-    "compHeading": "Zdobyte kompetencje",
-    "compFallback": "Efekty uczenia się precyzujemy w kontrakcie szkolenia, po uzgodnieniu celów biznesowych i uczestników.",
+    "customNote": "Dokładna tematyka szkoleń, warsztatów i prelekcji zostaje w pełni dostosowana do potrzeb klienta.",
     "labels": {
-      "duration": "Czas trwania",
-      "price": "Orientacyjna cena",
-      "maxParticipants": "Liczba uczestników",
-      "target": "Grupa docelowa"
+      "target": "Grupa docelowa",
+      "format": "Forma spotkań"
     }
-  },
-  "trustedBy": {
-    "heading": "Zaufali nam",
-    "regionAria": "Logotypy partnerów, przewijane automatycznie"
-  },
-  "testimonials": {
-    "heading": "Opinie",
-    "sub": "Kilka słów od dyrekcji, kadry i rodziców po wspólnych szkoleniach.",
-    "regionAria": "Opinie uczestników szkoleń",
-    "ratingAria": "Ocena: {{value}} na 5"
   },
   "aboutCarousel": {
     "regionAria": "Galeria zdjęć",

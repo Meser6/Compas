@@ -4,34 +4,37 @@
  * Użycie: `{...imgPair(IMG.hero)}` z `SmartImage` + `imageKey`.
  */
 export const IMG = {
-  /** Logo w nagłówku — `public/images/brand/logo.svg` (lub sam `url`). */
-  logo: {
-    file: "/images/brand/logo.svg",
-  },
-  hero: {
-    url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80",
-  },
-  featuresLeft: {
-    url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=80",
-  },
-  featuresRight: {
-    url: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
-  },
-  landingLeft: {
-    url: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&q=80",
-  },
-  pricingLeft: {
-    url: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
-  },
-  pricingRight: {
-    url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
-  },
-  registerRight: {
-    url: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=1200&q=80",
-  },
-  /** Portret „O nas” — plik: `public/images/about/portrait.avif` (URL `/images/about/…`) lub zostaw url. */
+  /** Portret dr. Daniela Syrka (okrągłe ujęcie w nagłówku „O autorze”). */
   aboutPortrait: {
-    url: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=900&q=80",
+    file: "/images/about/portrait-daniel.jpg",
+  },
+  /** Wycięta sylwetka autora — bez tła, element dekoracyjny przy osi „Obszary współpracy”. */
+  aboutCutout: {
+    file: "/images/about/cutout-daniel.png",
+  },
+  /** Zdjęcie grupowe — szkolenie rady pedagogicznej. */
+  groupTeachers: {
+    file: "/images/about/group-teachers.jpg",
+  },
+  /** Zdjęcie grupowe — młodzież, zajęcia integracyjne (sekcja „Główne wartości”). */
+  groupTeens: {
+    file: "/images/about/group-teens.jpg",
+  },
+  /** Rodzic i nastolatka — warsztaty dla rodziców. */
+  parentTeen: {
+    file: "/images/offer/parent-teen.png",
+  },
+  /** Prelekcje podróżnicze — Indie, słonie. */
+  travelElephant: {
+    file: "/images/offer/travel-elephant.jpg",
+  },
+  /** Prelekcje podróżnicze — Taj Mahal. */
+  travelTajMahal: {
+    file: "/images/offer/travel-tajmahal.jpg",
+  },
+  /** Spotkanie / konsultacja — tło banera „Szkolenia łączą refleksję i praktykę”. */
+  stockMeeting: {
+    file: "/images/misc/stock-meeting.jpg",
   },
 };
 

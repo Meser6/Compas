@@ -1,7 +1,7 @@
-import { IMG, imgPair } from "../constants/images";
 import { Reveal } from "../hooks/Reveal";
-import { SmartImage } from "./SmartImage";
-import { ArrowRightIcon } from "./Icons.jsx";
+import { CompassMark } from "./CompassMark.jsx";
+import { InstagramIcon } from "./InstagramIcon.jsx";
+import { INSTAGRAM_URL } from "../constants/social.js";
 import { CONTENT } from "../lib/t.js";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
 
@@ -11,57 +11,52 @@ export function Hero({ onNavigateTab, onOpenContact }) {
 
   return (
     <section className="hero" id="hero">
-      <div className="hero-decor" aria-hidden="true" />
-      <div className="container hero-inner">
-        <div className="hero-grid">
+      <CompassMark size={220} className="hero-compass-decor" />
+      <div className="container hero-top">
+        <Reveal>
+          <p className="hero-eyebrow">{tx("pages.hero.eyebrow", p.eyebrow)}</p>
+          <p className="hero-kicker">
+            <span className="hero-kicker__name">{tx("pages.hero.kicker", p.kicker)}</span>
+          </p>
+          <p className="hero-kicker__sub">{tx("pages.hero.kickerSub", p.kickerSub)}</p>
+          <a
+            className="hero-instagram"
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <InstagramIcon width={18} height={18} />
+            {tx("pages.hero.instagramHandle", p.instagramHandle)}
+          </a>
+        </Reveal>
+      </div>
+
+      <div className="hero-diagonal">
+        <div className="container hero-diagonal__inner">
           <Reveal>
-            <span className="eyebrow">{tx("pages.hero.eyebrow", p.eyebrow)}</span>
-            <h1>{tx("pages.hero.title", p.title)}</h1>
-            <p className="hero-lead">
-              {tx("pages.hero.leadBefore", p.leadBefore)}
-              <strong className="hero-lead__highlight">{tx("pages.hero.leadHighlight", p.leadHighlight)}</strong>
-              {tx("pages.hero.leadAfter", p.leadAfter)}
-            </p>
-            <div className="tags" aria-label={tx("pages.hero.tagsAria", p.tagsAria)}>
-              {p.tags.map((label, i) => (
-                <span key={label} className="tag">
-                  {tx(`pages.hero.tags[${i}]`, label)}
-                </span>
-              ))}
+            <div className="hero-services">
+              <ul className="hero-services__col">
+                {p.servicesLeft.map((label, i) => (
+                  <li key={label}>{tx(`pages.hero.servicesLeft[${i}]`, label)}</li>
+                ))}
+              </ul>
+              <ul className="hero-services__col">
+                {p.servicesRight.map((label, i) => (
+                  <li key={label}>{tx(`pages.hero.servicesRight[${i}]`, label)}</li>
+                ))}
+              </ul>
             </div>
             <div className="hero-cta-row">
               <button type="button" className="btn btn-primary btn-lg" onClick={onOpenContact}>
                 {tx("pages.hero.ctaPrimary", p.ctaPrimary)}
-                <ArrowRightIcon size={18} />
               </button>
-              <button type="button" className="btn btn-ghost btn-lg" onClick={() => onNavigateTab?.("oferta")}>
+              <button
+                type="button"
+                className="btn btn-ghost btn-lg"
+                onClick={() => onNavigateTab?.("oferta")}
+              >
                 {tx("pages.hero.ctaSecondary", p.ctaSecondary)}
               </button>
-            </div>
-            <dl className="hero-stats" aria-label={tx("pages.hero.statsAria", p.statsAria)}>
-              {p.stats.map((stat, i) => (
-                <div key={stat.label} className="hero-stats__item">
-                  <dt className="hero-stats__value">{tx(`pages.hero.stats[${i}].value`, stat.value)}</dt>
-                  <dd className="hero-stats__label">{tx(`pages.hero.stats[${i}].label`, stat.label)}</dd>
-                </div>
-              ))}
-            </dl>
-          </Reveal>
-          <Reveal>
-            <div className="hero-visual media-frame media-frame--4-3">
-              <SmartImage
-                imageKey="hero"
-                {...imgPair(IMG.hero)}
-                alt={tx("pages.hero.visualAlt", p.visualAlt)}
-                width={800}
-                height={600}
-                loading="eager"
-              />
-              <div className="hero-badge">
-                {tx("pages.hero.badgeBefore", p.badgeBefore)}
-                <strong>{tx("pages.hero.badgeStrong", p.badgeStrong)}</strong>
-                {tx("pages.hero.badgeAfter", p.badgeAfter)}
-              </div>
             </div>
           </Reveal>
         </div>

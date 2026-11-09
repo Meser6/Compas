@@ -150,3 +150,59 @@ export function SendIcon(props) {
     </Svg>
   );
 }
+
+/** Głowa z żarówką — rady pedagogiczne / szkolenia. */
+export function HeadLightbulbIcon(props) {
+  return (
+    <Svg {...props}>
+      <path d="M9 20 H15" />
+      <path d="M10 17.5 H14" />
+      <path d="M12 4.5 C8.7 4.5 6.5 7 6.5 9.8 C6.5 11.7 7.4 13 8.6 14.1 C9.3 14.7 9.6 15.3 9.7 16 H14.3 C14.4 15.3 14.7 14.7 15.4 14.1 C16.6 13 17.5 11.7 17.5 9.8 C17.5 7 15.3 4.5 12 4.5 Z" />
+      <path d="M12 4.5 V2.3" />
+    </Svg>
+  );
+}
+
+/** Dłonie trzymające serce — warsztaty dla rodziców. */
+export function HandHeartIcon(props) {
+  return (
+    <Svg {...props}>
+      <path d="M12 9.3 C11 7.9 9 7.6 7.9 8.9 C6.9 10.1 7.1 11.7 8.2 12.8 L12 16.5 L15.8 12.8 C16.9 11.7 17.1 10.1 16.1 8.9 C15 7.6 13 7.9 12 9.3 Z" />
+      <path d="M3.5 18.5 C5 17 6.6 16.3 8.3 16.3 H12.5 C13.4 16.3 14.1 17 14.1 17.8 C14.1 18.6 13.4 19.3 12.5 19.3 H9.5" />
+      <path d="M20.5 18.5 C19 17 17.4 16.3 15.7 16.3 H14" />
+    </Svg>
+  );
+}
+
+/** Atom — zajęcia dla uczniów / samorozwój. */
+export function AtomIcon(props) {
+  return (
+    <Svg {...props}>
+      <circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none" />
+      <ellipse cx="12" cy="12" rx="9" ry="3.6" />
+      <ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)" />
+      <ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)" />
+    </Svg>
+  );
+}
+
+/** Dłoń z sadzonką — tutoring / superwizje, rozwój. */
+export function SproutIcon(props) {
+  return (
+    <Svg {...props}>
+      <path d="M3.5 15.5 C3.5 19 6 21 12 21 C18 21 20.5 19 20.5 15.5 C14.5 15.5 9.5 15.5 3.5 15.5 Z" />
+      <path d="M12 15.5 V9" />
+      <path d="M12 9 C12 6 10 4.5 7 4.5 C7 7.6 9 9 12 9 Z" />
+      <path d="M12 11.5 C12 9 13.7 7.7 16 7.7 C16 10.1 14.5 11.5 12 11.5 Z" />
+    </Svg>
+  );
+}
+
+/** Samolot — prelekcje podróżnicze. */
+export function PlaneIcon(props) {
+  return (
+    <Svg {...props} fill="currentColor" stroke="none">
+      <path d="M21 12.5 L13.8 9.9 L11.2 3.4 L9.5 3.9 L10.9 10.3 L4.9 8.9 L3.3 10 L8.9 13 L4.2 15 L4.6 16.5 L9.9 15.8 L8.4 19.6 L9.9 20.3 L13.3 15.5 L19.4 14.2 Z" />
+    </Svg>
+  );
+}

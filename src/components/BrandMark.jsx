@@ -1,14 +1,22 @@
-import { IMG, imgPair } from "../constants/images";
-import { SmartImage } from "./SmartImage";
+import { CompassMark } from "./CompassMark.jsx";
 
-export function BrandMark({ className = "brand-mark" }) {
+/**
+ * Wordmark „COMPAS” — litera „O” zastąpiona różą wiatrów (CompassMark).
+ * `variant="full"` (domyślny): wordmark + odręczny podpis „kierujemy na rozwój”.
+ * `variant="mark"`: sam kompas, bez tekstu (np. ciasne miejsca, favicon-like).
+ */
+export function BrandMark({ className = "", variant = "full", markSize = 34 }) {
+  if (variant === "mark") {
+    return <CompassMark size={markSize} className={`brandmark__glyph ${className}`} />;
+  }
+
   return (
-    <SmartImage
-      imageKey="logo"
-      {...imgPair(IMG.logo)}
-      alt=""
-      className={className}
-      draggable={false}
-    />
+    <span className={`brandmark ${className}`}>
+      <span className="brandmark__word">
+        C<CompassMark size={markSize} className="brandmark__glyph" />
+        MPAS
+      </span>
+      <span className="brandmark__tagline">kierujemy na rozwój</span>
+    </span>
   );
 }

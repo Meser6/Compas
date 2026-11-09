@@ -1,7 +1,6 @@
-import { INSTAGRAM_URL, LINKEDIN_URL } from "../constants/social.js";
+import { INSTAGRAM_URL } from "../constants/social.js";
 import { CONTENT, resolveT } from "../lib/t.js";
 import { InstagramIcon } from "./InstagramIcon";
-import { LinkedInIcon } from "./LinkedInIcon";
 import { BrandMark } from "./BrandMark.jsx";
 import { MailIcon, PhoneIcon } from "./Icons.jsx";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
@@ -20,9 +19,6 @@ export function Footer({ onTab }) {
         <div className="footer-col footer-col--brand">
           <a className="brand" href="#top" onClick={(e) => { e.preventDefault(); onTab?.("start"); }}>
             <BrandMark />
-            <span className="logo">
-              {t("ui.header.logoTitle")}
-            </span>
           </a>
           <p className="footer-tagline">{tx("ui.footer.tagline", ui.tagline)}</p>
           <div className="social">
@@ -34,15 +30,6 @@ export function Footer({ onTab }) {
               aria-label={t("ui.footer.instagramAria")}
             >
               <InstagramIcon width={18} height={18} /> {t("ui.footer.instagram")}
-            </a>
-            <a
-              href={LINKEDIN_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="linkedin-pill"
-              aria-label={t("ui.footer.linkedinAria")}
-            >
-              <LinkedInIcon width={18} height={18} /> {t("ui.footer.linkedin")}
             </a>
           </div>
         </div>
