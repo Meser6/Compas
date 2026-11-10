@@ -1,7 +1,5 @@
 import { Reveal } from "../hooks/Reveal";
 import { SmartImage } from "./SmartImage";
-import { InstagramIcon } from "./InstagramIcon.jsx";
-import { INSTAGRAM_URL } from "../constants/social.js";
 import { IMG, imgPair } from "../constants/images.js";
 import { CONTENT } from "../lib/t.js";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
@@ -14,21 +12,12 @@ export function Hero({ onNavigateTab, onOpenContact }) {
     <section className="hero" id="hero">
       <div className="container hero-top">
         <Reveal className="hero-top__copy">
-          <p className="hero-eyebrow">{tx("pages.hero.eyebrow", p.eyebrow)}</p>
           <p className="hero-kicker">
             <span className="hero-kicker__title">{tx("pages.hero.kickerTitle", p.kickerTitle)}</span>
             <span className="hero-kicker__name">{tx("pages.hero.kickerName", p.kickerName)}</span>
           </p>
           <p className="hero-kicker__sub">{tx("pages.hero.kickerSub", p.kickerSub)}</p>
-          <a
-            className="hero-instagram"
-            href={INSTAGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <InstagramIcon width={18} height={18} />
-            {tx("pages.hero.instagramHandle", p.instagramHandle)}
-          </a>
+          <p className="hero-eyebrow">{tx("pages.hero.eyebrow", p.eyebrow)}</p>
         </Reveal>
         <Reveal className="hero-top__media">
           <div className="media-frame hero-top__frame">

@@ -27,7 +27,7 @@ export function OfferCatalog({ onOpenTraining }) {
 
   return (
     <div className="offer-section">
-      <div className="offer-filters" role="toolbar" aria-label={tx("ui.offer.filterToolbarAria", u.filterToolbarAria)}>
+      <div className="offer-filters offer-filters--buttons" role="toolbar" aria-label={tx("ui.offer.filterToolbarAria", u.filterToolbarAria)}>
         {offerFilterTypes.map((ft, i) => (
           <button
             key={ft.id}
@@ -40,29 +40,66 @@ export function OfferCatalog({ onOpenTraining }) {
           </button>
         ))}
       </div>
+      <div className="offer-filters-select-wrap">
+        <label htmlFor="offer-filter-select" className="offer-filters-select-label">
+          {tx("ui.offer.filterToolbarAria", u.filterToolbarAria)}
+        </label>
+        <select
+          id="offer-filter-select"
+          className="offer-filters-select"
+          value={filterId}
+          onChange={(e) => setFilterId(e.target.value)}
+        >
+          {offerFilterTypes.map((ft, i) => (
+            <option key={ft.id} value={ft.id}>
+              {tx(`offer.filterTypes[${i}].label`, ft.label)}
+            </option>
+          ))}
+        </select>
+      </div>
 
       {subLists ? (
-        <div className="offer-filters offer-filters--sub" role="toolbar" aria-label="Filtr podkategorii">
-          <button
-            type="button"
-            className={`offer-filter-btn offer-filter-btn--sub ${subFilter == null ? "is-active" : ""}`}
-            aria-pressed={subFilter == null}
-            onClick={() => setSubFilter(null)}
-          >
-            Wszystkie tematy
-          </button>
-          {subLists.map((list, li) => (
+        <>
+          <div className="offer-filters offer-filters--buttons offer-filters--sub" role="toolbar" aria-label="Filtr podkategorii">
             <button
-              key={list.heading}
               type="button"
-              className={`offer-filter-btn offer-filter-btn--sub ${subFilter === list.heading ? "is-active" : ""}`}
-              aria-pressed={subFilter === list.heading}
-              onClick={() => setSubFilter(list.heading)}
+              className={`offer-filter-btn offer-filter-btn--sub ${subFilter == null ? "is-active" : ""}`}
+              aria-pressed={subFilter == null}
+              onClick={() => setSubFilter(null)}
             >
-              {tx(`offer.trainings.${soleItem.id}.detail.lists[${li}].heading`, list.heading)}
+              Wszystkie tematy
             </button>
-          ))}
-        </div>
+            {subLists.map((list, li) => (
+              <button
+                key={list.heading}
+                type="button"
+                className={`offer-filter-btn offer-filter-btn--sub ${subFilter === list.heading ? "is-active" : ""}`}
+                aria-pressed={subFilter === list.heading}
+                onClick={() => setSubFilter(list.heading)}
+              >
+                {tx(`offer.trainings.${soleItem.id}.detail.lists[${li}].heading`, list.heading)}
+              </button>
+            ))}
+          </div>
+          <div className="offer-filters-select-wrap offer-filters-select-wrap--sub">
+            <label htmlFor="offer-subfilter-select" className="offer-filters-select-label">
+              Filtr podkategorii
+            </label>
+            <select
+              id="offer-subfilter-select"
+              className="offer-filters-select"
+              value={subFilter ?? "__all__"}
+              onChange={(e) => setSubFilter(e.target.value === "__all__" ? null : e.target.value)}
+            >
+              <option value="__all__">Wszystkie tematy</option>
+              {subLists.map((list, li) => (
+                <option key={list.heading} value={list.heading}>
+                  {tx(`offer.trainings.${soleItem.id}.detail.lists[${li}].heading`, list.heading)}
+                </option>
+              ))}
+            </select>
+          </div>
+        </>
       ) : null}
 
       {filtered.length === 0 ? (

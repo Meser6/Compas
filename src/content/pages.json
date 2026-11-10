@@ -2,8 +2,8 @@
   "navigation": {
     "tabs": [
       { "id": "start", "label": "Start" },
-      { "id": "o-mnie", "label": "O autorze" },
       { "id": "oferta", "label": "Oferta" },
+      { "id": "o-mnie", "label": "O autorze" },
       { "id": "media", "label": "Media" },
       { "id": "kontakt", "label": "Kontakt" }
     ]

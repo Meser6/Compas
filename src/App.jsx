@@ -9,6 +9,7 @@ import { TabPanels } from "./components/TabPanels.jsx";
 import { getTrainingDetail, offerTrainings } from "./data/offerTrainings.js";
 import { TrainingModalBody } from "./components/TrainingModalBody.jsx";
 import { TrainingConspectButton } from "./components/TrainingConspectButton.jsx";
+import { ContactModalBody } from "./components/ContactModalBody.jsx";
 import { useSwipeNav } from "./hooks/useSwipeNav.js";
 import { CONTENT } from "./lib/t.js";
 
@@ -20,7 +21,7 @@ function tabFromHash() {
 }
 
 function AppShell() {
-  const { showKeys, getStaticModal } = useContentStrings();
+  const { showKeys, getStaticModal, tx } = useContentStrings();
   const [tab, setTabState] = useState(tabFromHash);
   const [modal, setModal] = useState(null);
   const trainingPdfTargetRef = useRef(null);
@@ -55,6 +56,10 @@ function AppShell() {
     }
   };
 
+  const openContactCta = () => {
+    setModal({ kind: "contactCta", title: tx("pages.contact.title", CONTENT.pages.contact.title) });
+  };
+
   const closeModal = () => setModal(null);
 
   const trainingTitle = offerTrainings.find((t) => t.id === modal?.trainingId)?.title ?? "";
@@ -83,14 +88,14 @@ function AppShell() {
       <Header
         activeTab={tab}
         onTab={setTab}
-        onOpenContact={() => setTab("kontakt")}
+        onOpenContact={openContactCta}
         onBrandClick={() => {
           setTab("start");
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
       />
       <main ref={mainRef} className={tab === "start" ? "" : "main--subpage"}>
-        {tab === "start" && <Hero onNavigateTab={setTab} onOpenContact={() => setTab("kontakt")} />}
+        {tab === "start" && <Hero onNavigateTab={setTab} onOpenContact={openContactCta} />}
         <TabPanels activeTab={tab} onOpenModal={openStatic} onOpenTraining={openTraining} />
         {/* Portal lightboxa galerii — poniżej headera i dolnego menu (z-index w App.css) */}
         <div id="gallery-lightbox-mount" className="gallery-lightbox-mount" />
@@ -112,6 +117,9 @@ function AppShell() {
         )}
         {modal?.kind === "training" && (
           <TrainingModalBody ref={trainingPdfTargetRef} item={trainingItem} detail={trainingDetail} />
+        )}
+        {modal?.kind === "contactCta" && (
+          <ContactModalBody onOpenHint={() => openStatic("contact")} />
         )}
       </Modal>
     </div>

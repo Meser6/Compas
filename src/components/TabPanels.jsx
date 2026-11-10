@@ -73,7 +73,7 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
 
         <section className="values-banner" aria-labelledby="values-heading">
           <Reveal>
-            <div className="values-banner__media">
+            <div className="values-banner__media photo-shadow-accent">
               <SmartImage
                 imageKey="groupTeens"
                 {...imgPair(IMG.groupTeens)}
@@ -169,13 +169,13 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
       </Panel>
 
       <Panel id="oferta" active={is("oferta")} labelledBy="tab-oferta">
-        <h2 className="section-title">{tx("pages.offer.title", o.title)}</h2>
+        <h2 className="section-title section-title--accent">{tx("pages.offer.title", o.title)}</h2>
         <p className="section-sub section-sub--wide">{tx("pages.offer.sub", o.sub)}</p>
         <OfferCatalog onOpenTraining={onOpenTraining} />
       </Panel>
 
       <Panel id="media" active={is("media")} labelledBy="tab-media">
-        <h2 className="section-title">{tx("pages.media.title", m.title)}</h2>
+        <h2 className="section-title section-title--accent">{tx("pages.media.title", m.title)}</h2>
         <p className="section-sub">{tx("pages.media.sub", m.sub)}</p>
 
         <h3 className="media-group__heading">{tx("pages.media.videosHeading", m.videosHeading)}</h3>
@@ -207,7 +207,7 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
       </Panel>
 
       <Panel id="kontakt" active={is("kontakt")} labelledBy="tab-kontakt">
-        <h2 className="section-title">{tx("pages.contact.title", c.title)}</h2>
+        <h2 className="section-title section-title--accent">{tx("pages.contact.title", c.title)}</h2>
         <p className="section-sub">{tx("pages.contact.sub", c.sub)}</p>
 
         <div className="contact-layout">
@@ -253,7 +253,7 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
           </div>
 
           <Reveal>
-            <div className="media-frame contact-visual">
+            <div className="media-frame contact-visual photo-shadow-accent">
               <SmartImage
                 imageKey="groupTeachers"
                 {...imgPair(IMG.groupTeachers)}
