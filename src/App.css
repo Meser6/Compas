@@ -336,7 +336,7 @@ footer .brandmark__glyph {
   align-items: center;
   justify-content: space-between;
   gap: clamp(1.5rem, 4vw, 3rem);
-  padding-bottom: clamp(3.5rem, 9vw, 6rem);
+  padding-bottom: clamp(0.5rem, 2vw, 1rem);
 }
 
 .hero-top__copy { flex: 1; min-width: 0; }
@@ -415,6 +415,7 @@ footer .brandmark__glyph {
   position: relative;
   background: var(--sage-deep);
   clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0 100%);
+  margin-top: clamp(-6rem, -9vw, -3.5rem);
   padding-top: clamp(4.5rem, 11vw, 7.5rem);
   padding-bottom: clamp(4.5rem, 10vw, 7rem);
 }
