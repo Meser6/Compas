@@ -253,10 +253,10 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
           </div>
 
           <Reveal>
-            <div className="media-frame media-frame--natural contact-visual">
+            <div className="media-frame contact-visual">
               <SmartImage
-                imageKey="aboutCutout"
-                {...imgPair(IMG.aboutCutout)}
+                imageKey="groupTeachers"
+                {...imgPair(IMG.groupTeachers)}
                 alt={tx("pages.contact.visualAlt", c.visualAlt)}
                 loading="lazy"
               />

@@ -98,15 +98,20 @@
         "intro": "Spotkania dla rodziców budujące świadome postawy wychowawcze — od pierwszych wyzwań nastolatka po sytuacje wymagające wsparcia specjalistycznego.",
         "lists": [
           {
-            "heading": "Obszary warsztatów",
+            "heading": "Postawy i komunikacja",
+            "items": [
+              "kształtowanie postaw rodzicielskich",
+              "jak motywować do nauki?",
+              "wychowanie bez przemocy",
+              "tutoring rodzinny",
+              "wyzwania współczesnego nastolatka"
+            ]
+          },
+          {
+            "heading": "Wsparcie specjalistyczne",
             "items": [
               "dziecko o specjalnych potrzebach edukacyjnych",
               "wsparcie i rozwój dziecka",
-              "jak motywować do nauki?",
-              "wyzwania współczesnego nastolatka",
-              "wychowanie bez przemocy",
-              "tutoring rodzinny",
-              "kształtowanie postaw rodzicielskich",
               "pedagogika specjalna",
               "grupy wsparcia",
               "bezpieczeństwo nieletnich"
@@ -127,12 +132,17 @@
         "intro": "Zajęcia prowadzone bezpośrednio z klasą lub grupą uczniów — budują relacje w zespole klasowym i uczą języka porozumienia bez przemocy.",
         "lists": [
           {
-            "heading": "Tematyka zajęć",
+            "heading": "Integracja i relacje",
             "items": [
               "zajęcia integracyjne",
-              "prelekcje podróżnicze",
-              "komunikacja NVC",
-              "samorozwój"
+              "komunikacja NVC"
+            ]
+          },
+          {
+            "heading": "Rozwój i świat",
+            "items": [
+              "samorozwój",
+              "prelekcje podróżnicze"
             ]
           }
         ]
@@ -150,13 +160,19 @@
         "intro": "Tutoring rozwojowy to cykl indywidualnych spotkań, w których wspólnie budujemy „narzędziownik” — konkretne strategie dopasowane do czterech obszarów życia.",
         "lists": [
           {
-            "heading": "Obszary tutoringu",
+            "heading": "Obszary indywidualne",
             "items": [
               "obszar zawodowy",
               "obszar edukacyjny",
               "obszar „ja”",
-              "obszar relacyjny",
-              "obszar skutecznego nauczyciela"
+              "obszar relacyjny"
+            ]
+          },
+          {
+            "heading": "Tutoring dla nauczycieli",
+            "items": [
+              "obszar skutecznego nauczyciela",
+              "narzędziownik dydaktyczny"
             ]
           }
         ]
@@ -177,6 +193,14 @@
           {
             "heading": "Forma spotkań",
             "items": ["w placówce", "telefonicznie", "online"]
+          },
+          {
+            "heading": "Zakres tematyczny",
+            "items": [
+              "wypalenie zawodowe",
+              "trudne sytuacje wychowawcze",
+              "relacje w zespole pracowniczym"
+            ]
           }
         ]
       }
@@ -193,12 +217,17 @@
         "intro": "Prelekcje podróżnicze łączą opowieść o dalekich kulturach z praktyczną wiedzą o bezpiecznym i tanim podróżowaniu — na podstawie własnych wypraw.",
         "lists": [
           {
-            "heading": "Tematy prelekcji",
+            "heading": "Kultury świata",
             "items": [
               "Indie – kraj kontrastów społecznych i gospodarczych",
               "Kraje Bliskiego Wschodu – kultura i gospodarka",
               "Stany Zjednoczone – w stolicy świata",
-              "Na gruzińskim szlaku",
+              "Na gruzińskim szlaku"
+            ]
+          },
+          {
+            "heading": "Europa i praktyka podróży",
+            "items": [
               "Madera – europejskie Hawaje",
               "Turystyka w Europie Południowej",
               "Jak podróżować tanio i… bezpiecznie?"

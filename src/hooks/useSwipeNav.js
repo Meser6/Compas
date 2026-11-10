@@ -5,7 +5,7 @@ const SWIPE_MAX_OFF_AXIS_PX = 80;
 const MOBILE_QUERY = "(max-width: 850px)";
 /** Elementy z własnym przeciąganiem poziomym — swipe nawigacji między zakładkami ich nie przejmuje. */
 const OWN_GESTURE_SELECTOR =
-  ".about-carousel, .offer-pagination, .offer-filters, .trusted-by-marquee, .gallery-lightbox-root, input, textarea, select";
+  ".about-carousel, .about-portrait-wrap, .offer-pagination, .offer-filters, .opinions-marquee, .gallery-lightbox-root, input, textarea, select, button, a";
 
 /** Swipe w lewo/prawo na mobile przełącza między sąsiednimi zakładkami z `tabIds`. */
 export function useSwipeNav({ containerRef, tabIds, activeTab, onNavigate }) {

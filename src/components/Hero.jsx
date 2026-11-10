@@ -16,7 +16,7 @@ export function Hero({ onNavigateTab, onOpenContact }) {
         <Reveal className="hero-top__copy">
           <p className="hero-eyebrow">{tx("pages.hero.eyebrow", p.eyebrow)}</p>
           <p className="hero-kicker">
-            <span className="hero-kicker__title">{tx("pages.hero.kickerTitle", p.kickerTitle)}</span>{" "}
+            <span className="hero-kicker__title">{tx("pages.hero.kickerTitle", p.kickerTitle)}</span>
             <span className="hero-kicker__name">{tx("pages.hero.kickerName", p.kickerName)}</span>
           </p>
           <p className="hero-kicker__sub">{tx("pages.hero.kickerSub", p.kickerSub)}</p>
