@@ -18,7 +18,7 @@ export const TrainingModalBody = forwardRef(function TrainingModalBody({ item, d
     ? `offer.trainings.${tid}.detail.intro`
     : `offer.trainings.${tid}.summary`;
   const lists = detail?.lists?.length ? detail.lists : null;
-  const target = item.target;
+  const target = Array.isArray(item.target) ? item.target.join(", ") : item.target;
   const format = item.format;
 
   const orgRows = [

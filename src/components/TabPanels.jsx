@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { imgPair, IMG } from "../constants/images";
 import { INSTAGRAM_URL } from "../constants/social.js";
 import { Reveal } from "../hooks/Reveal";
@@ -5,9 +6,10 @@ import { CONTENT } from "../lib/t.js";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
 import { AboutGalleryCarousel } from "./AboutGalleryCarousel.jsx";
 import { OfferCatalog } from "./OfferCatalog.jsx";
+import { OpinionsCarousel } from "./OpinionsCarousel.jsx";
+import { PhotoLightbox } from "./PhotoLightbox.jsx";
 import { SmartImage } from "./SmartImage";
 import { CooperationSteps } from "./CooperationSteps.jsx";
-import { CompassMark } from "./CompassMark.jsx";
 import { InstagramIcon } from "./InstagramIcon.jsx";
 import { MailIcon, PhoneIcon, ArrowRightIcon } from "./Icons.jsx";
 
@@ -25,15 +27,44 @@ function Panel({ id, active, labelledBy, children }) {
   );
 }
 
+function resolveMediaImage(ref) {
+  if (!ref) return "";
+  if (/^https?:\/\//i.test(ref)) return ref;
+  return `/images/${ref.replace(/^\/+/, "")}`;
+}
+
 export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
   const { tx } = useContentStrings();
   const is = (id) => activeTab === id;
   const s = CONTENT.pages.start;
   const a = CONTENT.pages.about;
   const o = CONTENT.pages.offer;
+  const m = CONTENT.pages.media;
   const c = CONTENT.pages.contact;
   const co = CONTENT.contact;
   const aboutData = CONTENT.about;
+  const mediaData = CONTENT.media;
+
+  const aboutPhotos = useMemo(
+    () => [
+      { primary: imgPair(IMG.aboutPortrait).primary, alt: tx("pages.about.portraitAlt", a.portraitAlt) },
+      ...aboutData.gallery.map((shot, i) => ({
+        primary: shot.primary,
+        fallback: shot.fallback,
+        alt: tx(`about.gallery[${i}].alt`, shot.alt),
+      })),
+    ],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [],
+  );
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+  const navigateLightbox = (delta) => {
+    setLightboxIndex((i) => {
+      if (i == null) return i;
+      const n = aboutPhotos.length;
+      return (i + delta + n) % n;
+    });
+  };
 
   return (
     <div className="tab-panels container">
@@ -66,27 +97,18 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
           </Reveal>
         </section>
 
-        <section className="quote-banner" aria-labelledby="quote-banner-heading">
-          <Reveal>
-            <div className="quote-banner__circle">
-              <h2 id="quote-banner-heading" className="quote-banner__title">
-                {tx("pages.start.bannerBefore", s.bannerBefore)}{" "}
-                <span className="quote-banner__accent">{tx("pages.start.bannerAccent", s.bannerAccent)}</span>{" "}
-                {tx("pages.start.bannerAfter", s.bannerAfter)}
-              </h2>
-              <p className="quote-banner__note">{tx("pages.start.bannerNote", s.bannerNote)}</p>
-              <button type="button" className="btn btn-primary" onClick={() => onOpenModal("contact")}>
-                {tx("pages.start.bannerCta", s.bannerCta)}
-              </button>
-            </div>
-          </Reveal>
-        </section>
+        <OpinionsCarousel />
       </Panel>
 
       <Panel id="o-mnie" active={is("o-mnie")} labelledBy="tab-o-mnie">
         <div className="split about-intro-split">
           <Reveal>
-            <div className="about-portrait-wrap">
+            <button
+              type="button"
+              className="about-portrait-wrap about-portrait-wrap--clickable"
+              onClick={() => setLightboxIndex(0)}
+              aria-label="Powiększ zdjęcie"
+            >
               <div className="media-frame media-frame--portrait about-portrait">
                 <SmartImage
                   imageKey="aboutPortrait"
@@ -97,9 +119,9 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
                 />
               </div>
               <span className="about-compass-badge" aria-hidden="true">
-                <CompassMark size={34} />
+                <img src="/images/brand/decor-mark.svg" alt="" />
               </span>
-            </div>
+            </button>
           </Reveal>
           <Reveal>
             <div className="about-intro-copy">
@@ -134,15 +156,54 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
 
         <Reveal>
           <div className="about-end-gallery">
-            <AboutGalleryCarousel />
+            <AboutGalleryCarousel onOpenPhoto={(i) => setLightboxIndex(i + 1)} />
           </div>
         </Reveal>
+
+        <PhotoLightbox
+          photos={aboutPhotos}
+          index={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+          onNavigate={navigateLightbox}
+        />
       </Panel>
 
       <Panel id="oferta" active={is("oferta")} labelledBy="tab-oferta">
         <h2 className="section-title">{tx("pages.offer.title", o.title)}</h2>
         <p className="section-sub section-sub--wide">{tx("pages.offer.sub", o.sub)}</p>
         <OfferCatalog onOpenTraining={onOpenTraining} />
+      </Panel>
+
+      <Panel id="media" active={is("media")} labelledBy="tab-media">
+        <h2 className="section-title">{tx("pages.media.title", m.title)}</h2>
+        <p className="section-sub">{tx("pages.media.sub", m.sub)}</p>
+
+        <h3 className="media-group__heading">{tx("pages.media.videosHeading", m.videosHeading)}</h3>
+        <div className="media-grid">
+          {mediaData.videos.map((item, i) => (
+            <Reveal as="a" key={item.id} className="card media-card" href={item.url} target="_blank" rel="noopener noreferrer">
+              <div className="media-frame card-img-frame">
+                <SmartImage className="card-img" primary={resolveMediaImage(item.image)} alt="" loading="lazy" />
+                <span className="media-card__play" aria-hidden="true">▶</span>
+              </div>
+              <h3>{tx(`media.videos[${i}].title`, item.title)}</h3>
+              <p>{tx(`media.videos[${i}].description`, item.description)}</p>
+            </Reveal>
+          ))}
+        </div>
+
+        <h3 className="media-group__heading">{tx("pages.media.articlesHeading", m.articlesHeading)}</h3>
+        <div className="media-grid">
+          {mediaData.articles.map((item, i) => (
+            <Reveal as="a" key={item.id} className="card media-card" href={item.url} target="_blank" rel="noopener noreferrer">
+              <div className="media-frame card-img-frame">
+                <SmartImage className="card-img" primary={resolveMediaImage(item.image)} alt="" loading="lazy" />
+              </div>
+              <h3>{tx(`media.articles[${i}].title`, item.title)}</h3>
+              <p>{tx(`media.articles[${i}].description`, item.description)}</p>
+            </Reveal>
+          ))}
+        </div>
       </Panel>
 
       <Panel id="kontakt" active={is("kontakt")} labelledBy="tab-kontakt">

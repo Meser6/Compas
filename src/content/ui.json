@@ -20,14 +20,9 @@
   },
   "offer": {
     "filterToolbarAria": "Filtr obszaru współpracy",
-    "typeLabel": "Obszar współpracy",
     "empty": "Brak pozycji w tej kategorii — wybierz inny obszar albo „Wszystkie”.",
     "cardAriaSuffix": "Kliknij lub Enter, aby otworzyć szczegóły.",
-    "cta": "Zobacz tematykę",
-    "paginationAria": "Strony listy oferty",
-    "prev": "Poprzednia",
-    "next": "Następna",
-    "badgeTargetAria": "Grupa docelowa: {{value}}"
+    "cta": "Zobacz tematykę"
   },
   "trainingModal": {
     "notFound": "Nie znaleziono szczegółów tej pozycji. Odśwież stronę lub skontaktuj się bezpośrednio.",

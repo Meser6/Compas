@@ -1,4 +1,13 @@
 {
+  "filterTypes": [
+    { "id": "all", "label": "Wszystkie" },
+    { "id": "rady", "label": "Rady pedagogiczne" },
+    { "id": "rodzice", "label": "Rodzice" },
+    { "id": "uczniowie", "label": "Uczniowie" },
+    { "id": "tutoring", "label": "Tutoring" },
+    { "id": "superwizje", "label": "Superwizje" },
+    { "id": "podroze", "label": "Prelekcje podróżnicze" }
+  ],
   "trainings": [
     {
       "id": "szkolenia-rad-pedagogicznych",
@@ -6,7 +15,7 @@
       "summary": "Szkolenia dla kadry pracowniczej i pedagogicznej — od team buildingu po pracę z uczniem o specjalnych potrzebach edukacyjnych.",
       "typeId": "rady",
       "icon": "headLightbulb",
-      "target": "przedszkola, szkoły podstawowe, szkoły ponadpodstawowe",
+      "target": ["przedszkola", "szkoły podstawowe", "szkoły ponadpodstawowe"],
       "image": { "primary": "about/group-teachers.jpg" },
       "detail": {
         "intro": "Szkolenia rad pedagogicznych prowadzę w dwóch nurtach: pracowniczym — o relacjach i organizacji pracy w zespole, oraz pedagogicznym — o metodyce, komunikacji i pracy z uczniem. Dokładny zakres i czas trwania ustalamy pod potrzeby konkretnej placówki.",
@@ -83,7 +92,7 @@
       "summary": "O kształtowaniu postaw rodzicielskich, pedagogice specjalnej i bezpieczeństwie nieletnich — dla rad rodziców i grup wsparcia.",
       "typeId": "rodzice",
       "icon": "handHeart",
-      "target": "rodzice i opiekunowie",
+      "target": ["rodzice", "opiekunowie"],
       "image": { "primary": "offer/parent-teen.png" },
       "detail": {
         "intro": "Spotkania dla rodziców budujące świadome postawy wychowawcze — od pierwszych wyzwań nastolatka po sytuacje wymagające wsparcia specjalistycznego.",
@@ -112,7 +121,7 @@
       "summary": "Integracja, komunikacja NVC i samorozwój — zajęcia, które uczą współpracy zamiast rywalizacji.",
       "typeId": "uczniowie",
       "icon": "atom",
-      "target": "uczniowie szkół podstawowych i ponadpodstawowych",
+      "target": ["uczniowie szkół podstawowych", "uczniowie szkół ponadpodstawowych"],
       "image": { "primary": "about/group-teens.jpg" },
       "detail": {
         "intro": "Zajęcia prowadzone bezpośrednio z klasą lub grupą uczniów — budują relacje w zespole klasowym i uczą języka porozumienia bez przemocy.",
@@ -135,7 +144,7 @@
       "summary": "Indywidualna praca nad obszarem zawodowym, edukacyjnym, relacyjnym i „ja” — narzędziownik do samodzielnego rozwoju.",
       "typeId": "tutoring",
       "icon": "sprout",
-      "target": "uczniowie, studenci, osoby dorosłe",
+      "target": ["uczniowie", "studenci", "osoby dorosłe"],
       "image": { "primary": "about/portrait-daniel.jpg" },
       "detail": {
         "intro": "Tutoring rozwojowy to cykl indywidualnych spotkań, w których wspólnie budujemy „narzędziownik” — konkretne strategie dopasowane do czterech obszarów życia.",
@@ -159,7 +168,7 @@
       "summary": "Zanim pomożesz innym... Przestrzeń dla nauczycieli i specjalistów na refleksję nad własną pracą.",
       "typeId": "superwizje",
       "icon": "sprout",
-      "target": "nauczyciele, pedagodzy, specjaliści",
+      "target": ["nauczyciele", "pedagodzy", "specjaliści"],
       "format": "w placówce / telefonicznie / online",
       "image": { "primary": "misc/stock-meeting.jpg" },
       "detail": {
@@ -178,7 +187,7 @@
       "summary": "Z plecakiem przez kontynenty — o kulturze, gospodarce i bezpiecznym, tanim podróżowaniu.",
       "typeId": "podroze",
       "icon": "plane",
-      "target": "uczniowie, grupy zorganizowane",
+      "target": ["uczniowie", "grupy zorganizowane"],
       "image": { "primary": "offer/travel-elephant.jpg" },
       "detail": {
         "intro": "Prelekcje podróżnicze łączą opowieść o dalekich kulturach z praktyczną wiedzą o bezpiecznym i tanim podróżowaniu — na podstawie własnych wypraw.",

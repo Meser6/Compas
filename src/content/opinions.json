@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "o1",
+      "quote": "Szkolenie rady pedagogicznej było dopasowane co do minuty — bez lania wody i z konkretnymi narzędziami do codziennej pracy z klasą.",
+      "name": "Anna Kowalska",
+      "role": "Dyrektorka",
+      "org": "Szkoła Podstawowa (przykład)",
+      "rating": 5
+    },
+    {
+      "id": "o2",
+      "quote": "Warsztat dla rodziców dał nam wspólny język i konkretny plan na trudne rozmowy w domu. Bardzo praktyczne spotkanie.",
+      "name": "Marek Wiśniewski",
+      "role": "Rodzic",
+      "org": "Rada Rodziców (przykład)",
+      "rating": 5
+    },
+    {
+      "id": "o3",
+      "quote": "Zajęcia integracyjne z klasą przeprowadzone były z dużym wyczuciem grupy — uczniowie długo o nich wspominali.",
+      "name": "Katarzyna Lis",
+      "role": "Wychowawczyni",
+      "org": "Szkoła Podstawowa (przykład)",
+      "rating": 5
+    },
+    {
+      "id": "o4",
+      "quote": "Tutoring rozwojowy pomógł nastolatkowi poukładać priorytety — spokojnie, bez presji, z jasnym planem na każdy tydzień.",
+      "name": "Piotr Zalewski",
+      "role": "Rodzic",
+      "org": "Liceum Ogólnokształcące (przykład)",
+      "rating": 5
+    },
+    {
+      "id": "o5",
+      "quote": "Superwizja pedagogiczna to przestrzeń, której w naszej placówce bardzo brakowało. Konkretna, rzeczowa rozmowa o realnych sytuacjach.",
+      "name": "Joanna Mazur",
+      "role": "Pedagog szkolny",
+      "org": "Zespół Szkół (przykład)",
+      "rating": 5
+    },
+    {
+      "id": "o6",
+      "quote": "Prelekcja podróżnicza o Indiach zamieniła lekcję wychowawczą w prawdziwą przygodę — uczniowie zadawali pytania jeszcze długo po dzwonku.",
+      "name": "Tomasz Nowak",
+      "role": "Wicedyrektor",
+      "org": "Szkoła Podstawowa (przykład)",
+      "rating": 5
+    }
+  ]
+}

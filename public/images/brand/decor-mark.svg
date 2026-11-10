@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Placeholder — podmień ten plik na docelową grafikę (np. logo/ikonę marki). -->
+  <circle cx="50" cy="50" r="48" fill="#638765" />
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#fbf8f0" stroke-width="2" opacity="0.5" />
+  <circle cx="50" cy="50" r="8" fill="#fbf8f0" />
+</svg>

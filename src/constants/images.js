@@ -32,6 +32,10 @@ export const IMG = {
   travelTajMahal: {
     file: "/images/offer/travel-tajmahal.jpg",
   },
+  /** Zdjęcie przy nagłówku strony głównej. */
+  heroPortrait: {
+    file: "/images/about/portrait-daniel.jpg",
+  },
   /** Spotkanie / konsultacja — tło banera „Szkolenia łączą refleksję i praktykę”. */
   stockMeeting: {
     file: "/images/misc/stock-meeting.jpg",

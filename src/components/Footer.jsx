@@ -21,20 +21,9 @@ export function Footer({ onTab }) {
             <BrandMark />
           </a>
           <p className="footer-tagline">{tx("ui.footer.tagline", ui.tagline)}</p>
-          <div className="social">
-            <a
-              href={INSTAGRAM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="insta-pill"
-              aria-label={t("ui.footer.instagramAria")}
-            >
-              <InstagramIcon width={18} height={18} /> {t("ui.footer.instagram")}
-            </a>
-          </div>
         </div>
 
-        <div className="footer-col">
+        <div className="footer-col footer-col--nav">
           <h3 className="footer-col__heading">{tx("ui.footer.navHeading", ui.navHeading)}</h3>
           <ul className="footer-links">
             {tabs.map((tab, i) => (
@@ -68,6 +57,17 @@ export function Footer({ onTab }) {
               </a>
             </li>
           </ul>
+          <div className="social">
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="insta-pill"
+              aria-label={t("ui.footer.instagramAria")}
+            >
+              <InstagramIcon width={18} height={18} /> {t("ui.footer.instagram")}
+            </a>
+          </div>
         </div>
       </div>
 

@@ -38,6 +38,7 @@ function normalizeTraining(t) {
   };
 }
 
+export const offerFilterTypes = offerData.filterTypes;
 export const offerTrainings = offerData.trainings.map(normalizeTraining);
 
 export function getTrainingDetail(id) {

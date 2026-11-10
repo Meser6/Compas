@@ -1,5 +1,4 @@
-import { createPortal } from "react-dom";
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { SmartImage } from "./SmartImage";
 import { CONTENT } from "../lib/t.js";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
@@ -7,7 +6,6 @@ import { useContentStrings } from "../context/ContentStringsContext.jsx";
 const PER_SLIDE = 3;
 const AUTOPLAY_MS = 10_000;
 const SWIPE_MIN_PX = 48;
-const GALLERY_LIGHTBOX_MOUNT_ID = "gallery-lightbox-mount";
 
 function chunkItems(items, size) {
   const out = [];
@@ -15,89 +13,8 @@ function chunkItems(items, size) {
   return out;
 }
 
-function GalleryLightbox({ shot, altText, onClose, dialogAria, closeLabel }) {
-  const closeBtnRef = useRef(null);
-  const lastFocusRef = useRef(null);
-  const [src, setSrc] = useState(shot.primary ?? "");
-  const [portalEl, setPortalEl] = useState(null);
-
-  useLayoutEffect(() => {
-    setPortalEl(
-      document.getElementById(GALLERY_LIGHTBOX_MOUNT_ID) ?? document.body,
-    );
-  }, []);
-
-  useEffect(() => {
-    setSrc(shot.primary ?? "");
-  }, [shot]);
-
-  useEffect(() => {
-    lastFocusRef.current = document.activeElement;
-    const t = window.setTimeout(() => closeBtnRef.current?.focus(), 0);
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      window.clearTimeout(t);
-      document.body.style.overflow = prevOverflow;
-      const prev = lastFocusRef.current;
-      if (prev && typeof prev.focus === "function") prev.focus();
-    };
-  }, []);
-
-  useEffect(() => {
-    const onKey = (e) => {
-      if (e.key === "Escape") onClose();
-    };
-    document.addEventListener("keydown", onKey);
-    return () => document.removeEventListener("keydown", onKey);
-  }, [onClose]);
-
-  const fb = shot.fallback ?? shot.primary ?? "";
-
-  if (!portalEl) return null;
-
-  return createPortal(
-    <div className="gallery-lightbox-root" role="presentation">
-      <button
-        type="button"
-        className="gallery-lightbox__backdrop"
-        aria-label={closeLabel}
-        onClick={onClose}
-      />
-      <div
-        className="gallery-lightbox"
-        role="dialog"
-        aria-modal="true"
-        aria-label={dialogAria}
-        onClick={(e) => e.stopPropagation()}
-      >
-        <div className="gallery-lightbox__inner">
-          <button
-            type="button"
-            ref={closeBtnRef}
-            className="gallery-lightbox__close"
-            aria-label={closeLabel}
-            onClick={onClose}
-          >
-            ×
-          </button>
-          <img
-            className="gallery-lightbox__img"
-            src={src}
-            alt={altText}
-            decoding="async"
-            onError={() => {
-              if (fb && src !== fb) setSrc(fb);
-            }}
-          />
-        </div>
-      </div>
-    </div>,
-    portalEl,
-  );
-}
-
-export function AboutGalleryCarousel() {
+/** Siatka miniatur „O autorze” — kliknięcie otwiera wspólny `PhotoLightbox` (przez `onOpenPhoto`). */
+export function AboutGalleryCarousel({ onOpenPhoto }) {
   const { t, tx } = useContentStrings();
   const aboutGallery = CONTENT.about.gallery;
   const ac = CONTENT.ui.aboutCarousel;
@@ -105,8 +22,6 @@ export function AboutGalleryCarousel() {
   const pageCount = slides.length;
   const [page, setPage] = useState(0);
   const pageRef = useRef(0);
-
-  const [lightboxIndex, setLightboxIndex] = useState(null);
 
   useEffect(() => {
     pageRef.current = page;
@@ -175,23 +90,8 @@ export function AboutGalleryCarousel() {
     if (activePointerId.current === e.pointerId) activePointerId.current = null;
   }, []);
 
-  const lightboxShot =
-    lightboxIndex != null && aboutGallery[lightboxIndex] ? aboutGallery[lightboxIndex] : null;
-  const lightboxAlt =
-    lightboxShot != null ? tx(`about.gallery[${lightboxIndex}].alt`, lightboxShot.alt) : "";
-
   return (
     <div className="about-carousel" role="region" aria-label={tx("ui.aboutCarousel.regionAria", ac.regionAria)}>
-      {lightboxShot != null ? (
-        <GalleryLightbox
-          shot={lightboxShot}
-          altText={lightboxAlt}
-          onClose={() => setLightboxIndex(null)}
-          dialogAria={t("ui.aboutCarousel.lightboxDialogAria", ac.lightboxDialogAria)}
-          closeLabel={t("ui.aboutCarousel.lightboxCloseAria", ac.lightboxCloseAria)}
-        />
-      ) : null}
-
       <div
         className="about-carousel__viewport"
         onPointerDown={onPointerDown}
@@ -222,7 +122,7 @@ export function AboutGalleryCarousel() {
                     className="about-gallery__thumb-btn"
                     aria-label={t("ui.aboutCarousel.openLightboxAria", { alt })}
                     onClick={() => {
-                      setLightboxIndex(gIdx);
+                      onOpenPhoto?.(gIdx);
                       restartAutoplay();
                     }}
                   >

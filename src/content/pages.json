@@ -4,12 +4,14 @@
       { "id": "start", "label": "Start" },
       { "id": "o-mnie", "label": "O autorze" },
       { "id": "oferta", "label": "Oferta" },
+      { "id": "media", "label": "Media" },
       { "id": "kontakt", "label": "Kontakt" }
     ]
   },
   "hero": {
     "eyebrow": "oferta dla przedszkoli, szkół podstawowych i ponadpodstawowych",
-    "kicker": "dr n. społ. Daniel Syrek",
+    "kickerTitle": "dr n. społ.",
+    "kickerName": "Daniel Syrek",
     "kickerSub": "autor projektu",
     "instagramHandle": "compas.dr.syrek",
     "servicesLeft": ["Warsztaty", "Szkolenia", "Doradztwo"],
@@ -49,11 +51,8 @@
     ],
     "valuesTitle": "główne",
     "valuesTitleAccent": "wartości",
-    "bannerBefore": "Szkolenia",
-    "bannerAccent": "łączą",
-    "bannerAfter": "refleksję i praktykę",
-    "bannerNote": "Dokładna tematyka szkoleń, warsztatów i prelekcji zostaje w pełni dostosowana do potrzeb klienta.",
-    "bannerCta": "Zapraszam do kontaktu, aby ustalić szczegóły spotkania"
+    "opinionsTitle": "Opinie",
+    "opinionsSub": "Kilka słów od dyrekcji, rad pedagogicznych i rodziców po wspólnych spotkaniach."
   },
   "about": {
     "portraitAlt": "dr Daniel Syrek",
@@ -67,6 +66,12 @@
   "offer": {
     "title": "Oferta",
     "sub": "Pięć obszarów współpracy i prelekcje podróżnicze — każdy z własną, szczegółową tematyką do wyboru. Kliknij kartę, aby zobaczyć pełen zakres i pobrać konspekt."
+  },
+  "media": {
+    "title": "Media",
+    "sub": "Nagrania, wywiady i artykuły o mnie oraz o mojej aktywności zawodowej i podróżniczej.",
+    "videosHeading": "Filmy",
+    "articlesHeading": "Artykuły"
   },
   "contact": {
     "title": "Kontakt",

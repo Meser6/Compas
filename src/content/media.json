@@ -1,0 +1,20 @@
+{
+  "videos": [
+    {
+      "id": "v1",
+      "title": "Nagranie wideo (przykład — podmień link)",
+      "description": "Miejsce na film, wystąpienie albo relację z warsztatów.",
+      "url": "https://www.instagram.com/compas.dr.syrek/",
+      "image": "misc/stock-meeting.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "id": "a1",
+      "title": "Artykuł o mnie lub mojej aktywności (przykład — podmień link)",
+      "description": "Miejsce na wywiad, publikację albo wzmiankę prasową.",
+      "url": "https://www.instagram.com/compas.dr.syrek/",
+      "image": "about/group-teachers.jpg"
+    }
+  ]
+}
