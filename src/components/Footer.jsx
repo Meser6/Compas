@@ -11,7 +11,6 @@ export function Footer({ onTab }) {
   const toggleTitle = resolveT("ui.footer.toggleKeysTitle");
   const co = CONTENT.contact;
   const ui = CONTENT.ui.footer;
-  const tabs = CONTENT.pages.navigation.tabs;
 
   return (
     <footer>
@@ -20,26 +19,17 @@ export function Footer({ onTab }) {
           <a className="brand" href="#top" onClick={(e) => { e.preventDefault(); onTab?.("start"); }}>
             <BrandMark />
           </a>
-          <p className="footer-tagline">{tx("ui.footer.tagline", ui.tagline)}</p>
-        </div>
-
-        <div className="footer-col footer-col--nav">
-          <h3 className="footer-col__heading">{tx("ui.footer.navHeading", ui.navHeading)}</h3>
-          <ul className="footer-links">
-            {tabs.map((tab, i) => (
-              <li key={tab.id}>
-                <a
-                  href={`#${tab.id}`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    onTab?.(tab.id);
-                  }}
-                >
-                  {tx(`pages.navigation.tabs[${i}].label`, tab.label)}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <div className="social">
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="insta-pill"
+              aria-label={t("ui.footer.instagramAria")}
+            >
+              <InstagramIcon width={18} height={18} /> {t("ui.footer.instagram")}
+            </a>
+          </div>
         </div>
 
         <div className="footer-col">
@@ -57,17 +47,6 @@ export function Footer({ onTab }) {
               </a>
             </li>
           </ul>
-          <div className="social">
-            <a
-              href={INSTAGRAM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="insta-pill"
-              aria-label={t("ui.footer.instagramAria")}
-            >
-              <InstagramIcon width={18} height={18} /> {t("ui.footer.instagram")}
-            </a>
-          </div>
         </div>
       </div>
 
