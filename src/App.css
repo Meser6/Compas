@@ -95,7 +95,15 @@ body {
   min-height: 100%;
   z-index: -2;
   pointer-events: none;
-  background: var(--cream);
+  background-color: var(--cream);
+  background-image: url("/images/brand/bg-pattern.svg");
+  background-size: 100% 2200px;
+  background-repeat: repeat-y;
+  background-position: top center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-gradient { background-image: none; }
 }
 
 a { color: var(--accent-hover); text-decoration: underline; text-underline-offset: 2px; font-weight: 600; }
