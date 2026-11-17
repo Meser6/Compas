@@ -327,7 +327,7 @@ h1, h2, h3 { font-family: var(--font-heading); }
 
 @media (max-width: 700px) {
   .hero-top { flex-direction: column-reverse; text-align: left; }
-  .hero-top__media { width: min(320px, 72%); }
+  .hero-top__media { width: min(380px, 88%); }
 }
 
 .hero-eyebrow {
