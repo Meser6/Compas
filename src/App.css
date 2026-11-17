@@ -321,7 +321,7 @@ h1, h2, h3 { font-family: var(--font-heading); }
 .hero-top__frame {
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: 8px solid var(--accent-2);
+  border: 8px solid var(--sage);
 }
 .hero-top__frame img { width: 100%; height: 100%; object-fit: cover; }
 
