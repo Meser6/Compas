@@ -24,7 +24,7 @@ export const TrainingModalBody = forwardRef(function TrainingModalBody({ entry }
   return (
     <div ref={ref} className="training-modal__shell training-modal training-modal--pdf-root">
       <header className="training-pdf-header">
-        <BrandMark markSize={34} />
+        <BrandMark />
       </header>
 
       <p className="training-modal__eyebrow">

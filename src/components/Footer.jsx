@@ -1,23 +1,21 @@
 import { INSTAGRAM_URL } from "../constants/social.js";
-import { CONTENT, resolveT } from "../lib/t.js";
+import { CONTENT } from "../lib/t.js";
 import { InstagramIcon } from "./InstagramIcon";
 import { BrandMark } from "./BrandMark.jsx";
 import { MailIcon, PhoneIcon } from "./Icons.jsx";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
 
 export function Footer({ onTab }) {
-  const { t, tx, showKeys, setShowKeys } = useContentStrings();
-  const toggleLabel = showKeys ? resolveT("ui.footer.hideKeys") : resolveT("ui.footer.showKeys");
-  const toggleTitle = resolveT("ui.footer.toggleKeysTitle");
+  const { t, tx } = useContentStrings();
   const co = CONTENT.contact;
   const ui = CONTENT.ui.footer;
 
   return (
-    <footer>
+    <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-col footer-col--brand">
           <a className="brand" href="#top" onClick={(e) => { e.preventDefault(); onTab?.("start"); }}>
-            <BrandMark />
+            <BrandMark tone="light" />
           </a>
           <div className="social">
             <a
@@ -52,15 +50,6 @@ export function Footer({ onTab }) {
 
       <div className="container footer-row">
         <span>{t("ui.footer.copyright")}</span>
-        <button
-          type="button"
-          className="footer-keys-toggle"
-          onClick={() => setShowKeys((v) => !v)}
-          aria-pressed={showKeys}
-          title={toggleTitle}
-        >
-          {toggleLabel}
-        </button>
       </div>
     </footer>
   );

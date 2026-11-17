@@ -27,6 +27,41 @@ function Panel({ id, active, labelledBy, children }) {
   );
 }
 
+/** Miniatura w pełnej rozdzielczości; właściwy odtwarzacz YouTube ładuje się dopiero po kliknięciu. */
+function YouTubeEmbed({ id, start, title }) {
+  const [playing, setPlaying] = useState(false);
+  const [thumb, setThumb] = useState(`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`);
+  const params = new URLSearchParams({ autoplay: "1", rel: "0" });
+  if (start) params.set("start", String(start));
+
+  return (
+    <div className="media-video">
+      {playing ? (
+        <iframe
+          src={`https://www.youtube-nocookie.com/embed/${id}?${params}`}
+          title={title}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      ) : (
+        <button type="button" className="media-video__poster" onClick={() => setPlaying(true)} aria-label={`Odtwórz film: ${title}`}>
+          <img
+            src={thumb}
+            alt=""
+            loading="lazy"
+            onLoad={(e) => {
+              // YouTube zwraca szary placeholder 120×90, gdy brak wersji maxres
+              if (e.currentTarget.naturalWidth <= 120) setThumb(`https://i.ytimg.com/vi/${id}/hqdefault.jpg`);
+            }}
+          />
+          <span className="media-video__play" aria-hidden="true" />
+        </button>
+      )}
+    </div>
+  );
+}
+
 function resolveMediaImage(ref) {
   if (!ref) return "";
   if (/^https?:\/\//i.test(ref)) return ref;
@@ -153,16 +188,7 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
         <div className="media-grid media-grid--videos">
           {mediaData.videos.map((item, i) => (
             <Reveal key={item.id} className="card media-card media-card--video">
-              <div className="media-video">
-                <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${item.youtubeId}${item.start ? `?start=${item.start}` : ""}`}
-                  title={item.title}
-                  loading="lazy"
-                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
-              </div>
+              <YouTubeEmbed id={item.youtubeId} start={item.start} title={item.title} />
               <h3>{tx(`media.videos[${i}].title`, item.title)}</h3>
               <p>{tx(`media.videos[${i}].description`, item.description)}</p>
             </Reveal>

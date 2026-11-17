@@ -113,47 +113,11 @@ a:hover { color: var(--sage-deep); }
 
 h1, h2, h3 { font-family: var(--font-heading); }
 
-/* —— Brandmark (logo wordmark „COMPAS”, litera O = kompas) —— */
-.brandmark {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  line-height: 1;
-  color: var(--ink);
-}
-.brandmark__word {
-  display: inline-flex;
-  align-items: center;
-  font-family: var(--font-display);
-  font-size: 1.4rem;
-  letter-spacing: 0.04em;
-  gap: 0.05em;
-}
-.brandmark__glyph {
-  color: var(--sage);
-  width: 0.92em;
-  height: 0.92em;
-  margin-inline: 0.02em;
-  flex-shrink: 0;
-}
-.brandmark__tagline {
-  font-family: var(--font-script);
-  font-size: 0.82rem;
-  color: var(--muted);
-  letter-spacing: 0.01em;
-  padding-left: 0.1rem;
-}
-
-footer .brandmark,
-footer .brandmark__tagline {
-  color: var(--on-dark);
-}
-footer .brandmark__glyph {
-  color: var(--sand);
-}
-
-.training-pdf-header .brandmark__word { font-size: 1.15rem; }
-.training-pdf-header .brandmark__tagline { font-size: 0.68rem; }
+/* —— Logo COMPAS (plik PNG, proporcje 4:1) —— */
+.brandmark { display: block; height: 50px; width: auto; max-width: 100%; }
+.site-footer .brandmark { height: 54px; }
+.training-pdf-header .brandmark { height: 36px; }
+@media (max-width: 640px) { .site-header .brandmark { height: 40px; } }
 
 /* —— Header —— */
 .site-header {
@@ -694,7 +658,7 @@ main.main--subpage .tab-panels { padding-top: clamp(2.25rem, 5vw, 3.5rem); }
 
 @media (max-width: 640px) {
   .cooperation-step__card { flex-direction: column; align-items: flex-start; border-radius: var(--radius); }
-  .cooperation-step__icon { align-self: flex-end; margin-top: -2.2rem; }
+  .cooperation-step__icon { display: none; }
 }
 
 /* —— Główne wartości —— */
@@ -1321,7 +1285,7 @@ main.main--subpage .tab-panels { padding-top: clamp(2.25rem, 5vw, 3.5rem); }
 }
 
 /* —— Stopka —— */
-footer {
+.site-footer {
   position: relative;
   overflow: hidden;
   padding: 2rem 0 1.1rem;
@@ -1330,7 +1294,7 @@ footer {
   color: var(--on-dark-muted);
   font-size: 0.88rem;
 }
-footer::before {
+.site-footer::before {
   content: ""; position: absolute; z-index: 0; width: 360px; height: 360px; top: -220px; left: -120px;
   border-radius: 50%; background: rgba(249, 169, 32, 0.14); pointer-events: none;
 }
@@ -1360,13 +1324,6 @@ footer::before {
 .footer-links--contact a { display: inline-flex; align-items: center; gap: 0.5rem; }
 
 .footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.75rem; padding-top: 1rem; border-top: 1px solid var(--on-dark-border); font-size: 0.82rem; }
-.footer-keys-toggle {
-  font: inherit; font-size: 0.82rem; font-weight: 600; color: var(--on-dark-muted); background: transparent;
-  border: 1px solid var(--on-dark-border); padding: 0.45rem 0.85rem; border-radius: 999px; cursor: pointer; line-height: 1.2;
-  white-space: nowrap; transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease);
-}
-.footer-keys-toggle:hover { color: var(--on-dark); border-color: var(--on-dark); }
-.footer-keys-toggle[aria-pressed="true"] { color: var(--ink); background: var(--accent-2); border-color: var(--accent-2); }
 
 .social { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 .insta-pill {
@@ -1518,3 +1475,22 @@ footer::before {
   line-height: 1.5;
   color: var(--accent-hover);
 }
+
+/* Film: ostra miniatura YouTube, iframe ładowany dopiero po kliknięciu */
+.media-video__poster {
+  position: absolute; inset: 0; width: 100%; height: 100%; padding: 0; border: 0;
+  background: #000; cursor: pointer;
+}
+.media-video__poster img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.media-video__play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 68px; height: 48px; border-radius: 14px; background: rgba(28, 26, 22, 0.78);
+  display: flex; align-items: center; justify-content: center; transition: background 0.2s var(--ease);
+}
+.media-video__play::before {
+  content: ""; margin-left: 4px; border-style: solid; border-width: 10px 0 10px 17px;
+  border-color: transparent transparent transparent #fff;
+}
+.media-video__poster:hover .media-video__play,
+.media-video__poster:focus-visible .media-video__play { background: #ff0000; }
+.media-video__poster:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }

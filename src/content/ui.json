@@ -8,10 +8,7 @@
     "contactHeading": "Kontakt",
     "copyright": "© {{year}} COMPAS — kierujemy na rozwój",
     "instagramAria": "Profil Instagram COMPAS",
-    "instagram": "Instagram",
-    "showKeys": "Pokaż klucze",
-    "hideKeys": "Ukryj klucze",
-    "toggleKeysTitle": "Przełącz widok: treść strony albo klucze z plików JSON w src/content"
+    "instagram": "Instagram"
   },
   "modal": {
     "closeAria": "Zamknij"

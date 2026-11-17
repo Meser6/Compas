@@ -1,24 +1,112 @@
 {
   "gallery": [
     {
-      "primary": "/images/about/group-teachers.jpg",
-      "alt": "Szkolenie rady pedagogicznej — praca z gronem nauczycielskim"
+      "primary": "/images/photos/szkolenie-rady-pedagogicznej.jpg",
+      "alt": "Szkolenie rady pedagogicznej"
     },
     {
-      "primary": "/images/about/group-teens.jpg",
-      "alt": "Zajęcia integracyjne z młodzieżą"
+      "primary": "/images/photos/zajecia-z-mlodzieza.jpg",
+      "alt": "Warsztaty z młodzieżą"
     },
     {
-      "primary": "/images/offer/travel-elephant.jpg",
-      "alt": "Prelekcja podróżnicza — Indie"
+      "primary": "/images/photos/szkolenie-grono-pedagogiczne.jpg",
+      "alt": "Spotkanie z gronem pedagogicznym"
     },
     {
-      "primary": "/images/offer/travel-tajmahal.jpg",
-      "alt": "Prelekcja podróżnicza — Taj Mahal"
+      "primary": "/images/photos/prowadzenie-zajec.jpg",
+      "alt": "Prowadzenie zajęć"
     },
     {
-      "primary": "/images/misc/stock-meeting.jpg",
-      "alt": "Konsultacja i omówienie programu współpracy"
+      "primary": "/images/photos/forum-psychologiczne-wyklad.jpg",
+      "alt": "Wystąpienie podczas I Forum Psychologicznego w Katowicach"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-publicznosc.jpg",
+      "alt": "I Forum Psychologiczne — rozmowa z publicznością"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-portret.jpg",
+      "alt": "I Forum Psychologiczne — wystąpienie"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-mikrofon.jpg",
+      "alt": "I Forum Psychologiczne — panel dyskusyjny"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-panel.jpg",
+      "alt": "I Forum Psychologiczne — panel z udziałem publiczności"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-dyskusja.jpg",
+      "alt": "I Forum Psychologiczne — dyskusja"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-rozmowa.jpg",
+      "alt": "I Forum Psychologiczne — rozmowa na scenie"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-prelegenci.jpg",
+      "alt": "I Forum Psychologiczne — prelegenci"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-zespol.jpg",
+      "alt": "Uniwersytet Śląski — Wydział Nauk Społecznych"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-uniwersytet.jpg",
+      "alt": "Uniwersytet Śląski — Wydział Nauk Społecznych"
+    },
+    {
+      "primary": "/images/photos/forum-psychologiczne-goscie.jpg",
+      "alt": "Centrum Nauki i Kultury — spotkanie"
+    },
+    {
+      "primary": "/images/photos/uniwersytet-slaski-zespol.jpg",
+      "alt": "Uniwersytet Śląski — zespół"
+    },
+    {
+      "primary": "/images/photos/uniwersytet-slaski-gala.jpg",
+      "alt": "Uniwersytet Śląski — spotkanie"
+    },
+    {
+      "primary": "/images/photos/nagroda.jpg",
+      "alt": "Wręczenie wyróżnień"
+    },
+    {
+      "primary": "/images/photos/festiwal-filmowy-panel.jpg",
+      "alt": "Science and Technology Film Festival — panel"
+    },
+    {
+      "primary": "/images/photos/festiwal-filmowy-goscie.jpg",
+      "alt": "Science and Technology Film Festival"
+    },
+    {
+      "primary": "/images/photos/wywiad-na-scenie.jpg",
+      "alt": "Rozmowa na scenie"
+    },
+    {
+      "primary": "/images/photos/wywiad-radiowy.jpg",
+      "alt": "Wywiad radiowy"
+    },
+    {
+      "primary": "/images/photos/wywiad-telewizyjny.jpg",
+      "alt": "Wywiad dla mediów"
+    },
+    {
+      "primary": "/images/photos/nagranie-podcastu.jpg",
+      "alt": "Nagranie podcastu"
+    },
+    {
+      "primary": "/images/photos/nagranie-wideo.jpg",
+      "alt": "Nagranie materiału wideo"
+    },
+    {
+      "primary": "/images/photos/podroze-indie.jpg",
+      "alt": "Podróże — Indie"
+    },
+    {
+      "primary": "/images/photos/podroze-taj-mahal.jpg",
+      "alt": "Podróże — Taj Mahal"
     }
   ],
   "qualifications": [

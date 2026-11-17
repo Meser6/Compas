@@ -5,7 +5,7 @@
       "label": "Rady pedagogiczne",
       "title": "Szkolenia dla rad pedagogicznych",
       "intro": "",
-      "image": "about/group-teachers.jpg",
+      "image": "photos/szkolenie-rady-pedagogicznej.jpg",
       "categories": [
         {
           "id": "zdrowie-psychiczne-i-kryzysy",
@@ -361,7 +361,7 @@
       "label": "Rodzice",
       "title": "Szkolenia i warsztaty dla rodziców",
       "intro": "",
-      "image": "offer/parent-teen.png",
+      "image": "photos/forum-psychologiczne-publicznosc.jpg",
       "categories": [
         {
           "id": "zdrowie-psychiczne-i-kryzysy",
@@ -603,7 +603,7 @@
       "label": "Uczniowie",
       "title": "Warsztaty i zajęcia dla uczniów",
       "intro": "19 propozycji do opracowania w formie warsztatowej dostosowanej do wieku uczniów",
-      "image": "about/group-teens.jpg",
+      "image": "photos/zajecia-z-mlodzieza.jpg",
       "categories": [
         {
           "id": "zdrowie-psychiczne-i-kryzysy",
@@ -755,7 +755,7 @@
       "label": "Biznes",
       "title": "Szkolenia dla klienta biznesowego",
       "intro": "",
-      "image": "misc/stock-meeting.jpg",
+      "image": "photos/forum-psychologiczne-mikrofon.jpg",
       "categories": [
         {
           "id": "dobrostan-i-odpornosc-psychiczna",

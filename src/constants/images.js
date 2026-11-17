@@ -4,41 +4,17 @@
  * Użycie: `{...imgPair(IMG.hero)}` z `SmartImage` + `imageKey`.
  */
 export const IMG = {
-  /** Portret dr. Daniela Syrka (okrągłe ujęcie w nagłówku „O autorze”). */
+  /** Portret dr. Daniela Syrka — „O autorze”. */
   aboutPortrait: {
-    file: "/images/about/portrait-daniel.jpg",
+    file: "/images/photos/daniel-syrek.jpg",
   },
-  /** Wycięta sylwetka autora — bez tła, element dekoracyjny przy osi „Obszary współpracy”. */
-  aboutCutout: {
-    file: "/images/about/cutout-daniel.png",
-  },
-  /** Zdjęcie grupowe — szkolenie rady pedagogicznej. */
-  groupTeachers: {
-    file: "/images/about/group-teachers.jpg",
-  },
-  /** Zdjęcie grupowe — młodzież, zajęcia integracyjne (sekcja „Główne wartości”). */
-  groupTeens: {
-    file: "/images/about/group-teens.jpg",
-  },
-  /** Rodzic i nastolatka — warsztaty dla rodziców. */
-  parentTeen: {
-    file: "/images/offer/parent-teen.png",
-  },
-  /** Prelekcje podróżnicze — Indie, słonie. */
-  travelElephant: {
-    file: "/images/offer/travel-elephant.jpg",
-  },
-  /** Prelekcje podróżnicze — Taj Mahal. */
-  travelTajMahal: {
-    file: "/images/offer/travel-tajmahal.jpg",
-  },
-  /** Zdjęcie przy nagłówku strony głównej. */
+  /** Portret na stronie głównej (nagłówek). */
   heroPortrait: {
-    file: "/images/about/portrait-daniel.jpg",
+    file: "/images/photos/daniel-syrek.jpg",
   },
-  /** Spotkanie / konsultacja — tło banera „Szkolenia łączą refleksję i praktykę”. */
-  stockMeeting: {
-    file: "/images/misc/stock-meeting.jpg",
+  /** Zdjęcie grupowe z rady pedagogicznej — zakładka „Kontakt”. */
+  groupTeachers: {
+    file: "/images/photos/szkolenie-grono-pedagogiczne.jpg",
   },
 };
 
