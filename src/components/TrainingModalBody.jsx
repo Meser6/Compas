@@ -3,31 +3,23 @@ import { BrandMark } from "./BrandMark.jsx";
 import { CONTENT } from "../lib/t.js";
 import { useContentStrings } from "../context/ContentStringsContext.jsx";
 
-export const TrainingModalBody = forwardRef(function TrainingModalBody({ item, detail }, ref) {
+/**
+ * Pełny opis szkolenia (treść modalu i źródło PDF-a z konspektem).
+ * `entry` = wynik `findOfferItem()`: { group, category, item, description }.
+ */
+export const TrainingModalBody = forwardRef(function TrainingModalBody({ entry }, ref) {
   const { tx } = useContentStrings();
   const tm = CONTENT.ui.trainingModal;
-  const lb = tm.labels;
-  const tid = item?.id ?? "";
 
-  if (!item) {
+  if (!entry) {
     return <p className="training-modal__placeholder">{tx("ui.trainingModal.notFound", tm.notFound)}</p>;
   }
 
-  const intro = detail?.intro ?? item.summary;
-  const introKey = detail?.intro
-    ? `offer.trainings.${tid}.detail.intro`
-    : `offer.trainings.${tid}.summary`;
-  const lists = detail?.lists?.length ? detail.lists : null;
-  const target = Array.isArray(item.target) ? item.target.join(", ") : item.target;
-  const format = item.format;
-
-  const orgRows = [
-    target ? { label: lb.target, labelKey: "ui.trainingModal.labels.target", value: target, valueKey: `offer.trainings.${tid}.target` } : null,
-    format ? { label: lb.format, labelKey: "ui.trainingModal.labels.format", value: format, valueKey: `offer.trainings.${tid}.format` } : null,
-  ].filter(Boolean);
-
+  const { group, category, item, description: d } = entry;
   const pdfUi = CONTENT.ui.pdf;
   const co = CONTENT.contact;
+  // Wezwanie „Zamów szkolenie dla rady pedagogicznej” pasuje tylko do oferty dla rad pedagogicznych.
+  const showCta = d?.cta && group.id === "rady";
 
   return (
     <div ref={ref} className="training-modal__shell training-modal training-modal--pdf-root">
@@ -35,45 +27,51 @@ export const TrainingModalBody = forwardRef(function TrainingModalBody({ item, d
         <BrandMark markSize={34} />
       </header>
 
-      {orgRows.length > 0 ? (
-        <section className="training-modal__block" aria-labelledby="tm-org-heading">
-          <h3 id="tm-org-heading" className="training-modal__heading">
-            {tx("ui.trainingModal.orgHeading", tm.orgHeading)}
-          </h3>
-          <table className="training-modal__org-table">
-            <tbody>
-              {orgRows.map((row) => (
-                <tr key={row.labelKey}>
-                  <td className="training-modal__org-label">{tx(row.labelKey, row.label)}</td>
-                  <td className="training-modal__org-value">{tx(row.valueKey, row.value)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </section>
-      ) : null}
+      <p className="training-modal__eyebrow">
+        {group.title} · {category.label}
+      </p>
+      <h2 className="training-modal__title">{item.title}</h2>
+      {d?.subtitle ? <p className="training-modal__subtitle">{d.subtitle}</p> : null}
 
-      <section className="training-modal__block" aria-labelledby="tm-intro-heading">
-        <h3 id="tm-intro-heading" className="training-modal__heading">
-          {tx("ui.trainingModal.introHeading", tm.introHeading)}
-        </h3>
-        <p className="training-modal__intro">{tx(introKey, intro)}</p>
-      </section>
+      {d ? (
+        <>
+          <section className="training-modal__block">
+            <h3 className="training-modal__heading">{tx("ui.trainingModal.descriptionHeading", tm.descriptionHeading)}</h3>
+            {d.description.map((p, i) => (
+              <p className="training-modal__intro" key={i}>
+                {p}
+              </p>
+            ))}
+          </section>
 
-      {lists
-        ? lists.map((block, li) => (
-            <section className="training-modal__block" key={block.heading}>
-              <h3 className="training-modal__heading">
-                {tx(`offer.trainings.${tid}.detail.lists[${li}].heading`, block.heading)}
-              </h3>
+          {d.benefits?.length ? (
+            <section className="training-modal__block">
+              <h3 className="training-modal__heading">{tx("ui.trainingModal.benefitsHeading", tm.benefitsHeading)}</h3>
+              {d.benefitsIntro ? <p className="training-modal__lead-in">{d.benefitsIntro}</p> : null}
               <ul className="training-modal__list">
-                {block.items.map((line, i) => (
-                  <li key={i}>{tx(`offer.trainings.${tid}.detail.lists[${li}].items[${i}]`, line)}</li>
+                {d.benefits.map((line, i) => (
+                  <li key={i}>{line}</li>
                 ))}
               </ul>
             </section>
-          ))
-        : null}
+          ) : null}
+
+          {d.program?.length ? (
+            <section className="training-modal__block">
+              <h3 className="training-modal__heading">{tx("ui.trainingModal.programHeading", tm.programHeading)}</h3>
+              <ol className="training-modal__list training-modal__list--ordered">
+                {d.program.map((line, i) => (
+                  <li key={i}>{line}</li>
+                ))}
+              </ol>
+            </section>
+          ) : null}
+
+          {showCta ? <p className="training-modal__cta">{d.cta}</p> : null}
+        </>
+      ) : (
+        <p className="training-modal__intro">{tx("ui.trainingModal.noDescription", tm.noDescription)}</p>
+      )}
 
       <p className="training-modal__custom-note">{tx("ui.trainingModal.customNote", tm.customNote)}</p>
 

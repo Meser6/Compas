@@ -17,20 +17,18 @@
     "closeAria": "Zamknij"
   },
   "offer": {
-    "filterToolbarAria": "Filtr obszaru współpracy",
-    "empty": "Brak pozycji w tej kategorii — wybierz inny obszar albo „Wszystkie”.",
-    "cardAriaSuffix": "Kliknij lub Enter, aby otworzyć szczegóły.",
-    "cta": "Zobacz tematykę"
+    "groupToolbarAria": "Grupa odbiorców",
+    "categoryToolbarAria": "Obszar tematyczny",
+    "allTopics": "Wszystkie obszary",
+    "topicsSuffix": "tematów"
   },
   "trainingModal": {
     "notFound": "Nie znaleziono szczegółów tej pozycji. Odśwież stronę lub skontaktuj się bezpośrednio.",
-    "orgHeading": "Informacje organizacyjne",
-    "introHeading": "Charakter i zakres",
     "customNote": "Dokładna tematyka szkoleń, warsztatów i prelekcji zostaje w pełni dostosowana do potrzeb klienta.",
-    "labels": {
-      "target": "Grupa docelowa",
-      "format": "Forma spotkań"
-    }
+    "descriptionHeading": "Opis szkolenia",
+    "benefitsHeading": "Korzyści dla uczestnika",
+    "programHeading": "Program szkolenia",
+    "noDescription": "Szczegółowy program tego szkolenia przygotowuję indywidualnie — w zależności od potrzeb, oczekiwań i specyfiki grupy. Zapraszam do kontaktu, wspólnie ustalimy zakres i formę spotkania."
   },
   "aboutCarousel": {
     "regionAria": "Galeria zdjęć",

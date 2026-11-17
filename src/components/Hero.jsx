@@ -17,6 +17,7 @@ export function Hero({ onNavigateTab, onOpenContact }) {
             <span className="hero-kicker__name">{tx("pages.hero.kickerName", p.kickerName)}</span>
           </p>
           <p className="hero-kicker__sub">{tx("pages.hero.kickerSub", p.kickerSub)}</p>
+          <p className="hero-tagline">{tx("pages.hero.tagline", p.tagline)}</p>
           <p className="hero-eyebrow">{tx("pages.hero.eyebrow", p.eyebrow)}</p>
         </Reveal>
         <Reveal className="hero-top__media">

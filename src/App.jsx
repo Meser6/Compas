@@ -6,7 +6,7 @@ import { Header } from "./components/Header.jsx";
 import { Hero } from "./components/Hero.jsx";
 import { Modal } from "./components/Modal.jsx";
 import { TabPanels } from "./components/TabPanels.jsx";
-import { getTrainingDetail, offerTrainings } from "./data/offerTrainings.js";
+import { findOfferItem } from "./data/offerTrainings.js";
 import { TrainingModalBody } from "./components/TrainingModalBody.jsx";
 import { TrainingConspectButton } from "./components/TrainingConspectButton.jsx";
 import { ContactModalBody } from "./components/ContactModalBody.jsx";
@@ -50,9 +50,9 @@ function AppShell() {
     if (d) setModal({ kind: "static", title: d.title, bodyHtml: d.bodyHtml });
   };
 
-  const openTraining = (trainingId) => {
-    if (offerTrainings.some((t) => t.id === trainingId)) {
-      setModal({ kind: "training", trainingId });
+  const openTraining = (trainingKey) => {
+    if (findOfferItem(trainingKey)) {
+      setModal({ kind: "training", trainingKey });
     }
   };
 
@@ -62,19 +62,15 @@ function AppShell() {
 
   const closeModal = () => setModal(null);
 
-  const trainingTitle = offerTrainings.find((t) => t.id === modal?.trainingId)?.title ?? "";
+  const trainingEntry = modal?.kind === "training" ? findOfferItem(modal.trainingKey) : null;
+  const trainingItem = trainingEntry ? { title: trainingEntry.item.title } : null;
 
   const modalTitle =
     modal?.kind === "training"
       ? showKeys
-        ? `offer.trainings.${modal.trainingId}.title`
-        : trainingTitle
+        ? `offer · ${modal.trainingKey}`
+        : trainingEntry?.group.label ?? ""
       : modal?.title ?? "";
-
-  const trainingItem =
-    modal?.kind === "training" ? offerTrainings.find((t) => t.id === modal.trainingId) : null;
-  const trainingDetail =
-    modal?.kind === "training" && modal.trainingId ? getTrainingDetail(modal.trainingId) : null;
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
@@ -116,7 +112,7 @@ function AppShell() {
           <div dangerouslySetInnerHTML={{ __html: modal.bodyHtml }} />
         )}
         {modal?.kind === "training" && (
-          <TrainingModalBody ref={trainingPdfTargetRef} item={trainingItem} detail={trainingDetail} />
+          <TrainingModalBody ref={trainingPdfTargetRef} entry={trainingEntry} />
         )}
         {modal?.kind === "contactCta" && (
           <ContactModalBody onOpenHint={() => openStatic("contact")} />

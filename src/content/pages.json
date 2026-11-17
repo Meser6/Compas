@@ -1,23 +1,47 @@
 {
   "navigation": {
     "tabs": [
-      { "id": "start", "label": "Start" },
-      { "id": "oferta", "label": "Oferta" },
-      { "id": "o-mnie", "label": "O autorze" },
-      { "id": "media", "label": "Media" },
-      { "id": "kontakt", "label": "Kontakt" }
+      {
+        "id": "start",
+        "label": "Start"
+      },
+      {
+        "id": "oferta",
+        "label": "Oferta"
+      },
+      {
+        "id": "o-mnie",
+        "label": "O autorze"
+      },
+      {
+        "id": "media",
+        "label": "Media"
+      },
+      {
+        "id": "kontakt",
+        "label": "Kontakt"
+      }
     ]
   },
   "hero": {
-    "eyebrow": "Szkolenia rad pedagogicznych, warsztaty dla rodziców, zajęcia dla uczniów, tutoring rozwojowy i superwizje pedagogiczne — dla przedszkoli, szkół podstawowych i ponadpodstawowych.",
+    "eyebrow": "Szkolenia dla rad pedagogicznych, warsztaty dla rodziców, zajęcia dla uczniów, tutoring rozwojowy i superwizje pedagogiczne. Praktyczne wsparcie dla przedszkoli i szkół na każdym etapie edukacji.",
     "kickerTitle": "dr n. społ.",
     "kickerName": "Daniel Syrek",
-    "kickerSub": "autor projektu",
+    "kickerSub": "psycholog, pedagog, nauczyciel akademicki, trener",
     "instagramHandle": "compas.dr.syrek",
-    "servicesLeft": ["Warsztaty", "Szkolenia", "Doradztwo"],
-    "servicesRight": ["Tutoring", "Superwizje pedagogiczne", "Rozwój osobisty"],
+    "servicesLeft": [
+      "Warsztaty",
+      "Szkolenia",
+      "Doradztwo"
+    ],
+    "servicesRight": [
+      "Tutoring",
+      "Superwizje pedagogiczne",
+      "Rozwój osobisty"
+    ],
     "ctaPrimary": "Umów rozmowę",
-    "ctaSecondary": "Zobacz obszary współpracy"
+    "ctaSecondary": "Zobacz obszary współpracy",
+    "tagline": "Rozwijamy kompetencje. Wspieramy ludzi. Wzmacniamy edukację."
   },
   "start": {
     "cooperationTitle": "obszary współpracy",
@@ -26,56 +50,78 @@
       {
         "icon": "headLightbulb",
         "title": "Szkolenia Rad Pedagogicznych",
-        "items": ["przedszkola", "szkoły podstawowe", "szkoły ponadpodstawowe"]
+        "items": [
+          "przedszkola",
+          "szkoły podstawowe",
+          "szkoły ponadpodstawowe"
+        ]
       },
       {
         "icon": "handHeart",
         "title": "Warsztaty dla rodziców",
-        "items": ["kształtowanie postaw rodzicielskich", "pedagogika specjalna", "grupy wsparcia", "bezpieczeństwo nieletnich"]
+        "items": [
+          "kształtowanie postaw rodzicielskich",
+          "pedagogika specjalna",
+          "grupy wsparcia",
+          "bezpieczeństwo nieletnich"
+        ]
       },
       {
         "icon": "atom",
         "title": "Zajęcia dla uczniów",
-        "items": ["zajęcia integracyjne", "prelekcje podróżnicze", "komunikacja NVC", "samorozwój"]
+        "items": [
+          "zajęcia integracyjne",
+          "prelekcje podróżnicze",
+          "komunikacja NVC",
+          "samorozwój"
+        ]
       },
       {
         "icon": "sprout",
         "title": "Tutoring rozwojowy",
-        "items": ["obszar zawodowy", "obszar edukacyjny", "obszar „ja”", "obszar relacyjny"]
+        "items": [
+          "obszar zawodowy",
+          "obszar edukacyjny",
+          "obszar „ja”",
+          "obszar relacyjny"
+        ]
       },
       {
         "icon": "handHeart",
         "title": "Superwizje pedagogiczne",
-        "items": ["w placówce", "telefonicznie", "online"]
+        "items": [
+          "w placówce",
+          "telefonicznie",
+          "online"
+        ]
       }
     ],
-    "valuesTitle": "główne",
-    "valuesTitleAccent": "wartości",
     "opinionsTitle": "Opinie",
     "opinionsSub": "Kilka słów od dyrekcji, rad pedagogicznych i rodziców po wspólnych spotkaniach."
   },
   "about": {
     "portraitAlt": "dr Daniel Syrek",
     "kickerTop": "dr Daniel Syrek",
-    "titleAccent": "Autor",
-    "titleRest": "projektu",
-    "lead": "Nazywam się Daniel Syrek — jestem trenerem, szkoleniowcem i pedagogiem. Od lat pracuję z radami pedagogicznymi, rodzicami i uczniami, łącząc kilkanaście specjalizacji pedagogicznych i psychologicznych w jeden, praktyczny sposób pracy z grupą.",
-    "p2": "COMPAS — kierujemy na rozwój — to nie przypadkowa nazwa. Zanim zaproponuję konkretny program, ustalamy wspólnie kierunek: czego potrzebuje dana rada pedagogiczna, klasa albo rodzic. Dokładna tematyka każdego spotkania jest w pełni dostosowywana do potrzeb placówki.",
-    "qualificationsTitle": "Kwalifikacje i uprawnienia"
+    "titleAccent": "Wspólnie obierzmy",
+    "titleRest": "kierunek!",
+    "lead": "Nazywam się Daniel Syrek. Jestem doktorem nauk społecznych, psychologiem, pedagogiem i trenerem. Od lat wspieram nauczycieli, rodziców, uczniów oraz zespoły i organizacje biznesowe, łącząc wiedzę naukową, doświadczenie zawodowe i praktyczne podejście do rozwoju.",
+    "p2": "Ta nazwa odzwierciedla filozofię mojej pracy. Każdy człowiek, zespół i organizacja mają inne potrzeby, wyzwania i cele. Dlatego wspólnie wyznaczamy kierunek, a program każdego szkolenia, warsztatu czy spotkania dostosowuję do rzeczywistych potrzeb uczestników.",
+    "qualificationsTitle": "Kwalifikacje i uprawnienia",
+    "p2Heading": "COMPAS – kierujemy na rozwój"
   },
   "offer": {
     "title": "Oferta",
-    "sub": "Pięć obszarów współpracy i prelekcje podróżnicze — każdy z własną, szczegółową tematyką do wyboru. Kliknij kartę, aby zobaczyć pełen zakres i pobrać konspekt."
+    "sub": "Wybierz grupę odbiorców i obszar tematyczny, a następnie kliknij szkolenie, aby zobaczyć pełny opis, korzyści i program oraz pobrać konspekt."
   },
   "media": {
     "title": "Media",
-    "sub": "Nagrania, wywiady i artykuły o mnie oraz o mojej aktywności zawodowej i podróżniczej.",
+    "sub": "Wywiady, podcasty i rozmowy o szkole, wychowaniu i zdrowiu psychicznym.",
     "videosHeading": "Filmy",
     "articlesHeading": "Artykuły"
   },
   "contact": {
     "title": "Kontakt",
-    "sub": "Zapraszam do kontaktu, aby ustalić szczegóły spotkania — dokładna tematyka szkoleń, warsztatów i prelekcji zostaje w pełni dostosowana do potrzeb klienta.",
+    "sub": "Zapraszam do kontaktu! Wspólnie ustalimy szczegóły współpracy i dopasujemy tematykę szkoleń, warsztatów oraz prelekcji do Twoich potrzeb i oczekiwań.",
     "instagramLabel": "Instagram:",
     "phoneLabel": "Telefon:",
     "emailLabel": "E-mail:",

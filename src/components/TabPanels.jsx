@@ -36,7 +36,6 @@ function resolveMediaImage(ref) {
 export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
   const { tx } = useContentStrings();
   const is = (id) => activeTab === id;
-  const s = CONTENT.pages.start;
   const a = CONTENT.pages.about;
   const o = CONTENT.pages.offer;
   const m = CONTENT.pages.media;
@@ -71,32 +70,6 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
       <Panel id="start" active={is("start")} labelledBy="tab-start">
         <CooperationSteps />
 
-        <section className="values-banner" aria-labelledby="values-heading">
-          <Reveal>
-            <div className="values-banner__media photo-shadow-accent">
-              <SmartImage
-                imageKey="groupTeens"
-                {...imgPair(IMG.groupTeens)}
-                alt="Zajęcia integracyjne z młodzieżą"
-                loading="lazy"
-              />
-            </div>
-          </Reveal>
-          <Reveal>
-            <div className="values-banner__copy">
-              <h2 id="values-heading" className="values-banner__title">
-                <span>{tx("pages.start.valuesTitle", s.valuesTitle)}</span>
-                <span className="values-banner__accent">{tx("pages.start.valuesTitleAccent", s.valuesTitleAccent)}</span>
-              </h2>
-              <ul className="values-list">
-                {aboutData.values.map((value, i) => (
-                  <li key={value}>{tx(`about.values[${i}]`, value)}</li>
-                ))}
-              </ul>
-            </div>
-          </Reveal>
-        </section>
-
         <OpinionsCarousel />
       </Panel>
 
@@ -118,9 +91,6 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
                   className="about-portrait__img"
                 />
               </div>
-              <span className="about-compass-badge" aria-hidden="true">
-                <img src="/images/brand/decor-mark.svg" alt="" />
-              </span>
             </button>
           </Reveal>
           <Reveal>
@@ -136,6 +106,7 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
                 compas.dr.syrek
               </a>
               <p className="about-intro-lead">{tx("pages.about.lead", a.lead)}</p>
+              <h3 className="about-subheading">{tx("pages.about.p2Heading", a.p2Heading)}</h3>
               <p>{tx("pages.about.p2", a.p2)}</p>
             </div>
           </Reveal>
@@ -179,12 +150,18 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
         <p className="section-sub">{tx("pages.media.sub", m.sub)}</p>
 
         <h3 className="media-group__heading">{tx("pages.media.videosHeading", m.videosHeading)}</h3>
-        <div className="media-grid">
+        <div className="media-grid media-grid--videos">
           {mediaData.videos.map((item, i) => (
-            <Reveal as="a" key={item.id} className="card media-card" href={item.url} target="_blank" rel="noopener noreferrer">
-              <div className="media-frame card-img-frame">
-                <SmartImage className="card-img" primary={resolveMediaImage(item.image)} alt="" loading="lazy" />
-                <span className="media-card__play" aria-hidden="true">▶</span>
+            <Reveal key={item.id} className="card media-card media-card--video">
+              <div className="media-video">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${item.youtubeId}${item.start ? `?start=${item.start}` : ""}`}
+                  title={item.title}
+                  loading="lazy"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
               </div>
               <h3>{tx(`media.videos[${i}].title`, item.title)}</h3>
               <p>{tx(`media.videos[${i}].description`, item.description)}</p>
@@ -192,18 +169,22 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
           ))}
         </div>
 
-        <h3 className="media-group__heading">{tx("pages.media.articlesHeading", m.articlesHeading)}</h3>
-        <div className="media-grid">
-          {mediaData.articles.map((item, i) => (
-            <Reveal as="a" key={item.id} className="card media-card" href={item.url} target="_blank" rel="noopener noreferrer">
-              <div className="media-frame card-img-frame">
-                <SmartImage className="card-img" primary={resolveMediaImage(item.image)} alt="" loading="lazy" />
-              </div>
-              <h3>{tx(`media.articles[${i}].title`, item.title)}</h3>
-              <p>{tx(`media.articles[${i}].description`, item.description)}</p>
-            </Reveal>
-          ))}
-        </div>
+        {mediaData.articles.length ? (
+          <>
+            <h3 className="media-group__heading">{tx("pages.media.articlesHeading", m.articlesHeading)}</h3>
+            <div className="media-grid">
+              {mediaData.articles.map((item, i) => (
+                <Reveal as="a" key={item.id} className="card media-card" href={item.url} target="_blank" rel="noopener noreferrer">
+                  <div className="media-frame card-img-frame">
+                    <SmartImage className="card-img" primary={resolveMediaImage(item.image)} alt="" loading="lazy" />
+                  </div>
+                  <h3>{tx(`media.articles[${i}].title`, item.title)}</h3>
+                  <p>{tx(`media.articles[${i}].description`, item.description)}</p>
+                </Reveal>
+              ))}
+            </div>
+          </>
+        ) : null}
       </Panel>
 
       <Panel id="kontakt" active={is("kontakt")} labelledBy="tab-kontakt">

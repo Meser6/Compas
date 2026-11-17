@@ -2,19 +2,32 @@
   "videos": [
     {
       "id": "v1",
-      "title": "Nagranie wideo (przykład — podmień link)",
-      "description": "Miejsce na film, wystąpienie albo relację z warsztatów.",
-      "url": "https://www.instagram.com/compas.dr.syrek/",
-      "image": "misc/stock-meeting.jpg"
+      "youtubeId": "cUsSNUx6ul8",
+      "start": 195,
+      "title": "Czy szkoła ma jeszcze sens? O dzieciach, rodzicach, ocenach i AI",
+      "description": "Korneta Podcast"
+    },
+    {
+      "id": "v2",
+      "youtubeId": "TznpyMl8kqU",
+      "start": 0,
+      "title": "Wypaleni nauczyciele, wypaleni rodzice. A dzieci?",
+      "description": "Let's Talk!"
+    },
+    {
+      "id": "v3",
+      "youtubeId": "toq17SsyaY0",
+      "start": 0,
+      "title": "Szkoła a rodzic – jak sprawnie się komunikować, by wspierać dziecko w edukacji?",
+      "description": "Cześć Rodzice #4"
+    },
+    {
+      "id": "v4",
+      "youtubeId": "KPq6WBOP5lo",
+      "start": 1837,
+      "title": "„Granica moich kompetencji nie jest granicą moich możliwości…”",
+      "description": "Och Anna"
     }
   ],
-  "articles": [
-    {
-      "id": "a1",
-      "title": "Artykuł o mnie lub mojej aktywności (przykład — podmień link)",
-      "description": "Miejsce na wywiad, publikację albo wzmiankę prasową.",
-      "url": "https://www.instagram.com/compas.dr.syrek/",
-      "image": "about/group-teachers.jpg"
-    }
-  ]
+  "articles": []
 }

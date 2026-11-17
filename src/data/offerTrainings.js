@@ -6,7 +6,7 @@ const IMAGES_PUBLIC_PREFIX = "/images";
  * Rozwiązuje odniesienie do grafiki:
  * - `https://…` / `http://…` — bez zmian
  * - `/…` — plik z `public/` (np. `/images/…`)
- * - inne (np. `oferta/2025/zdjecie.jpg`) — `public/images/…` → URL `/images/oferta/2025/zdjecie.jpg`
+ * - inne (np. `about/zdjecie.jpg`) — URL `/images/about/zdjecie.jpg`
  */
 function resolveMediaRef(ref) {
   if (ref == null || ref === "") return "";
@@ -16,31 +16,34 @@ function resolveMediaRef(ref) {
   return `${IMAGES_PUBLIC_PREFIX}/${s.replace(/^\/+/, "")}`;
 }
 
-function normalizeImage(image) {
-  if (image == null) return { primary: "", fallback: "" };
-  if (typeof image === "string") {
-    const u = resolveMediaRef(image);
-    return { primary: u, fallback: u };
+/**
+ * Struktura `content/offer.json`:
+ * - `groups[]` — grupy odbiorców (rady pedagogiczne, rodzice, uczniowie, biznes),
+ *   każda z `categories[]` → `items[]` ({ id, title, description? }).
+ * - `descriptions{}` — pełne opisy szkoleń (opis, korzyści, program); pozycja w katalogu
+ *   wskazuje opis przez pole `description`. Jeden opis może być użyty w kilku grupach.
+ */
+export const offerGroups = offerData.groups.map((g) => ({ ...g, image: resolveMediaRef(g.image) }));
+export const offerDescriptions = offerData.descriptions;
+
+/** Klucz pozycji w modalu: `grupa/pozycja`. */
+export const offerItemKey = (groupId, itemId) => `${groupId}/${itemId}`;
+
+export function findOfferItem(key) {
+  if (!key) return null;
+  const [groupId, itemId] = key.split("/");
+  const group = offerGroups.find((g) => g.id === groupId);
+  if (!group) return null;
+  for (const category of group.categories) {
+    const item = category.items.find((i) => i.id === itemId);
+    if (item) {
+      return {
+        group,
+        category,
+        item,
+        description: item.description ? offerDescriptions[item.description] ?? null : null,
+      };
+    }
   }
-  const primary = image.primary ?? image.url ?? image.src ?? "";
-  const fallback = image.fallback ?? primary;
-  return {
-    primary: resolveMediaRef(primary),
-    fallback: resolveMediaRef(fallback),
-  };
-}
-
-function normalizeTraining(t) {
-  const { image, ...rest } = t;
-  return {
-    ...rest,
-    images: normalizeImage(image),
-  };
-}
-
-export const offerFilterTypes = offerData.filterTypes;
-export const offerTrainings = offerData.trainings.map(normalizeTraining);
-
-export function getTrainingDetail(id) {
-  return offerTrainings.find((t) => t.id === id)?.detail ?? null;
+  return null;
 }
