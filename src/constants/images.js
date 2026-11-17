@@ -8,9 +8,9 @@ export const IMG = {
   aboutPortrait: {
     file: "/images/photos/daniel-syrek.jpg",
   },
-  /** Portret na stronie głównej (nagłówek). */
+  /** Portret na stronie głównej (nagłówek) — grafika z własną zieloną obwódką w pliku. */
   heroPortrait: {
-    file: "/images/photos/daniel-syrek.jpg",
+    file: "/images/photos/daniel-syrek-badge.jpg",
   },
   /** Zdjęcie grupowe z rady pedagogicznej — zakładka „Kontakt”. */
   groupTeachers: {
