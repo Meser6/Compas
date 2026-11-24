@@ -24,7 +24,9 @@
     ]
   },
   "hero": {
-    "eyebrow": "Szkolenia dla rad pedagogicznych, warsztaty dla rodziców, zajęcia dla uczniów, tutoring rozwojowy i superwizje pedagogiczne. Praktyczne wsparcie dla przedszkoli i szkół na każdym etapie edukacji.",
+    "eyebrow": "Szkolenia dla rad pedagogicznych i klientów biznesowych, warsztaty dla rodziców, zajęcia dla uczniów, tutoring rozwojowy oraz superwizje pedagogiczne. Wspieramy rozwój ludzi i zespołów w przedszkolach, szkołach, firmach, placówkach medycznych, opiekuńczych i wychowawczych oraz innych instytucjach i organizacjach.",
+    "eyebrowNote": "Praktyczna wiedza, indywidualne podejście i rozwiązania dopasowane do rzeczywistych potrzeb.",
+    "eyebrowCta": "Skontaktuj się z nami i wspólnie obierzmy kierunek rozwoju!",
     "kickerTitle": "dr n. społ.",
     "kickerName": "Daniel Syrek",
     "kickerSub": "psycholog, pedagog, nauczyciel akademicki, trener",
@@ -40,64 +42,13 @@
       "Rozwój osobisty"
     ],
     "ctaPrimary": "Umów rozmowę",
-    "ctaSecondary": "Zobacz obszary współpracy",
+    "ctaSecondary": "Zobacz ofertę",
     "tagline": "Rozwijamy kompetencje. Wspieramy ludzi. Wzmacniamy edukację."
   },
   "start": {
-    "cooperationTitle": "obszary współpracy",
-    "cooperationSub": "Pięć ścieżek, w których najczęściej się spotykamy — każdą dopasowujemy do konkretnej grupy i placówki.",
-    "cooperation": [
-      {
-        "icon": "headLightbulb",
-        "title": "Szkolenia Rad Pedagogicznych",
-        "items": [
-          "przedszkola",
-          "szkoły podstawowe",
-          "szkoły ponadpodstawowe"
-        ]
-      },
-      {
-        "icon": "handHeart",
-        "title": "Warsztaty dla rodziców",
-        "items": [
-          "kształtowanie postaw rodzicielskich",
-          "pedagogika specjalna",
-          "grupy wsparcia",
-          "bezpieczeństwo nieletnich"
-        ]
-      },
-      {
-        "icon": "atom",
-        "title": "Zajęcia dla uczniów",
-        "items": [
-          "zajęcia integracyjne",
-          "prelekcje podróżnicze",
-          "komunikacja NVC",
-          "samorozwój"
-        ]
-      },
-      {
-        "icon": "sprout",
-        "title": "Tutoring rozwojowy",
-        "items": [
-          "obszar zawodowy",
-          "obszar edukacyjny",
-          "obszar „ja”",
-          "obszar relacyjny"
-        ]
-      },
-      {
-        "icon": "handHeart",
-        "title": "Superwizje pedagogiczne",
-        "items": [
-          "w placówce",
-          "telefonicznie",
-          "online"
-        ]
-      }
-    ],
     "opinionsTitle": "Opinie",
-    "opinionsSub": "Kilka słów od dyrekcji, rad pedagogicznych i rodziców po wspólnych spotkaniach."
+    "opinionsSub": "Co Ci się najbardziej podobało w szkoleniu?",
+    "partnersTitle": "Firmy, z którymi współpracuję"
   },
   "about": {
     "portraitAlt": "dr Daniel Syrek",

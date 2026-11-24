@@ -18,8 +18,8 @@ export const TrainingModalBody = forwardRef(function TrainingModalBody({ entry }
   const { group, category, item, description: d } = entry;
   const pdfUi = CONTENT.ui.pdf;
   const co = CONTENT.contact;
-  // Wezwanie „Zamów szkolenie dla rady pedagogicznej” pasuje tylko do oferty dla rad pedagogicznych.
-  const showCta = d?.cta && group.id === "rady";
+  // Każda grupa odbiorców ma własne opisy, więc wezwanie (cta) zawsze pasuje do grupy.
+  const showCta = Boolean(d?.cta);
 
   return (
     <div ref={ref} className="training-modal__shell training-modal training-modal--pdf-root">
@@ -36,7 +36,7 @@ export const TrainingModalBody = forwardRef(function TrainingModalBody({ entry }
       {d ? (
         <>
           <section className="training-modal__block">
-            <h3 className="training-modal__heading">{tx("ui.trainingModal.descriptionHeading", tm.descriptionHeading)}</h3>
+            <h3 className="training-modal__heading">{d.descriptionHeading ?? tx("ui.trainingModal.descriptionHeading", tm.descriptionHeading)}</h3>
             {d.description.map((p, i) => (
               <p className="training-modal__intro" key={i}>
                 {p}
@@ -58,7 +58,7 @@ export const TrainingModalBody = forwardRef(function TrainingModalBody({ entry }
 
           {d.program?.length ? (
             <section className="training-modal__block">
-              <h3 className="training-modal__heading">{tx("ui.trainingModal.programHeading", tm.programHeading)}</h3>
+              <h3 className="training-modal__heading">{d.programHeading ?? tx("ui.trainingModal.programHeading", tm.programHeading)}</h3>
               <ol className="training-modal__list training-modal__list--ordered">
                 {d.program.map((line, i) => (
                   <li key={i}>{line}</li>

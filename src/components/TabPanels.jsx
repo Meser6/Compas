@@ -9,7 +9,7 @@ import { OfferCatalog } from "./OfferCatalog.jsx";
 import { OpinionsCarousel } from "./OpinionsCarousel.jsx";
 import { PhotoLightbox } from "./PhotoLightbox.jsx";
 import { SmartImage } from "./SmartImage";
-import { CooperationSteps } from "./CooperationSteps.jsx";
+import { PartnersMarquee } from "./PartnersMarquee.jsx";
 import { InstagramIcon } from "./InstagramIcon.jsx";
 import { MailIcon, PhoneIcon, ArrowRightIcon } from "./Icons.jsx";
 
@@ -103,9 +103,9 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
   return (
     <div className="tab-panels container">
       <Panel id="start" active={is("start")} labelledBy="tab-start">
-        <CooperationSteps />
-
         <OpinionsCarousel />
+
+        <PartnersMarquee />
       </Panel>
 
       <Panel id="o-mnie" active={is("o-mnie")} labelledBy="tab-o-mnie">

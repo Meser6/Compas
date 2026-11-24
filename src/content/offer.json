@@ -3,7 +3,7 @@
     {
       "id": "rady",
       "label": "Rady pedagogiczne",
-      "title": "Szkolenia dla rad pedagogicznych",
+      "title": "Szkolenia i warsztaty dla rad pedagogicznych",
       "intro": "",
       "image": "photos/szkolenie-rady-pedagogicznej.jpg",
       "categories": [
@@ -361,7 +361,7 @@
       "label": "Rodzice",
       "title": "Szkolenia i warsztaty dla rodziców",
       "intro": "",
-      "image": "photos/forum-psychologiczne-publicznosc.jpg",
+      "image": "photos/szkolenie-grono-pedagogiczne.jpg",
       "categories": [
         {
           "id": "zdrowie-psychiczne-i-kryzysy",
@@ -370,52 +370,52 @@
             {
               "id": "emocje-w-szkolnej-lawce-jak-budowac-bezpieczenstwo-emocjonal",
               "title": "Emocje w szkolnej ławce – jak budować bezpieczeństwo emocjonalne uczniów?",
-              "description": "emocjonalna-tarcza-ucznia-jak-budowac-poczucie-bezpieczenstw"
+              "description": "rodzice--emocje-w-szkolnej-lawce-jak-budowac-bezpieczenstwo-emocjonal"
             },
             {
               "id": "dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd",
               "title": "Dlaczego młodzi mają dość? Jak zrozumieć ich emocje i naprawdę pomóc?",
-              "description": "dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd"
+              "description": "rodzice--dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd"
             },
             {
               "id": "zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja",
               "title": "Zdrowie zaczyna się w szkole – jak uczyć nawyków, które zostają na całe życie?",
-              "description": "zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja"
+              "description": "rodzice--zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja"
             },
             {
               "id": "uczen-w-kryzysie-samobojczym-jak-rozpoznac-zagrozenie-i-skut",
               "title": "Uczeń w kryzysie samobójczym – jak rozpoznać zagrożenie i skutecznie reagować?",
-              "description": "uczen-w-kryzysie-samobojczym-jak-rozpoznac-zagrozenie-i-skut"
+              "description": "rodzice--uczen-w-kryzysie-samobojczym-jak-rozpoznac-zagrozenie-i-skut"
             },
             {
               "id": "rezyliencja-jak-wspierac-budowanie-odpornosci-psychicznej-uc",
               "title": "Rezyliencja – jak wspierać budowanie odporności psychicznej uczniów",
-              "description": "rezyliencja-w-szkole-jak-budowac-odpornosc-psychiczna-ucznio"
+              "description": "rodzice--rezyliencja-jak-wspierac-budowanie-odpornosci-psychicznej-uc"
             },
             {
               "id": "samookaleczenia-i-mysli-samobojcze-uczniow-jak-rozpoznac-zag",
               "title": "Samookaleczenia i myśli samobójcze uczniów. Jak rozpoznać zagrożenie i pomóc?",
-              "description": "zauwaz-zapytaj-zareaguj-pierwsza-pomoc-w-kryzysie-samobojczy"
+              "description": "rodzice--samookaleczenia-i-mysli-samobojcze-uczniow-jak-rozpoznac-zag"
             },
             {
               "id": "trudna-rzeczywistosc-szansa-czy-zagrozenie-dla-dzieci-i-mlod",
               "title": "Trudna rzeczywistość: szansa czy zagrożenie dla dzieci i młodzieży?",
-              "description": "miedzy-ekranem-a-szkolna-lawka-zdrowie-psychiczne-wspolczesn"
+              "description": "rodzice--trudna-rzeczywistosc-szansa-czy-zagrozenie-dla-dzieci-i-mlod"
             },
             {
               "id": "gdy-nastolatek-przezywa-kryzys-jak-rozpoznac-zagrozenie-i-sk",
               "title": "Gdy nastolatek przeżywa kryzys. Jak rozpoznać zagrożenie i skutecznie pomóc?",
-              "description": "gdy-nastolatek-przezywa-kryzys-jak-rozpoznac-zagrozenie-i-sk"
+              "description": "rodzice--gdy-nastolatek-przezywa-kryzys-jak-rozpoznac-zagrozenie-i-sk"
             },
             {
               "id": "zanim-uczen-poprosi-o-pomoc-jak-rozpoznawac-problemy-psychic",
               "title": "Zanim uczeń poprosi o pomoc. Jak rozpoznawać problemy psychiczne dzieci i młodzieży?",
-              "description": "zanim-uczen-poprosi-o-pomoc-jak-rozpoznawac-problemy-psychic"
+              "description": "rodzice--zanim-uczen-poprosi-o-pomoc-jak-rozpoznawac-problemy-psychic"
             },
             {
               "id": "to-nie-zawsze-taki-wiek-jak-rozpoznawac-problemy-psychiczne",
               "title": "To nie zawsze „taki wiek”! Jak rozpoznawać problemy psychiczne uczniów?",
-              "description": "to-nie-zawsze-taki-wiek-jak-rozpoznawac-problemy-psychiczne"
+              "description": "rodzice--to-nie-zawsze-taki-wiek-jak-rozpoznawac-problemy-psychiczne"
             }
           ]
         },
@@ -426,32 +426,32 @@
             {
               "id": "hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc",
               "title": "Hejt nie kończy się po dzwonku – jak reagować na cyberprzemoc w szkole?",
-              "description": "hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc"
+              "description": "rodzice--hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc"
             },
             {
               "id": "to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego",
               "title": "„To był tylko żart!” – jak rozpoznawać hejt i skutecznie na niego reagować?",
-              "description": "to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego"
+              "description": "rodzice--to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego"
             },
             {
               "id": "nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym",
               "title": "„Nikt go nie wyzywa. Po prostu nikt go nie wybiera” – jak zatrzymać wykluczenie w klasie?",
-              "description": "nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym"
+              "description": "rodzice--nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym"
             },
             {
               "id": "przemoc-rowiesnicza-w-szkole-i-cyberprzestrzeni",
               "title": "Przemoc rówieśnicza w szkole i cyberprzestrzeni",
-              "description": "przemoc-rowiesnicza-i-cyberprzemoc-rozpoznawanie-profilaktyk"
+              "description": "rodzice--przemoc-rowiesnicza-w-szkole-i-cyberprzestrzeni"
             },
             {
               "id": "szkola-wolna-od-przemocy-jak-budowac-bezpieczna-przestrzen-d",
               "title": "Szkoła wolna od przemocy – jak budować bezpieczną przestrzeń dla każdego ucznia? Nie tylko reagowanie, ale przede wszystkim zapobieganie",
-              "description": "szkola-wolna-od-przemocy-zaczyna-sie-od-profilaktyki"
+              "description": "rodzice--szkola-wolna-od-przemocy-jak-budowac-bezpieczna-przestrzen-d"
             },
             {
               "id": "to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza",
               "title": "„To tylko żarty!” Kiedy konflikt staje się przemocą rówieśniczą?",
-              "description": "to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza"
+              "description": "rodzice--to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza"
             }
           ]
         },
@@ -462,17 +462,17 @@
             {
               "id": "dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac",
               "title": "Dziecko w sieci – jak chronić, zamiast tylko zakazywać?",
-              "description": "dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac"
+              "description": "rodzice--dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac"
             },
             {
               "id": "kiedy-idol-przekracza-granice",
               "title": "Kiedy idol przekracza granice",
-              "description": "milion-obserwujacych-zero-bezpieczenstwa"
+              "description": "rodzice--kiedy-idol-przekracza-granice"
             },
             {
               "id": "nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow",
               "title": "Nie wszystko, co w sieci, jest prawdą! Jak uczyć cyfrowej odpowiedzialności?",
-              "description": "nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow"
+              "description": "rodzice--nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow"
             }
           ]
         },
@@ -483,17 +483,17 @@
             {
               "id": "zdrowie-psychiczne-uczniow-od-profilaktyki-przemocy-i-uzalez",
               "title": "Zdrowie psychiczne uczniów – od profilaktyki przemocy i uzależnień po interwencję kryzysową",
-              "description": "bezpieczna-szkola-profilaktyka-uzaleznien-przeciwdzialanie-p"
+              "description": "rodzice--zdrowie-psychiczne-uczniow-od-profilaktyki-przemocy-i-uzalez"
             },
             {
               "id": "profilaktyka-uzaleznien-behawioralnych-w-szkolach-i-placowka",
               "title": "Profilaktyka uzależnień behawioralnych w szkołach i placówkach oświatowych",
-              "description": "kiedy-nawyk-staje-sie-problemem"
+              "description": "rodzice--profilaktyka-uzaleznien-behawioralnych-w-szkolach-i-placowka"
             },
             {
               "id": "profilaktyka-uzaleznien-od-substancji-psychoaktywnych-i-uzal",
               "title": "Profilaktyka uzależnień od substancji psychoaktywnych i uzależnień behawioralnych a przeciwdziałanie przemocy rówieśniczej",
-              "description": "uzaleznienia-i-przemoc-rowiesnicza-profilaktyka-i-skuteczne"
+              "description": "rodzice--profilaktyka-uzaleznien-od-substancji-psychoaktywnych-i-uzal"
             }
           ]
         },
@@ -504,12 +504,12 @@
             {
               "id": "jak-rozbudzic-chec-do-nauki-skuteczne-techniki-motywowania-u",
               "title": "Jak rozbudzić chęć do nauki? Skuteczne techniki motywowania uczniów",
-              "description": "jak-rozbudzic-chec-do-nauki-skuteczne-techniki-motywowania-u"
+              "description": "rodzice--jak-rozbudzic-chec-do-nauki-skuteczne-techniki-motywowania-u"
             },
             {
               "id": "nie-tylko-prymusi-jak-dostrzegac-i-rozwijac-potencjal-ucznio",
               "title": "Nie tylko prymusi! Jak dostrzegać i rozwijać potencjał uczniów przeciętnych?",
-              "description": "nie-tylko-prymusi-jak-dostrzegac-i-rozwijac-potencjal-ucznio"
+              "description": "rodzice--nie-tylko-prymusi-jak-dostrzegac-i-rozwijac-potencjal-ucznio"
             }
           ]
         },
@@ -520,32 +520,32 @@
             {
               "id": "nie-mow-mi-skup-sie-praca-z-uczniem-z-adhd",
               "title": "Nie mów mi: skup się! – praca z uczniem z ADHD",
-              "description": "adhd-nie-miesci-sie-w-szkolnej-lawce"
+              "description": "rodzice--nie-mow-mi-skup-sie-praca-z-uczniem-z-adhd"
             },
             {
               "id": "nie-diagnoza-lecz-potrzeby-praca-z-uczniem-o-spe",
               "title": "Nie diagnoza, lecz potrzeby – praca z uczniem o SPE",
-              "description": "dostosowanie-to-nie-taryfa-ulgowa"
+              "description": "rodzice--nie-diagnoza-lecz-potrzeby-praca-z-uczniem-o-spe"
             },
             {
               "id": "seksualnosc-dzieci-ze-specjalnymi-potrzebami",
               "title": "Seksualność dzieci ze specjalnymi potrzebami",
-              "description": "seksualnosc-uczniow-ze-spe-bez-tabu-i-bez-zawstydzania"
+              "description": "rodzice--seksualnosc-dzieci-ze-specjalnymi-potrzebami"
             },
             {
               "id": "krzyk-ucieczka-wycofanie-jak-reagowac-na-trudne-zachowania-u",
               "title": "Krzyk, ucieczka, wycofanie. Jak reagować na trudne zachowania uczniów w spektrum autyzmu?",
-              "description": "krzyk-ucieczka-wycofanie-jak-reagowac-na-trudne-zachowania-u"
+              "description": "rodzice--krzyk-ucieczka-wycofanie-jak-reagowac-na-trudne-zachowania-u"
             },
             {
               "id": "spektrum-autyzmu-bez-schematow-jak-wspierac-ucznia-na-co-dzi",
               "title": "Spektrum autyzmu bez schematów. Jak wspierać ucznia na co dzień?",
-              "description": "spektrum-autyzmu-bez-schematow-jak-wspierac-ucznia-na-co-dzi"
+              "description": "rodzice--spektrum-autyzmu-bez-schematow-jak-wspierac-ucznia-na-co-dzi"
             },
             {
               "id": "kazdy-uczen-ma-znaczenie-dobrostan-empatia-i-edukacja-wlacza",
               "title": "Każdy uczeń ma znaczenie. Dobrostan, empatia i edukacja włączająca w praktyce",
-              "description": "jedna-klasa-wiele-potrzeb-jak-wspierac-dobrostan-i-budowac-e"
+              "description": "rodzice--kazdy-uczen-ma-znaczenie-dobrostan-empatia-i-edukacja-wlacza"
             }
           ]
         },
@@ -556,22 +556,22 @@
             {
               "id": "szkola-i-dom-po-jednej-stronie-jak-wspolnie-motywowac-ucznia",
               "title": "Szkoła i dom po jednej stronie – jak wspólnie motywować ucznia?",
-              "description": "szkola-i-dom-po-jednej-stronie-jak-wspolnie-motywowac-ucznia"
+              "description": "rodzice--szkola-i-dom-po-jednej-stronie-jak-wspolnie-motywowac-ucznia"
             },
             {
               "id": "od-konfliktu-do-porozumienia-mediacje-i-trudne-rozmowy-z-rod",
               "title": "Od konfliktu do porozumienia – mediacje i trudne rozmowy z rodzicami",
-              "description": "trudny-rodzic-trudna-rozmowa-jak-budowac-porozumienie-i-staw"
+              "description": "rodzice--od-konfliktu-do-porozumienia-mediacje-i-trudne-rozmowy-z-rod"
             },
             {
               "id": "porozumienie-bez-przemocy-jak-mowic-zeby-sie-porozumiec",
               "title": "Porozumienie bez przemocy – jak mówić, żeby się porozumieć?",
-              "description": "szakal-w-pokoju-nauczycielskim"
+              "description": "rodzice--porozumienie-bez-przemocy-jak-mowic-zeby-sie-porozumiec"
             },
             {
               "id": "nowa-rodzina-nowe-emocje-jak-wspierac-dzieci-w-rodzinach-zre",
               "title": "Nowa rodzina, nowe emocje. Jak wspierać dzieci w rodzinach zrekonstruowanych?",
-              "description": "rodzina-patchworkowa-a-szkola-jak-wspierac-dziecko-i-wspolpr"
+              "description": "rodzice--nowa-rodzina-nowe-emocje-jak-wspierac-dzieci-w-rodzinach-zre"
             }
           ]
         },
@@ -582,17 +582,17 @@
             {
               "id": "pokolenie-z-i-alfa-w-szkole-jak-zrozumiec-wspolczesnych-uczn",
               "title": "Pokolenie Z i Alfa w szkole – jak zrozumieć współczesnych uczniów?",
-              "description": "alfa-nie-jest-z-innej-planety"
+              "description": "rodzice--pokolenie-z-i-alfa-w-szkole-jak-zrozumiec-wspolczesnych-uczn"
             },
             {
               "id": "roznorodnosc-wsrod-mlodziezy-jak-budowac-szkole-wolna-od-dys",
               "title": "Różnorodność wśród młodzieży. Jak budować szkołę wolną od dyskryminacji?",
-              "description": "roznorodnosc-w-szkole-jak-budowac-kulture-szacunku-i-zrozumi"
+              "description": "rodzice--roznorodnosc-wsrod-mlodziezy-jak-budowac-szkole-wolna-od-dys"
             },
             {
               "id": "kiedys-to-bylo-nie-jest-metoda-nauczania",
               "title": "„Kiedyś to było…” nie jest metodą nauczania!",
-              "description": "dzisiejsza-mlodziez-jest-inna-jak-zrozumiec-wspolczesnego-uc"
+              "description": "rodzice--kiedys-to-bylo-nie-jest-metoda-nauczania"
             }
           ]
         }
@@ -601,7 +601,7 @@
     {
       "id": "uczniowie",
       "label": "Uczniowie",
-      "title": "Warsztaty i zajęcia dla uczniów",
+      "title": "Warsztaty i zajęcia dla dzieci i młodzieży",
       "intro": "19 propozycji do opracowania w formie warsztatowej dostosowanej do wieku uczniów",
       "image": "photos/zajecia-z-mlodzieza.jpg",
       "categories": [
@@ -612,27 +612,27 @@
             {
               "id": "emocje-w-szkolnej-lawce-jak-budowac-bezpieczenstwo-emocjonal",
               "title": "Emocje w szkolnej ławce – jak budować bezpieczeństwo emocjonalne uczniów?",
-              "description": "emocjonalna-tarcza-ucznia-jak-budowac-poczucie-bezpieczenstw"
+              "description": "uczniowie--emocje-w-szkolnej-lawce-jak-budowac-bezpieczenstwo-emocjonal"
             },
             {
               "id": "dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd",
               "title": "Dlaczego młodzi mają dość? Jak zrozumieć ich emocje i naprawdę pomóc?",
-              "description": "dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd"
+              "description": "uczniowie--dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd"
             },
             {
               "id": "zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja",
               "title": "Zdrowie zaczyna się w szkole – jak uczyć nawyków, które zostają na całe życie?",
-              "description": "zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja"
+              "description": "uczniowie--zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja"
             },
             {
               "id": "rezyliencja-jak-wspierac-budowanie-odpornosci-psychicznej-uc",
               "title": "Rezyliencja – jak wspierać budowanie odporności psychicznej uczniów",
-              "description": "rezyliencja-w-szkole-jak-budowac-odpornosc-psychiczna-ucznio"
+              "description": "uczniowie--rezyliencja-jak-wspierac-budowanie-odpornosci-psychicznej-uc"
             },
             {
               "id": "trudna-rzeczywistosc-szansa-czy-zagrozenie-dla-dzieci-i-mlod",
               "title": "Trudna rzeczywistość: szansa czy zagrożenie dla dzieci i młodzieży?",
-              "description": "miedzy-ekranem-a-szkolna-lawka-zdrowie-psychiczne-wspolczesn"
+              "description": "uczniowie--trudna-rzeczywistosc-szansa-czy-zagrozenie-dla-dzieci-i-mlod"
             }
           ]
         },
@@ -643,27 +643,27 @@
             {
               "id": "hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc",
               "title": "Hejt nie kończy się po dzwonku – jak reagować na cyberprzemoc w szkole?",
-              "description": "hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc"
+              "description": "uczniowie--hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc"
             },
             {
               "id": "to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego",
               "title": "„To był tylko żart!” – jak rozpoznawać hejt i skutecznie na niego reagować?",
-              "description": "to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego"
+              "description": "uczniowie--to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego"
             },
             {
               "id": "nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym",
               "title": "„Nikt go nie wyzywa. Po prostu nikt go nie wybiera” – jak zatrzymać wykluczenie w klasie?",
-              "description": "nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym"
+              "description": "uczniowie--nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym"
             },
             {
               "id": "szkola-wolna-od-przemocy-jak-budowac-bezpieczna-przestrzen-d",
               "title": "Szkoła wolna od przemocy – jak budować bezpieczną przestrzeń dla każdego ucznia? Nie tylko reagowanie, ale przede wszystkim zapobieganie",
-              "description": "szkola-wolna-od-przemocy-zaczyna-sie-od-profilaktyki"
+              "description": "uczniowie--szkola-wolna-od-przemocy-jak-budowac-bezpieczna-przestrzen-d"
             },
             {
               "id": "to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza",
               "title": "„To tylko żarty!” Kiedy konflikt staje się przemocą rówieśniczą?",
-              "description": "to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza"
+              "description": "uczniowie--to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza"
             }
           ]
         },
@@ -674,17 +674,17 @@
             {
               "id": "dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac",
               "title": "Dziecko w sieci – jak chronić, zamiast tylko zakazywać?",
-              "description": "dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac"
+              "description": "uczniowie--dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac"
             },
             {
               "id": "kiedy-idol-przekracza-granice",
               "title": "Kiedy idol przekracza granice",
-              "description": "milion-obserwujacych-zero-bezpieczenstwa"
+              "description": "uczniowie--kiedy-idol-przekracza-granice"
             },
             {
               "id": "nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow",
               "title": "Nie wszystko, co w sieci, jest prawdą! Jak uczyć cyfrowej odpowiedzialności?",
-              "description": "nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow"
+              "description": "uczniowie--nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow"
             }
           ]
         },
@@ -695,12 +695,12 @@
             {
               "id": "profilaktyka-uzaleznien-behawioralnych-w-szkolach-i-placowka",
               "title": "Profilaktyka uzależnień behawioralnych w szkołach i placówkach oświatowych",
-              "description": "kiedy-nawyk-staje-sie-problemem"
+              "description": "uczniowie--profilaktyka-uzaleznien-behawioralnych-w-szkolach-i-placowka"
             },
             {
               "id": "profilaktyka-uzaleznien-od-substancji-psychoaktywnych-i-uzal",
               "title": "Profilaktyka uzależnień od substancji psychoaktywnych i uzależnień behawioralnych a przeciwdziałanie przemocy rówieśniczej",
-              "description": "uzaleznienia-i-przemoc-rowiesnicza-profilaktyka-i-skuteczne"
+              "description": "uczniowie--profilaktyka-uzaleznien-od-substancji-psychoaktywnych-i-uzal"
             }
           ]
         },
@@ -711,7 +711,7 @@
             {
               "id": "z-klasy-w-zespol-jak-budowac-relacje-ktore-wspieraja-nauke",
               "title": "Z klasy w zespół – jak budować relacje, które wspierają naukę?",
-              "description": "z-klasy-w-zespol-jak-budowac-relacje-ktore-wspieraja-nauke"
+              "description": "uczniowie--z-klasy-w-zespol-jak-budowac-relacje-ktore-wspieraja-nauke"
             }
           ]
         },
@@ -722,7 +722,7 @@
             {
               "id": "kazdy-uczen-ma-znaczenie-dobrostan-empatia-i-edukacja-wlacza",
               "title": "Każdy uczeń ma znaczenie. Dobrostan, empatia i edukacja włączająca w praktyce",
-              "description": "jedna-klasa-wiele-potrzeb-jak-wspierac-dobrostan-i-budowac-e"
+              "description": "uczniowie--kazdy-uczen-ma-znaczenie-dobrostan-empatia-i-edukacja-wlacza"
             }
           ]
         },
@@ -733,7 +733,7 @@
             {
               "id": "porozumienie-bez-przemocy-jak-mowic-zeby-sie-porozumiec",
               "title": "Porozumienie bez przemocy – jak mówić, żeby się porozumieć?",
-              "description": "szakal-w-pokoju-nauczycielskim"
+              "description": "uczniowie--porozumienie-bez-przemocy-jak-mowic-zeby-sie-porozumiec"
             }
           ]
         },
@@ -744,7 +744,7 @@
             {
               "id": "roznorodnosc-wsrod-mlodziezy-jak-budowac-szkole-wolna-od-dys",
               "title": "Różnorodność wśród młodzieży. Jak budować szkołę wolną od dyskryminacji?",
-              "description": "roznorodnosc-w-szkole-jak-budowac-kulture-szacunku-i-zrozumi"
+              "description": "uczniowie--roznorodnosc-wsrod-mlodziezy-jak-budowac-szkole-wolna-od-dys"
             }
           ]
         }
@@ -753,9 +753,9 @@
     {
       "id": "biznes",
       "label": "Biznes",
-      "title": "Szkolenia dla klienta biznesowego",
+      "title": "Szkolenia i warsztaty dla klienta biznesowego",
       "intro": "",
-      "image": "photos/forum-psychologiczne-mikrofon.jpg",
+      "image": "photos/forum-psychologiczne-wyklad.jpg",
       "categories": [
         {
           "id": "dobrostan-i-odpornosc-psychiczna",
@@ -763,27 +763,33 @@
           "items": [
             {
               "id": "pracownik-tez-ma-granice-jak-zapobiegac-wypaleniu-zawodowemu",
-              "title": "Pracownik też ma granice. Jak zapobiegać wypaleniu zawodowemu?"
+              "title": "Pracownik też ma granice. Jak zapobiegać wypaleniu zawodowemu?",
+              "description": "biznes--pracownik-tez-ma-granice-jak-zapobiegac-wypaleniu-zawodowemu"
             },
             {
               "id": "wylacz-autopilota-praktyczny-trening-uwaznosci-w-pracy",
-              "title": "Wyłącz autopilota – praktyczny trening uważności w pracy"
+              "title": "Wyłącz autopilota – praktyczny trening uważności w pracy",
+              "description": "biznes--wylacz-autopilota-praktyczny-trening-uwaznosci-w-pracy"
             },
             {
               "id": "rezyliencja-w-pracy-jak-wzmacniac-odpornosc-psychiczna",
-              "title": "Rezyliencja w pracy – jak wzmacniać odporność psychiczną?"
+              "title": "Rezyliencja w pracy – jak wzmacniać odporność psychiczną?",
+              "description": "biznes--rezyliencja-w-pracy-jak-wzmacniac-odpornosc-psychiczna"
             },
             {
               "id": "mial-byc-zawod-z-pasja-i-co-dalej",
-              "title": "Miał być zawód z pasją… I co dalej?"
+              "title": "Miał być zawód z pasją… I co dalej?",
+              "description": "biznes--mial-byc-zawod-z-pasja-i-co-dalej"
             },
             {
               "id": "gdy-wspolpracownik-przezywa-kryzys-jak-rozpoznac-sygnaly-i-u",
-              "title": "Gdy współpracownik przeżywa kryzys. Jak rozpoznać sygnały i udzielić wsparcia?"
+              "title": "Gdy współpracownik przeżywa kryzys. Jak rozpoznać sygnały i udzielić wsparcia?",
+              "description": "biznes--gdy-wspolpracownik-przezywa-kryzys-jak-rozpoznac-sygnaly-i-u"
             },
             {
               "id": "kiedy-nawyk-staje-sie-problemem-cyfrowa-rownowaga-w-pracy",
-              "title": "Kiedy nawyk staje się problemem. Cyfrowa równowaga w pracy"
+              "title": "Kiedy nawyk staje się problemem. Cyfrowa równowaga w pracy",
+              "description": "biznes--kiedy-nawyk-staje-sie-problemem-cyfrowa-rownowaga-w-pracy"
             }
           ]
         },
@@ -793,23 +799,28 @@
           "items": [
             {
               "id": "szakal-na-spotkaniu-komunikacja-bez-przemocy-w-pracy",
-              "title": "Szakal na spotkaniu. Komunikacja bez przemocy w pracy"
+              "title": "Szakal na spotkaniu. Komunikacja bez przemocy w pracy",
+              "description": "biznes--szakal-na-spotkaniu-komunikacja-bez-przemocy-w-pracy"
             },
             {
               "id": "zgrany-zespol-jak-budowac-relacje-i-rozwiazywac-konflikty",
-              "title": "Zgrany zespół – jak budować relacje i rozwiązywać konflikty?"
+              "title": "Zgrany zespół – jak budować relacje i rozwiązywać konflikty?",
+              "description": "biznes--zgrany-zespol-jak-budowac-relacje-i-rozwiazywac-konflikty"
             },
             {
               "id": "trudny-klient-trudna-rozmowa-jak-budowac-porozumienie-i-staw",
-              "title": "Trudny klient, trudna rozmowa – jak budować porozumienie i stawiać granice?"
+              "title": "Trudny klient, trudna rozmowa – jak budować porozumienie i stawiać granice?",
+              "description": "biznes--trudny-klient-trudna-rozmowa-jak-budowac-porozumienie-i-staw"
             },
             {
               "id": "emocjonalna-tarcza-zespolu-jak-budowac-bezpieczenstwo-psycho",
-              "title": "Emocjonalna tarcza zespołu – jak budować bezpieczeństwo psychologiczne?"
+              "title": "Emocjonalna tarcza zespołu – jak budować bezpieczeństwo psychologiczne?",
+              "description": "biznes--emocjonalna-tarcza-zespolu-jak-budowac-bezpieczenstwo-psycho"
             },
             {
               "id": "to-byl-tylko-zart-jak-reagowac-na-hejt-i-przemoc-w-pracy",
-              "title": "„To był tylko żart!” – jak reagować na hejt i przemoc w pracy?"
+              "title": "„To był tylko żart!” – jak reagować na hejt i przemoc w pracy?",
+              "description": "biznes--to-byl-tylko-zart-jak-reagowac-na-hejt-i-przemoc-w-pracy"
             }
           ]
         },
@@ -819,23 +830,28 @@
           "items": [
             {
               "id": "informacja-zwrotna-ktora-motywuje-jak-wspierac-rozwoj-pracow",
-              "title": "Informacja zwrotna, która motywuje – jak wspierać rozwój pracowników?"
+              "title": "Informacja zwrotna, która motywuje – jak wspierać rozwój pracowników?",
+              "description": "biznes--informacja-zwrotna-ktora-motywuje-jak-wspierac-rozwoj-pracow"
             },
             {
               "id": "jak-rozbudzic-chec-do-dzialania-skuteczne-techniki-motywowan",
-              "title": "Jak rozbudzić chęć do działania? Skuteczne techniki motywowania zespołu"
+              "title": "Jak rozbudzić chęć do działania? Skuteczne techniki motywowania zespołu",
+              "description": "biznes--jak-rozbudzic-chec-do-dzialania-skuteczne-techniki-motywowan"
             },
             {
               "id": "za-moich-czasow-to-nie-argument",
-              "title": "„Za moich czasów…” to nie argument"
+              "title": "„Za moich czasów…” to nie argument",
+              "description": "biznes--za-moich-czasow-to-nie-argument"
             },
             {
               "id": "roznorodnosc-w-pracy-jak-budowac-kulture-szacunku-i-zrozumie",
-              "title": "Różnorodność w pracy – jak budować kulturę szacunku i zrozumienia?"
+              "title": "Różnorodność w pracy – jak budować kulturę szacunku i zrozumienia?",
+              "description": "biznes--roznorodnosc-w-pracy-jak-budowac-kulture-szacunku-i-zrozumie"
             },
             {
               "id": "nie-wszyscy-tak-samo-i-bardzo-dobrze-neuroroznorodnosc-w-zes",
-              "title": "Nie wszyscy tak samo. I bardzo dobrze! Neuroróżnorodność w zespole"
+              "title": "Nie wszyscy tak samo. I bardzo dobrze! Neuroróżnorodność w zespole",
+              "description": "biznes--nie-wszyscy-tak-samo-i-bardzo-dobrze-neuroroznorodnosc-w-zes"
             }
           ]
         },
@@ -845,7 +861,8 @@
           "items": [
             {
               "id": "nie-wszystko-co-w-sieci-jest-prawda-ai-i-krytyczne-myslenie",
-              "title": "Nie wszystko, co w sieci, jest prawdą! AI i krytyczne myślenie w firmie"
+              "title": "Nie wszystko, co w sieci, jest prawdą! AI i krytyczne myślenie w firmie",
+              "description": "biznes--nie-wszystko-co-w-sieci-jest-prawda-ai-i-krytyczne-myslenie"
             }
           ]
         }
@@ -2229,6 +2246,1572 @@
         "Win-Win w praktyce – część warsztatowa – ćwiczenia negocjacyjne, analiza konfliktów szkolnych i trening trudnych rozmów."
       ],
       "cta": "Dobra atmosfera w pracy nie oznacza braku konfliktów, ale umiejętność ich rozwiązywania. Zamów szkolenie, które pomoże Twojej radzie pedagogicznej stać się zespołem, a nie tylko grupą współpracowników."
+    },
+    "rodzice--emocje-w-szkolnej-lawce-jak-budowac-bezpieczenstwo-emocjonal": {
+      "title": "Emocje w szkolnej ławce – jak budować bezpieczeństwo emocjonalne uczniów?",
+      "description": [
+        "Dziecko może bać się oceny, wycofywać z kontaktów lub reagować złością, choć nie umie powiedzieć, co przeżywa. Podczas spotkania rodzice uczą się rozpoznawać sygnały napięcia, odpowiadać na emocje bez zawstydzania i budować domowe warunki sprzyjające poczuciu bezpieczeństwa. Rozmawiamy także o granicach i współpracy ze szkołą."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać, kiedy zachowanie dziecka może świadczyć o przeciążeniu.",
+        "Odpowiadać na silne emocje spokojniej, bez minimalizowania przeżyć.",
+        "Łączyć ciepłą relację z jasnymi, przewidywalnymi granicami.",
+        "Współpracować ze szkołą, gdy dziecko potrzebuje dodatkowego wsparcia."
+      ],
+      "program": [
+        "Emocje dziecka: potrzeby, stres i sygnały przeciążenia.",
+        "Co dziecko słyszy w naszych reakcjach: język akceptacji i wstydu.",
+        "Współregulacja: pomoc w uspokojeniu przed rozmową o zachowaniu.",
+        "Bezpieczeństwo w domu: rytm dnia, przewidywalność i granice.",
+        "Rozmowa z wychowawcą lub specjalistą: jak ustalić wspólne kroki."
+      ]
+    },
+    "rodzice--dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd": {
+      "title": "Dlaczego młodzi mają dość? Jak zrozumieć ich emocje i naprawdę pomóc?",
+      "description": [
+        "Za słowami „nie chce mi się” czy „daj mi spokój” mogą stać presja, samotność, porównywanie się i trudności w budowaniu tożsamości. Spotkanie pomaga rodzicom rozumieć emocjonalną codzienność nastolatków, prowadzić rozmowy bez przesłuchiwania oraz odróżniać typowe napięcia rozwojowe od sygnałów kryzysu."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać źródła presji i przeciążenia współczesnej młodzieży.",
+        "Rozmawiać z nastolatkiem, nie zamieniając dialogu w ocenianie.",
+        "Rozpoznawać zmiany wymagające dodatkowej uwagi i konsultacji.",
+        "Wzmacniać relację, poczucie wpływu i dostępność rodzica."
+      ],
+      "program": [
+        "Dorastanie w świecie oczekiwań, ocen i porównań.",
+        "Co może kryć się za wycofaniem, drażliwością i milczeniem.",
+        "Słuchanie, pytania otwarte i rozmowa bez natychmiastowych rad.",
+        "Dom jako źródło wsparcia i autonomii nastolatka.",
+        "Kiedy szukać pomocy: sygnały kryzysu i dostępne formy wsparcia."
+      ]
+    },
+    "rodzice--zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja": {
+      "title": "Zdrowie zaczyna się w szkole – jak uczyć nawyków, które zostają na całe życie?",
+      "description": [
+        "Dobre nawyki nie powstają od jednego wykładu o zdrowiu. Rodzice przyjrzą się temu, jak codzienne wzorce snu, ruchu, odpoczynku, jedzenia i korzystania z ekranów wpływają na samopoczucie dzieci. Warsztat pomaga planować realistyczne zmiany w domu bez rygorystycznych zasad i zawstydzania."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać nawyki wpływające na regenerację i dobrostan dziecka.",
+        "Wprowadzać stopniowe zmiany z uwzględnieniem potrzeb rodziny.",
+        "Wspierać ruch i odpoczynek bez presji wyników.",
+        "Tworzyć z dzieckiem wykonalne domowe ustalenia."
+      ],
+      "program": [
+        "Zdrowie fizyczne, psychiczne i społeczne jako całość.",
+        "Sen i odpoczynek: co utrudnia regenerację dzieci i młodzieży.",
+        "Aktywność, jedzenie i codzienny rytm bez skrajności.",
+        "Wzorce dorosłych i rozmowy o zdrowiu bez moralizowania.",
+        "Mały plan zmian: od jednego nawyku do trwałej praktyki."
+      ]
+    },
+    "rodzice--uczen-w-kryzysie-samobojczym-jak-rozpoznac-zagrozenie-i-skut": {
+      "title": "Uczeń w kryzysie samobójczym – jak rozpoznać zagrożenie i skutecznie reagować?",
+      "description": [
+        "Rozmowa o myślach samobójczych budzi lęk, ale milczenie nie zwiększa bezpieczeństwa dziecka. Podczas spotkania rodzice dowiedzą się, jakie zmiany traktować poważnie, jak spokojnie pytać o bezpieczeństwo oraz gdzie szukać pilnej pomocy. Nacisk kładziemy na wsparcie i odpowiedzialną interwencję, bez uproszczonych „testów” przewidywania ryzyka."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Traktować sygnały zagrożenia poważnie, bez pochopnego oceniania.",
+        "Prowadzić bezpośrednią, spokojną rozmowę o bezpieczeństwie.",
+        "Wiedzieć, kiedy dziecko wymaga natychmiastowej pomocy.",
+        "Współpracować ze specjalistami i szkołą po ujawnieniu kryzysu."
+      ],
+      "program": [
+        "Czym jest kryzys samobójczy i dlaczego nie ma jednej przyczyny.",
+        "Sygnały ostrzegawcze oraz znaczenie zmian w funkcjonowaniu.",
+        "Jak rozmawiać o myślach samobójczych bez osądzania.",
+        "Co robić przy bezpośrednim zagrożeniu: obecność, pomoc 112.",
+        "Dalsze wsparcie, kontakt ze specjalistami i monitorowanie bezpieczeństwa."
+      ]
+    },
+    "rodzice--rezyliencja-jak-wspierac-budowanie-odpornosci-psychicznej-uc": {
+      "title": "Rezyliencja – jak wspierać budowanie odporności psychicznej uczniów",
+      "description": [
+        "Odporność psychiczna rozwija się dzięki relacjom, doświadczeniu radzenia sobie i możliwości proszenia o pomoc. Rodzice poznają sposoby wspierania dziecka w obliczu porażki, stresu i zmiany, bez wymagań, aby zawsze było „dzielne”. Spotkanie skupia się na codziennych reakcjach dorosłych i budowaniu poczucia sprawczości."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Wspierać dziecko po niepowodzeniu bez porównywania z innymi.",
+        "Rozróżniać wspieranie samodzielności od pozostawiania dziecka samemu sobie.",
+        "Wzmacniać sprawczość, realistyczny optymizm i elastyczność.",
+        "Rozpoznawać, kiedy trudności przekraczają możliwości domowego wsparcia."
+      ],
+      "program": [
+        "Rezyliencja: zasoby, relacje i wyzwania rozwojowe.",
+        "Porażka i błąd: reakcje rodzica, które pomagają się uczyć.",
+        "Nazywanie emocji i wspieranie samoregulacji.",
+        "Autonomia: wybór, odpowiedzialność i bezpieczne eksperymentowanie.",
+        "Małe praktyki wzmacniające odporność w życiu rodzinnym."
+      ]
+    },
+    "rodzice--samookaleczenia-i-mysli-samobojcze-uczniow-jak-rozpoznac-zag": {
+      "title": "Samookaleczenia i myśli samobójcze uczniów. Jak rozpoznać zagrożenie i pomóc?",
+      "description": [
+        "Samookaleczenia i myśli samobójcze mogą wywoływać u rodziców strach, złość lub poczucie bezradności. Spotkanie pomaga zrozumieć możliwe funkcje samouszkodzeń, odróżnić opis zachowania od jego intencji i podejmować adekwatne działania ochronne. Omawiamy język rozmowy, pierwsze kroki i potrzebę specjalistycznej oceny bezpieczeństwa."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Reagować na samouszkodzenia bez kar, zawstydzania i bagatelizowania.",
+        "Rozumieć, że brak deklarowanej intencji samobójczej nie wyklucza zagrożenia.",
+        "Rozmawiać o cierpieniu oraz możliwościach uzyskania pomocy.",
+        "Znać pilne i długofalowe ścieżki wsparcia dziecka."
+      ],
+      "program": [
+        "Samouszkodzenia: możliwe funkcje i kontekst emocjonalny.",
+        "Jakie sygnały wymagają pilnej interwencji.",
+        "Pierwsza rozmowa rodzica: czego unikać, co powiedzieć.",
+        "Bezpieczeństwo i konsultacja specjalistyczna, w nagłym zagrożeniu 112.",
+        "Współpraca domu, szkoły i specjalistów bez stygmatyzowania."
+      ]
+    },
+    "rodzice--trudna-rzeczywistosc-szansa-czy-zagrozenie-dla-dzieci-i-mlod": {
+      "title": "Trudna rzeczywistość: szansa czy zagrożenie dla dzieci i młodzieży?",
+      "description": [
+        "Samotność, presja szkolna, zagrożenia internetowe i problemy emocjonalne często nakładają się na siebie. Zamiast szukać jednego winnego, rodzice przyjrzą się temu, jak środowisko i relacje wpływają na samopoczucie dziecka. Spotkanie porządkuje ryzyka i wskazuje możliwe działania ochronne w rodzinie."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Łączyć zachowanie dziecka z jego sytuacją społeczną i emocjonalną.",
+        "Rozmawiać o Internecie, presji i samotności bez paniki.",
+        "Wspierać relacje oraz zdrowe sposoby radzenia sobie.",
+        "Ustalać realistyczne kroki pomocy wspólnie z dzieckiem."
+      ],
+      "program": [
+        "Współczesne wyzwania dzieci i nastolatków.",
+        "Samotność, wykluczenie i potrzeba przynależności.",
+        "Środowisko cyfrowe: ryzyko i możliwości wsparcia.",
+        "Jak pytać i słuchać, aby nie zamykać rozmowy.",
+        "Rodzinny plan wsparcia i moment skierowania do specjalisty."
+      ]
+    },
+    "rodzice--gdy-nastolatek-przezywa-kryzys-jak-rozpoznac-zagrozenie-i-sk": {
+      "title": "Gdy nastolatek przeżywa kryzys. Jak rozpoznać zagrożenie i skutecznie pomóc?",
+      "description": [
+        "W kryzysie nastolatek może zamknąć się w sobie, gwałtownie reagować lub odmawiać rozmowy. Rodzice poznają zasady pierwszego kontaktu: uspokojenie sytuacji, sprawdzanie bezpieczeństwa, obecność i kierowanie po pomoc. Spotkanie odróżnia codzienne trudności od sytuacji wymagających natychmiastowej interwencji."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Zachować większą skuteczność działania w sytuacji silnych emocji.",
+        "Rozmawiać z nastolatkiem bez nacisku i przesłuchiwania.",
+        "Rozpoznawać sytuacje wymagające pilnego wsparcia.",
+        "Współpracować ze szkołą i specjalistami po kryzysie."
+      ],
+      "program": [
+        "Kryzys psychiczny nastolatka i jego możliwe sygnały.",
+        "Co zrobić najpierw: bezpieczeństwo i kontakt.",
+        "Pierwsza pomoc emocjonalna w rozmowie rodzic–dziecko.",
+        "Kiedy potrzebna jest pilna konsultacja lub wezwanie 112.",
+        "Wsparcie po kryzysie: domowe ustalenia i sieć pomocy."
+      ]
+    },
+    "rodzice--zanim-uczen-poprosi-o-pomoc-jak-rozpoznawac-problemy-psychic": {
+      "title": "Zanim uczeń poprosi o pomoc. Jak rozpoznawać problemy psychiczne dzieci i młodzieży?",
+      "description": [
+        "Nie każde dziecko mówi wprost, że cierpi. Zmiany snu, zainteresowań, relacji czy zachowania mogą być sygnałem przeciążenia lub trudności psychicznych. Rodzice poznają podstawy rozpoznawania depresji, zaburzeń lękowych i zachowań ryzykownych, a przede wszystkim sposoby spokojnej rozmowy i szukania odpowiedniej pomocy."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać utrzymujące się zmiany w funkcjonowaniu dziecka.",
+        "Odróżniać obserwację objawów od stawiania diagnozy.",
+        "Rozpoczynać wspierające rozmowy bez bagatelizowania.",
+        "Wiedzieć, jak organizować dalsze wsparcie specjalistyczne."
+      ],
+      "program": [
+        "Zdrowie psychiczne a zwykłe wahania samopoczucia.",
+        "Depresja i lęk: co rodzic może zaobserwować.",
+        "Zachowania ryzykowne, wycofanie i przeciążenie.",
+        "Pierwsza rozmowa i unikanie komunikatów oceniających.",
+        "Współpraca z poradnią, szkołą i ochroną zdrowia."
+      ]
+    },
+    "rodzice--to-nie-zawsze-taki-wiek-jak-rozpoznawac-problemy-psychiczne": {
+      "title": "To nie zawsze „taki wiek”! Jak rozpoznawać problemy psychiczne uczniów?",
+      "description": [
+        "Drażliwość, wycofanie czy spadek wyników bywają tłumaczone „trudnym wiekiem”. Tymczasem podobne zachowania mogą mieć wiele przyczyn, od przeciążenia po problemy zdrowia psychicznego. Spotkanie pomaga rodzicom zauważać kontekst zachowania i decydować, kiedy wystarczy wsparcie w domu, a kiedy potrzebna jest konsultacja."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Unikać przypisywania wszystkich trudności samemu dorastaniu.",
+        "Zadawać pytania o emocje, relacje i codzienne obciążenia.",
+        "Obserwować częstotliwość, nasilenie i zmianę funkcjonowania.",
+        "Podejmować kolejne kroki wspólnie z dzieckiem i specjalistami."
+      ],
+      "program": [
+        "Rozwój nastolatka i granice uproszczonych wyjaśnień.",
+        "Kiedy zachowanie staje się ważnym sygnałem.",
+        "Co wpływa na emocje: sen, stres, relacje i presja.",
+        "Rozmowa, która buduje kontakt zamiast oporu.",
+        "Pomoc domowa, szkolna i specjalistyczna: jak je łączyć."
+      ]
+    },
+    "rodzice--hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc": {
+      "title": "Hejt nie kończy się po dzwonku – jak reagować na cyberprzemoc w szkole?",
+      "description": [
+        "Cyberprzemoc może trwać po zakończeniu lekcji, a dziecko często nie mówi o niej dorosłym ze strachu przed odebraniem telefonu. Rodzice dowiedzą się, jak rozpoznawać nękanie, wykluczenie i publikowanie krzywdzących treści oraz jak reagować bez obwiniania dziecka. Omawiamy dokumentowanie zdarzeń i współpracę ze szkołą."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać różne formy przemocy internetowej.",
+        "Reagować bez karania dziecka za zgłoszenie problemu.",
+        "Zabezpieczać dostępne dowody bez dalszego rozpowszechniania krzywdzących materiałów.",
+        "Uzyskiwać wsparcie szkoły, platform i odpowiednich służb."
+      ],
+      "program": [
+        "Cyberprzemoc: formy i mechanizmy.",
+        "Dlaczego dzieci ukrywają doświadczenie przemocy.",
+        "Pierwsza rozmowa po zgłoszeniu: bezpieczeństwo i emocje.",
+        "Dokumentowanie, zgłaszanie i ochrona prywatności.",
+        "Wspólne działania rodziców i szkoły oraz monitorowanie sytuacji."
+      ]
+    },
+    "rodzice--to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego": {
+      "title": "„To był tylko żart!” – jak rozpoznawać hejt i skutecznie na niego reagować?",
+      "description": [
+        "„To był tylko żart” to częste usprawiedliwienie komentarzy, które ranią lub upokarzają. Na spotkaniu rodzice poznają różnicę między żartem, konfliktem, hejtem i nękaniem. Przećwiczą sposoby rozmowy z dzieckiem zarówno wtedy, gdy doświadcza przemocy, jak i wtedy, gdy samo krzywdzi innych."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać granicę między żartem a poniżaniem.",
+        "Reagować na hejt bez eskalowania napięcia.",
+        "Rozmawiać z dzieckiem o odpowiedzialności za słowa.",
+        "Współpracować ze szkołą i reagować na powtarzające się incydenty."
+      ],
+      "program": [
+        "Żart, konflikt, hejt i mowa nienawiści.",
+        "Wpływ grupy i anonimowości na zachowania online.",
+        "Kiedy dziecko jest pokrzywdzone: jak rozmawiać i pomóc.",
+        "Kiedy dziecko stosuje hejt: odpowiedzialność i naprawa szkody.",
+        "Bezpieczne sposoby zgłaszania i profilaktyka w domu."
+      ]
+    },
+    "rodzice--nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym": {
+      "title": "„Nikt go nie wyzywa. Po prostu nikt go nie wybiera” – jak zatrzymać wykluczenie w klasie?",
+      "description": [
+        "Brak zaproszenia, ignorowanie wiadomości i stałe odsuwanie dziecka na bok bywają trudniejsze do zauważenia niż jawna agresja. Szkolenie pomaga rodzicom rozpoznawać ostracyzm i wykluczenie, wspierać poczucie wartości dziecka oraz rozmawiać ze szkołą o zmianie sytuacji bez publicznego piętnowania kogokolwiek."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Zauważać sygnały izolacji i trudności w relacjach.",
+        "Słuchać dziecka bez umniejszania odrzucenia.",
+        "Wzmacniać jego zasoby, nie narzucając przyjaźni.",
+        "Zgłaszać problem i ustalać z wychowawcą plan wsparcia."
+      ],
+      "program": [
+        "Wykluczenie rówieśnicze i jego mniej widoczne formy.",
+        "Jak odrzucenie wpływa na emocje i samoocenę.",
+        "Rozmowa z dzieckiem: pytania, które pomagają.",
+        "Relacje poza klasą i wzmacnianie sprawczości.",
+        "Współpraca ze szkołą i kontrola, czy sytuacja się poprawia."
+      ]
+    },
+    "rodzice--przemoc-rowiesnicza-w-szkole-i-cyberprzestrzeni": {
+      "title": "Przemoc rówieśnicza w szkole i cyberprzestrzeni",
+      "description": [
+        "Rodzic może jako pierwszy zauważyć objawy przemocy rówieśniczej, a czasem dowiaduje się o niej dopiero po długim czasie. Spotkanie pokazuje, jak odróżniać spór od systematycznego dręczenia, wspierać dziecko i dokumentować zdarzenia. Omawiamy też rolę świadków i odpowiedzialną współpracę ze szkołą."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać wzorce dręczenia i cyberprzemocy.",
+        "Rozmawiać o zdarzeniach bez obciążania dziecka winą.",
+        "Podejmować kroki ochronne i zapisywać ważne fakty.",
+        "Współpracować ze szkołą bez wymuszania spotkań ze sprawcami."
+      ],
+      "program": [
+        "Konflikt, agresja i bullying: kluczowe różnice.",
+        "Jakie sygnały może widzieć rodzic.",
+        "Pierwsza reakcja: zapewnienie bezpieczeństwa.",
+        "Zgłoszenie, dokumentowanie i kontakty ze szkołą.",
+        "Ochrona dziecka i dalsze monitorowanie sytuacji."
+      ]
+    },
+    "rodzice--szkola-wolna-od-przemocy-jak-budowac-bezpieczna-przestrzen-d": {
+      "title": "Szkoła wolna od przemocy – jak budować bezpieczną przestrzeń dla każdego ucznia? Nie tylko reagowanie, ale przede wszystkim zapobieganie",
+      "description": [
+        "Bezpieczeństwo dziecka zależy także od tego, czy dorośli mają spójne zasady i potrafią reagować na krzywdzenie. Rodzice dowiedzą się, jak wspierać kulturę szacunku w domu, rozmawiać o zachowaniu świadków oraz współpracować z placówką w zakresie profilaktyki przemocy."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Uczyć dzieci reagowania na krzywdzenie innych.",
+        "Rozpoznawać zachowania wymagające stanowczej reakcji dorosłych.",
+        "Rozmawiać ze szkołą o zasadach bezpieczeństwa.",
+        "Wspierać dziecko po trudnym zdarzeniu bez wzmacniania lęku."
+      ],
+      "program": [
+        "Jak powstają normy przyzwalające na przemoc.",
+        "Przemoc fizyczna, emocjonalna i internetowa.",
+        "Rola dorosłych, świadków i granic.",
+        "Dom i szkoła: wspólne komunikaty i procedury zgłaszania.",
+        "Co pomaga po incydencie: wsparcie i obserwacja."
+      ]
+    },
+    "rodzice--to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza": {
+      "title": "„To tylko żarty!” Kiedy konflikt staje się przemocą rówieśniczą?",
+      "description": [
+        "Nie każda sprzeczka rówieśnicza jest bullyingiem, ale powtarzające się krzywdzenie przy nierównowadze sił wymaga zdecydowanej ochrony dziecka. Rodzice dowiedzą się, jak rozpoznawać tę różnicę, jakie pytania zadawać i dlaczego pojednanie lub mediacja nie zawsze są właściwą pierwszą reakcją."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać cechy systematycznego dręczenia.",
+        "Nie bagatelizować cierpienia pod hasłem „dzieci tak mają”.",
+        "Zgłaszać zdarzenia rzeczowo i skutecznie.",
+        "Chronić dziecko przed dodatkową presją i odwetem."
+      ],
+      "program": [
+        "Kiedy żart jest krzywdzeniem: intencja, skutki, kontekst.",
+        "Nierównowaga sił i powtarzalność w bullyingu.",
+        "Rozmowa z dzieckiem doświadczającym przemocy.",
+        "Zgłoszenie zdarzenia i bezpieczna współpraca ze szkołą.",
+        "Jak rozmawiać o odpowiedzialności i roli świadków."
+      ]
+    },
+    "rodzice--dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac": {
+      "title": "Dziecko w sieci – jak chronić, zamiast tylko zakazywać?",
+      "description": [
+        "Zakaz telefonu bywa prosty do wprowadzenia, ale nie rozwiązuje wszystkich problemów cyfrowego świata. Szkolenie pomaga rodzicom rozmawiać o mediach społecznościowych, prywatności, presji bycia online i ryzykownych kontaktach. Uczestnicy przygotują rodzinne zasady korzystania z urządzeń, z uwzględnieniem wieku i potrzeb dziecka."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozmawiać o aktywności online bez nadmiernej kontroli.",
+        "Rozpoznawać niepokojące treści i kontakty.",
+        "Wspierać higienę cyfrową i sen.",
+        "Ustalać zasady korzystania z sieci wspólnie z dzieckiem."
+      ],
+      "program": [
+        "Co dzieci robią online i dlaczego jest to dla nich ważne.",
+        "Prywatność, bezpieczeństwo kontaktów i cyberprzemoc.",
+        "Problemowe korzystanie z telefonu i mediów.",
+        "Zasady i granice: rozmowa zamiast samego zakazu.",
+        "Rodzinny plan bezpieczeństwa cyfrowego."
+      ]
+    },
+    "rodzice--kiedy-idol-przekracza-granice": {
+      "title": "Kiedy idol przekracza granice",
+      "description": [
+        "Popularność internetowego twórcy nie gwarantuje, że jego treści i zachowania są bezpieczne dla młodych odbiorców. Spotkanie dotyczy mechanizmów autorytetu, więzi paraspołecznych i manipulacji w sieci. Rodzice poznają sposoby rozmawiania z dzieckiem o idolach bez ośmieszania jego zainteresowań."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać czerwone flagi w relacji twórca–odbiorca.",
+        "Pytać o internetowe autorytety bez wywoływania obronności.",
+        "Rozmawiać o granicach, prywatności i zgodzie.",
+        "Wiedzieć, jak reagować na niepokojące kontakty lub treści."
+      ],
+      "program": [
+        "Influencer jako wzór i źródło identyfikacji.",
+        "Więź paraspołeczna, presja grupowa i manipulacja.",
+        "Przekraczanie granic i zachowania niebezpieczne.",
+        "Jak prowadzić rozmowę o idolach i kontrowersjach.",
+        "Bezpieczeństwo dziecka: zgłaszanie i wsparcie."
+      ]
+    },
+    "rodzice--nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow": {
+      "title": "Nie wszystko, co w sieci, jest prawdą! Jak uczyć cyfrowej odpowiedzialności?",
+      "description": [
+        "Dzieci spotykają w sieci reklamy, dezinformację, materiały generowane przez AI i emocjonalne komunikaty. Rodzice poznają proste sposoby wspólnego sprawdzania źródeł oraz rozmowy o tym, jak działają algorytmy i mechanizmy manipulacji. Celem jest budowanie samodzielnego myślenia, nie nieufności wobec wszystkiego."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Sprawdzać wraz z dzieckiem źródło i kontekst informacji.",
+        "Rozpoznawać podstawowe techniki manipulowania emocjami.",
+        "Rozmawiać o możliwościach i ograniczeniach AI.",
+        "Wspierać krytyczne myślenie bez moralizowania."
+      ],
+      "program": [
+        "Co przyciąga uwagę w cyfrowych przekazach.",
+        "Fake news, reklama i ukryta perswazja.",
+        "AI, deepfake i treści syntetyczne.",
+        "Prosty nawyk weryfikacji: źródło, data, kontekst.",
+        "Ćwiczenia rodzic–dziecko budujące odpowiedzialność cyfrową."
+      ]
+    },
+    "rodzice--zdrowie-psychiczne-uczniow-od-profilaktyki-przemocy-i-uzalez": {
+      "title": "Zdrowie psychiczne uczniów – od profilaktyki przemocy i uzależnień po interwencję kryzysową",
+      "description": [
+        "Przemoc, uzależnienia i kryzysy psychiczne mogą współwystępować, ale wymagają różnych form pomocy. Szkolenie porządkuje sygnały, które mogą niepokoić rodzica, i przedstawia zasady pierwszej rozmowy oraz współpracy ze szkołą i specjalistami. Omawiamy także domowe czynniki ochronne."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać kilka głównych grup sygnałów ostrzegawczych.",
+        "Nie mylić profilaktyki z samodzielną diagnozą.",
+        "Rozmawiać z dzieckiem w sposób wspierający.",
+        "Wiedzieć, kiedy szukać pomocy pilnej lub planowej."
+      ],
+      "program": [
+        "Zdrowie psychiczne i zachowania ryzykowne.",
+        "Przemoc rówieśnicza jako czynnik obciążający.",
+        "Problemowe korzystanie z substancji i mediów.",
+        "Pierwsza reakcja rodzica w kryzysie.",
+        "Współpraca ze szkołą, poradnią i ochroną zdrowia."
+      ]
+    },
+    "rodzice--profilaktyka-uzaleznien-behawioralnych-w-szkolach-i-placowka": {
+      "title": "Profilaktyka uzależnień behawioralnych w szkołach i placówkach oświatowych",
+      "description": [
+        "Gry, media społecznościowe i telefon mogą być źródłem przyjemności, relacji i nauki, ale u części dzieci korzystanie z nich zaczyna wypierać sen, obowiązki i inne aktywności. Spotkanie pomaga rodzicom rozpoznawać utratę kontroli bez pochopnego przypisywania „uzależnienia” i wspólnie ustalać zdrowsze zasady cyfrowe."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Odróżniać intensywne zainteresowanie od problemowego wzorca.",
+        "Rozmawiać o ekranach bez nieustannej wojny o telefon.",
+        "Rozpoznawać wpływ korzystania z mediów na sen i relacje.",
+        "Wprowadzać domowe granice i szukać wsparcia, gdy są nieskuteczne."
+      ],
+      "program": [
+        "Gry, telefon i media: funkcje w życiu dziecka.",
+        "Kiedy pojawia się utrata kontroli i zaniedbywanie potrzeb.",
+        "Emocje i napięcie jako tło problemowego korzystania.",
+        "Domowe ustalenia i przykład dorosłych.",
+        "Kiedy potrzebna jest konsultacja specjalistyczna."
+      ]
+    },
+    "rodzice--profilaktyka-uzaleznien-od-substancji-psychoaktywnych-i-uzal": {
+      "title": "Profilaktyka uzależnień od substancji psychoaktywnych i uzależnień behawioralnych a przeciwdziałanie przemocy rówieśniczej",
+      "description": [
+        "Ryzykowne eksperymentowanie z substancjami i nadmierne korzystanie z mediów bywają sposobami radzenia sobie z napięciem lub presją grupy. Rodzice poznają czynniki ryzyka oraz praktyczne sposoby rozmawiania o używkach, granicach i przemocy. Akcent pada na profilaktykę opartą na relacji oraz wczesne reagowanie."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać sygnały możliwych zachowań ryzykownych.",
+        "Rozmawiać o substancjach bez straszenia i normalizowania używania.",
+        "Reagować na presję grupy i przemoc rówieśniczą.",
+        "Wspólnie ustalać zasady i szukać adekwatnej pomocy."
+      ],
+      "program": [
+        "Dlaczego młodzi podejmują ryzyko: emocje, grupa, ciekawość.",
+        "Substancje psychoaktywne i sygnały problemu.",
+        "Zachowania cyfrowe i utrata kontroli.",
+        "Przemoc i wykluczenie jako kontekst ryzyka.",
+        "Rozmowa profilaktyczna i ścieżki pomocy."
+      ]
+    },
+    "rodzice--jak-rozbudzic-chec-do-nauki-skuteczne-techniki-motywowania-u": {
+      "title": "Jak rozbudzić chęć do nauki? Skuteczne techniki motywowania uczniów",
+      "description": [
+        "Ciągłe przypominanie o lekcjach nie zawsze pomaga, a często pogarsza relację. Szkolenie pokazuje, jak motywacja wiąże się z autonomią, poczuciem kompetencji i sensem działania. Rodzice poznają sposoby wspierania wysiłku i samodzielności bez ciągłego nagradzania, porównywania i grożenia konsekwencjami."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać źródła spadku motywacji do nauki.",
+        "Formułować oczekiwania i cele, które dziecko rozumie.",
+        "Wspierać wysiłek i samodzielność zamiast samego wyniku.",
+        "Rozmawiać o błędach bez zawstydzania."
+      ],
+      "program": [
+        "Co uruchamia, a co osłabia motywację.",
+        "Autonomia, kompetencje i relacja w nauce.",
+        "Motywująca informacja zwrotna od rodzica.",
+        "Nauka w domu: rytm, cele i realistyczne wsparcie.",
+        "Gdy trudności się utrzymują: rozmowa ze szkołą."
+      ]
+    },
+    "rodzice--nie-tylko-prymusi-jak-dostrzegac-i-rozwijac-potencjal-ucznio": {
+      "title": "Nie tylko prymusi! Jak dostrzegać i rozwijać potencjał uczniów przeciętnych?",
+      "description": [
+        "Gdy dziecko ma „średnie” wyniki, jego zainteresowania i mocne strony łatwo przeoczyć. Spotkanie pomaga rodzicom odróżniać szkolne oceny od szerzej rozumianego potencjału oraz wspierać rozwój bez etykietowania. Uczestnicy poznają sposoby budowania ciekawości, sprawczości i realistycznych oczekiwań."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać mocne strony poza świadectwem szkolnym.",
+        "Wzmacniać ciekawość i wytrwałość dziecka.",
+        "Unikać porównywania z rodzeństwem i rówieśnikami.",
+        "Rozmawiać o celach dostosowanych do potrzeb i zainteresowań."
+      ],
+      "program": [
+        "Dlaczego oceny nie opisują całego potencjału.",
+        "Zainteresowania i zasoby dziecka.",
+        "Motywująca informacja zwrotna bez presji bycia najlepszym.",
+        "Przestrzeń na próby, błędy i samodzielne wybory.",
+        "Współpraca ze szkołą w rozwijaniu mocnych stron."
+      ]
+    },
+    "rodzice--nie-mow-mi-skup-sie-praca-z-uczniem-z-adhd": {
+      "title": "Nie mów mi: skup się! – praca z uczniem z ADHD",
+      "description": [
+        "Dziecko z ADHD może mieć trudności z rozpoczęciem zadania, organizacją dnia i kontrolą impulsów, nawet gdy stara się sprostać oczekiwaniom. Rodzice poznają sposoby wspierania funkcji wykonawczych, emocji i relacji w domu oraz zasady współpracy ze szkołą. Spotkanie nie zastępuje indywidualnej diagnozy ani terapii."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Lepiej rozumieć codzienne trudności związane z ADHD.",
+        "Ułatwiać rozpoczęcie i domykanie prostych zadań.",
+        "Wspierać regulację emocji bez zawstydzania.",
+        "Planować spójne działania domu i szkoły."
+      ],
+      "program": [
+        "ADHD i funkcje wykonawcze w codziennym życiu.",
+        "Instrukcje, plan dnia i dzielenie zadań na etapy.",
+        "Impulsywność i samoregulacja w rodzinie.",
+        "Mocne strony dziecka i motywowanie bez etykiet.",
+        "Współpraca z nauczycielami i specjalistami."
+      ]
+    },
+    "rodzice--nie-diagnoza-lecz-potrzeby-praca-z-uczniem-o-spe": {
+      "title": "Nie diagnoza, lecz potrzeby – praca z uczniem o SPE",
+      "description": [
+        "Dzieci o specjalnych potrzebach edukacyjnych mogą potrzebować odmiennych form wsparcia, ale każdy przypadek wymaga indywidualnego spojrzenia. Rodzice dowiedzą się, jak opisywać potrzeby dziecka, rozmawiać z nauczycielami o dostosowaniach i wspierać jego samodzielność bez skupiania się wyłącznie na trudnościach."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać potrzeby funkcjonalne dziecka w domu i szkole.",
+        "Komunikować się ze szkołą konkretnie i partnersko.",
+        "Wspierać samodzielność i mocne strony dziecka.",
+        "Weryfikować, czy zaproponowane wsparcie rzeczywiście pomaga."
+      ],
+      "program": [
+        "SPE: potrzeby, bariery i zasoby.",
+        "Dziecko jako osoba, nie tylko opinia lub orzeczenie.",
+        "Dostosowania codziennego funkcjonowania i nauki.",
+        "Rozmowa z nauczycielem o skutecznych rozwiązaniach.",
+        "Wspólne cele, obserwacja efektów i modyfikacja wsparcia."
+      ]
+    },
+    "rodzice--seksualnosc-dzieci-ze-specjalnymi-potrzebami": {
+      "title": "Seksualność dzieci ze specjalnymi potrzebami",
+      "description": [
+        "Rozwój psychoseksualny dotyczy także dzieci z niepełnosprawnościami i neuroróżnorodnością, choć ich potrzeby komunikacyjne mogą być odmienne. Spotkanie pomaga rodzicom prowadzić rozmowy o ciele, intymności, zgodzie i granicach w sposób dostosowany do wieku oraz możliwości dziecka, z poszanowaniem jego podmiotowości."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozmawiać o ciele i intymności językiem zrozumiałym dla dziecka.",
+        "Uczyć zasad zgody, granic i prywatności.",
+        "Reagować na pytania i zachowania bez zawstydzania.",
+        "Rozpoznawać sytuacje wymagające profesjonalnego wsparcia."
+      ],
+      "program": [
+        "Rozwój psychoseksualny i potrzeba rzetelnej edukacji.",
+        "Ciało, prywatność i zasady bezpieczeństwa.",
+        "Zgoda, granice i komunikacja dostosowana do dziecka.",
+        "Wspieranie autonomii bez pomijania ochrony.",
+        "Współpraca rodziny i specjalistów w trudnych sytuacjach."
+      ]
+    },
+    "rodzice--krzyk-ucieczka-wycofanie-jak-reagowac-na-trudne-zachowania-u": {
+      "title": "Krzyk, ucieczka, wycofanie. Jak reagować na trudne zachowania uczniów w spektrum autyzmu?",
+      "description": [
+        "Krzyk, nagłe wycofanie, ucieczka od bodźców czy odmowa współpracy mogą wiązać się z przeciążeniem, trudnością w komunikacji lub niezaspokojoną potrzebą. Szkolenie pomaga rodzicom rozumieć kontekst zachowania dziecka w spektrum autyzmu i dobierać spokojne, przewidywalne sposoby wsparcia."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać możliwe wyzwalacze przeciążenia i stresu.",
+        "Odróżniać kryzys regulacji od świadomej odmowy.",
+        "Dostosowywać komunikaty i otoczenie do potrzeb dziecka.",
+        "Tworzyć plan wsparcia na trudne sytuacje."
+      ],
+      "program": [
+        "Zachowanie w kontekście sensorycznym i komunikacyjnym.",
+        "Meltdown, shutdown i oznaki przeciążenia.",
+        "Co pomaga w chwili kryzysu: bezpieczeństwo i ograniczenie bodźców.",
+        "Profilaktyka: przewidywalność, wybór i strategie komunikacji.",
+        "Analiza sytuacji i współpraca rodziców ze specjalistami."
+      ]
+    },
+    "rodzice--spektrum-autyzmu-bez-schematow-jak-wspierac-ucznia-na-co-dzi": {
+      "title": "Spektrum autyzmu bez schematów. Jak wspierać ucznia na co dzień?",
+      "description": [
+        "Autyzm nie wygląda tak samo u wszystkich dzieci. Rodzice poznają różnice w komunikacji, sensoryce i regulacji emocji oraz sposoby wspierania codziennej autonomii. Omówimy także, jak unikać stereotypów i budować relacje wokół indywidualnych potrzeb, a nie oczekiwania „typowego” zachowania."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać indywidualny profil mocnych stron i potrzeb dziecka.",
+        "Lepiej planować rozmowę i codzienne aktywności.",
+        "Ograniczać przeciążenie sensoryczne i emocjonalne.",
+        "Rozmawiać ze szkołą o wsparciu adekwatnym do potrzeb."
+      ],
+      "program": [
+        "Spektrum autyzmu: różnorodność profili funkcjonowania.",
+        "Komunikacja, relacje i potrzeba przewidywalności.",
+        "Sensoryka i samoregulacja w codzienności.",
+        "Samodzielność, zainteresowania i mocne strony.",
+        "Dom i szkoła: spójne strategie bez nadmiernego nacisku."
+      ]
+    },
+    "rodzice--kazdy-uczen-ma-znaczenie-dobrostan-empatia-i-edukacja-wlacza": {
+      "title": "Każdy uczeń ma znaczenie. Dobrostan, empatia i edukacja włączająca w praktyce",
+      "description": [
+        "Poczucie przynależności i szacunku jest ważne dla każdego dziecka, w tym dla uczniów z niepełnosprawnościami czy innymi potrzebami rozwojowymi. Spotkanie pomaga rodzicom rozmawiać o empatii, różnicach i wykluczeniu oraz wspierać szkołę w tworzeniu bardziej dostępnego, bezpiecznego środowiska."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozmawiać o różnorodności bez stygmatyzacji.",
+        "Zauważać bariery i wykluczające zachowania.",
+        "Wspierać dziecko w budowaniu relacji i poczucia wartości.",
+        "Współpracować ze szkołą wokół potrzeb całej grupy."
+      ],
+      "program": [
+        "Dobrostan i przynależność w środowisku szkolnym.",
+        "Różnorodność potrzeb: od empatii do dostępności.",
+        "Jak rozmawiać z dziećmi o różnicach.",
+        "Reagowanie na wykluczenie i uprzedzenia.",
+        "Partnerstwo rodziców i szkoły w działaniach włączających."
+      ]
+    },
+    "rodzice--szkola-i-dom-po-jednej-stronie-jak-wspolnie-motywowac-ucznia": {
+      "title": "Szkoła i dom po jednej stronie – jak wspólnie motywować ucznia?",
+      "description": [
+        "Gdy szkoła i dom przekazują sprzeczne oczekiwania, uczeń może znaleźć się pomiędzy dwoma źródłami presji. Szkolenie pokazuje rodzicom, jak prowadzić konstruktywne rozmowy z nauczycielami, ustalać realistyczne cele edukacyjne i wspierać motywację dziecka bez sprowadzania całej relacji do ocen."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Formułować wspólne, konkretne cele ze szkołą.",
+        "Rozmawiać o trudnościach bez wzajemnego obwiniania.",
+        "Wspierać samodzielność i motywację dziecka.",
+        "Monitorować efekty wsparcia i zmieniać nieskuteczne strategie."
+      ],
+      "program": [
+        "Dom i szkoła: różne role, wspólne cele.",
+        "Co osłabia motywację ucznia i jego poczucie wpływu.",
+        "Rozmowa rodzica z nauczycielem oparta na faktach.",
+        "Ustalanie odpowiedzialności bez przerzucania winy.",
+        "Plan działania oraz sposób sprawdzania postępów."
+      ]
+    },
+    "rodzice--od-konfliktu-do-porozumienia-mediacje-i-trudne-rozmowy-z-rod": {
+      "title": "Od konfliktu do porozumienia – mediacje i trudne rozmowy z rodzicami",
+      "description": [
+        "Trudna rozmowa z nauczycielem lub drugim rodzicem może szybko zmienić się w spór o rację. Spotkanie daje rodzicom narzędzia przygotowania rozmowy, wyrażania potrzeb i szukania rozwiązań. Wyjaśniamy także, kiedy mediacja może być pomocna, a kiedy sytuacja wymaga działań ochronnych lub formalnych."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Przygotowywać rozmowy w napiętych sytuacjach.",
+        "Komunikować oczekiwania bez oskarżeń i uogólnień.",
+        "Rozpoznawać przestrzeń do negocjacji i mediacji.",
+        "Kończyć spotkania konkretnymi, możliwymi do sprawdzenia ustaleniami."
+      ],
+      "program": [
+        "Dlaczego rozmowa przeradza się w konflikt.",
+        "Oddzielenie faktów, interpretacji i oczekiwań.",
+        "Aktywne słuchanie i asertywne komunikaty.",
+        "Negocjacje i mediacje: zastosowania i ograniczenia.",
+        "Ustalenia po rozmowie i dalsze działania."
+      ]
+    },
+    "rodzice--porozumienie-bez-przemocy-jak-mowic-zeby-sie-porozumiec": {
+      "title": "Porozumienie bez przemocy – jak mówić, żeby się porozumieć?",
+      "description": [
+        "„Bo ja tak mówię” zamyka rozmowę, lecz nie zawsze pomaga zbudować współpracę. Rodzice poznają podstawy komunikacji bez przemocy: obserwacje bez ocen, nazywanie uczuć i potrzeb oraz formułowanie jasnych próśb. Warsztat obejmuje krótkie ćwiczenia na przykładach codziennych rodzinnych nieporozumień."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać oceny ukryte w codziennych komunikatach.",
+        "Mówić o swoich potrzebach bez oskarżania dziecka.",
+        "Słuchać emocji drugiej strony, zachowując granice.",
+        "Przekształcać konflikty w konkretne rozmowy o rozwiązaniach."
+      ],
+      "program": [
+        "Cztery kroki Porozumienia bez Przemocy.",
+        "Obserwacja a ocena: język rozmowy.",
+        "Uczucia i potrzeby dziecka oraz rodzica.",
+        "Prośba, granica i odpowiedzialność.",
+        "Ćwiczenia na rzeczywistych sytuacjach rodzinnych."
+      ]
+    },
+    "rodzice--nowa-rodzina-nowe-emocje-jak-wspierac-dzieci-w-rodzinach-zre": {
+      "title": "Nowa rodzina, nowe emocje. Jak wspierać dzieci w rodzinach zrekonstruowanych?",
+      "description": [
+        "Nowa rodzina może oznaczać zmianę domu, ról, rytmu życia i poczucia przynależności dziecka. Spotkanie pomaga dorosłym rozumieć lojalności, napięcia i ambiwalentne emocje pojawiające się w rodzinie zrekonstruowanej. Omawiamy granice, budowanie relacji i sposoby komunikacji bez wymuszania natychmiastowej bliskości."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozumieć możliwe reakcje dziecka na zmiany rodzinne.",
+        "Nie wywierać presji na akceptację nowej relacji.",
+        "Ustalać role i granice dorosłych w sposób przewidywalny.",
+        "Rozmawiać z dzieckiem o emocjach i poczuciu lojalności."
+      ],
+      "program": [
+        "Zmiana struktury rodziny i doświadczenie dziecka.",
+        "Lojalność, żal, zazdrość i potrzeba bezpieczeństwa.",
+        "Rola rodzica i partnera rodzica: granice odpowiedzialności.",
+        "Budowanie relacji bez przymusu i porównań.",
+        "Współpraca dorosłych i wsparcie w dłuższym procesie."
+      ]
+    },
+    "rodzice--pokolenie-z-i-alfa-w-szkole-jak-zrozumiec-wspolczesnych-uczn": {
+      "title": "Pokolenie Z i Alfa w szkole – jak zrozumieć współczesnych uczniów?",
+      "description": [
+        "Rodzice i dzieci mogą inaczej korzystać z technologii, komunikować emocje i rozumieć prywatność. Spotkanie pomaga unikać etykiet „dzisiejsza młodzież” i prowadzić rozmowy o realnych potrzebach dziecka. Przyglądamy się wpływowi mediów, relacji rówieśniczych i oczekiwań dorosłych."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Unikać uproszczonych ocen opartych na przynależności pokoleniowej.",
+        "Lepiej rozumieć potrzeby cyfrowej codzienności dziecka.",
+        "Rozmawiać o zasadach i granicach w języku współpracy.",
+        "Budować kontakt mimo różnic doświadczeń."
+      ],
+      "program": [
+        "Pokolenia: użyteczna metafora czy stereotyp.",
+        "Środowisko cyfrowe i relacje młodych ludzi.",
+        "Różnice oczekiwań między rodzicami a dziećmi.",
+        "Komunikacja o potrzebach i granicach.",
+        "Wspólne ustalenia i budowanie zaufania."
+      ]
+    },
+    "rodzice--roznorodnosc-wsrod-mlodziezy-jak-budowac-szkole-wolna-od-dys": {
+      "title": "Różnorodność wśród młodzieży. Jak budować szkołę wolną od dyskryminacji?",
+      "description": [
+        "Dzieci spotykają osoby różniące się doświadczeniem, sprawnością, sposobem uczenia się czy tożsamością. To, jak dorośli komentują te różnice, wpływa na klimat relacji. Spotkanie pomaga rodzicom uczyć szacunku, reagować na dyskryminujące komentarze i wspierać dziecko, gdy doświadcza wykluczenia."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozmawiać o różnorodności spokojnie i rzeczowo.",
+        "Rozpoznawać wykluczenie, stereotypy i mowę pogardy.",
+        "Modelować szacunek oraz stawianie granic.",
+        "Wspierać dziecko i współpracować ze szkołą po incydencie."
+      ],
+      "program": [
+        "Różnorodność w grupie rówieśniczej.",
+        "Stereotypy i uprzedzenia w codziennych rozmowach.",
+        "Język, który wspiera szacunek.",
+        "Jak reagować na wykluczenie i dyskryminację.",
+        "Dom i szkoła jako środowiska modelujące postawy."
+      ]
+    },
+    "rodzice--kiedys-to-bylo-nie-jest-metoda-nauczania": {
+      "title": "„Kiedyś to było…” nie jest metodą nauczania!",
+      "description": [
+        "Dorośli czasem odwołują się do własnej szkoły jak do jedynego właściwego wzorca. Tymczasem oczekiwania, technologie i środowisko uczenia się zmieniły się. Spotkanie pomaga rodzicom rozumieć współczesne wyzwania edukacyjne, wspierać motywację i budować współpracę ze szkołą bez porównań typu „za moich czasów”."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać szkodliwe stereotypy o młodych ludziach.",
+        "Rozmawiać o nauce i technologii bez odruchowego oceniania.",
+        "Wzmacniać motywację i autonomię dziecka.",
+        "Budować partnerską współpracę ze szkołą."
+      ],
+      "program": [
+        "Dlaczego porównania pokoleniowe zawodzą.",
+        "Co zmieniło się w sposobach uczenia się.",
+        "Stres, motywacja i koncentracja dziecka.",
+        "Informacja zwrotna i rozmowa o oczekiwaniach.",
+        "Wspólne wsparcie bez nieustannej presji wyniku."
+      ]
+    },
+    "uczniowie--emocje-w-szkolnej-lawce-jak-budowac-bezpieczenstwo-emocjonal": {
+      "title": "Emocje w szkolnej ławce – jak budować bezpieczeństwo emocjonalne uczniów?",
+      "description": [
+        "Zdarza się, że złość, lęk lub wstyd utrudniają skupienie, rozmowę i współpracę. Uczestnicy nauczą się rozpoznawać emocje oraz sygnały z ciała, ćwiczyć krótkie sposoby uspokajania się i mówić o swoich potrzebach. Warsztat wykorzystuje scenki i fikcyjne sytuacje szkolne, bez obowiązku opowiadania o prywatnych problemach."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Nazywać podstawowe emocje i zauważać ich sygnały.",
+        "Korzystać z prostych sposobów regulowania napięcia.",
+        "Prosić o pomoc w bezpieczny, zrozumiały sposób.",
+        "Reagować z większym szacunkiem na emocje innych."
+      ],
+      "program": [
+        "Jak rozpoznaję emocje i co mówi mi ciało.",
+        "Co mnie uspokaja, a co podnosi napięcie.",
+        "Oddech, pauza i inne krótkie strategie regulacji.",
+        "Mówię o potrzebach bez ranienia innych.",
+        "Do kogo mogę się zwrócić w szkole i poza nią."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--dlaczego-mlodzi-maja-dosc-jak-zrozumiec-ich-emocje-i-naprawd": {
+      "title": "Dlaczego młodzi mają dość? Jak zrozumieć ich emocje i naprawdę pomóc?",
+      "description": [
+        "Oceny, relacje, media społecznościowe i oczekiwania potrafią sprawić, że młody człowiek czuje się przytłoczony. Warsztat daje przestrzeń do rozmowy o presji i porównywaniu się, ale nie zmusza nikogo do osobistych zwierzeń. Uczestnicy poznają sposoby szukania wsparcia oraz budowania życzliwszego stosunku do siebie."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać presję i stresory w codziennym życiu.",
+        "Odróżniać własne potrzeby od oczekiwań otoczenia.",
+        "Szukać wsparcia u zaufanych dorosłych.",
+        "Stosować proste strategie odpoczynku i samoregulacji."
+      ],
+      "program": [
+        "Skąd bierze się presja i poczucie przeciążenia.",
+        "Porównywanie się z innymi, także online.",
+        "Emocje, potrzeby i prawo do proszenia o pomoc.",
+        "Małe sposoby odzyskiwania wpływu i odpoczynku.",
+        "Mapa wsparcia: osoby i miejsca, do których można się zwrócić."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--zdrowie-zaczyna-sie-w-szkole-jak-uczyc-nawykow-ktore-zostaja": {
+      "title": "Zdrowie zaczyna się w szkole – jak uczyć nawyków, które zostają na całe życie?",
+      "description": [
+        "Sen, ruch, odpoczynek i relacje mają wpływ na samopoczucie i zdolność koncentracji. Podczas warsztatu uczniowie sprawdzą, jak codzienne decyzje wiążą się ze zdrowiem, oraz zaprojektują własny, realistyczny plan jednego dobrego nawyku. Unikamy oceniania wyglądu czy zawstydzania."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Wskazywać codzienne czynniki wspierające dobrostan.",
+        "Rozumieć rolę snu, ruchu i regeneracji.",
+        "Podejmować małe, realistyczne decyzje prozdrowotne.",
+        "Rozpoznawać sytuacje, w których warto poprosić o pomoc."
+      ],
+      "program": [
+        "Co składa się na zdrowie człowieka.",
+        "Sen, ruch i odpoczynek w zwykłym dniu.",
+        "Ekrany i równowaga między aktywnościami.",
+        "Presja grupy a własne decyzje.",
+        "Mój plan jednego zdrowego nawyku."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--rezyliencja-jak-wspierac-budowanie-odpornosci-psychicznej-uc": {
+      "title": "Rezyliencja – jak wspierać budowanie odporności psychicznej uczniów",
+      "description": [
+        "Porażka, krytyka czy zmiana mogą być trudne, ale istnieją sposoby odzyskiwania równowagi i szukania rozwiązań. Uczniowie przećwiczą reagowanie na błędy, proszenie o wsparcie i dzielenie problemów na mniejsze kroki. Rozmawiamy o odporności psychicznej bez presji na „bycie twardym”."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Lepiej radzić sobie z błędem lub niepowodzeniem.",
+        "Rozpoznawać własne mocne strony i zasoby.",
+        "Prosić o pomoc i korzystać ze wsparcia rówieśników oraz dorosłych.",
+        "Planować małe kroki w obliczu trudności."
+      ],
+      "program": [
+        "Co pomaga po niepowodzeniu.",
+        "Myśli, które wspierają, i myśli, które utrudniają.",
+        "Moje zasoby oraz osoby wspierające.",
+        "Od problemu do planu: jeden mały krok.",
+        "Ćwiczenie elastycznego reagowania na zmianę."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--trudna-rzeczywistosc-szansa-czy-zagrozenie-dla-dzieci-i-mlod": {
+      "title": "Trudna rzeczywistość: szansa czy zagrożenie dla dzieci i młodzieży?",
+      "description": [
+        "Współczesny świat daje wiele możliwości, ale bywa źródłem presji, samotności i przeciążenia informacjami. Warsztat zachęca uczniów do krytycznego patrzenia na przekazy internetowe, rozpoznawania własnych granic i dbania o relacje. Uczestnicy ćwiczą decyzje, które zwiększają poczucie wpływu i bezpieczeństwa."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać wpływ presji i mediów na samopoczucie.",
+        "Rozpoznawać sytuacje, w których przekraczane są granice.",
+        "Wybierać bezpieczniejsze sposoby reagowania.",
+        "Wiedzieć, gdzie szukać pomocy w trudnych sytuacjach."
+      ],
+      "program": [
+        "Co daje i co obciąża we współczesnym świecie.",
+        "Samotność, przynależność i presja rówieśnicza.",
+        "Informacje w sieci a emocje i decyzje.",
+        "Granice, bezpieczeństwo i wspierające relacje.",
+        "Mapa pomocy i pomysły na codzienną równowagę."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--hejt-nie-konczy-sie-po-dzwonku-jak-reagowac-na-cyberprzemoc": {
+      "title": "Hejt nie kończy się po dzwonku – jak reagować na cyberprzemoc w szkole?",
+      "description": [
+        "Hejt może przenosić się z klasowej grupy na kolejne platformy i pozostawiać realne emocjonalne konsekwencje. Uczniowie nauczą się rozpoznawać cyberprzemoc, odróżniać ją od zwykłego sporu i reagować bez dalszego udostępniania krzywdzących treści. Ważnym elementem będzie rola świadków."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać hejt, nękanie i ośmieszanie w Internecie.",
+        "Nie wzmacniać przemocy przez udostępnianie materiałów.",
+        "Bezpiecznie zgłaszać problem dorosłym i platformom.",
+        "Wspierać osobę pokrzywdzoną bez narażania siebie."
+      ],
+      "program": [
+        "Jakie zachowania w sieci są krzywdzące.",
+        "Dlaczego niektóre komentarze tak mocno ranią.",
+        "Świadek cyberprzemocy: milczenie, reakcja, zgłoszenie.",
+        "Co zrobić po otrzymaniu krzywdzącej wiadomości.",
+        "Ćwiczenie bezpiecznej reakcji na fikcyjnych przykładach."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--to-byl-tylko-zart-jak-rozpoznawac-hejt-i-skutecznie-na-niego": {
+      "title": "„To był tylko żart!” – jak rozpoznawać hejt i skutecznie na niego reagować?",
+      "description": [
+        "W grupie łatwo usprawiedliwić raniący komentarz słowami „przecież żartowałem”. Podczas warsztatu uczniowie będą analizować, gdzie przebiega granica między humorem a upokorzeniem, jak działa presja grupy i co można powiedzieć, gdy ktoś przekracza czyjeś granice."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać, kiedy żart staje się krzywdzeniem.",
+        "Reagować na poniżanie bez eskalowania sytuacji.",
+        "Przyjmować informację, że własny komentarz kogoś zranił.",
+        "Wspierać rówieśnika i szukać pomocy dorosłego."
+      ],
+      "program": [
+        "Żart, konflikt i hejt: różnice w codziennych sytuacjach.",
+        "Intencja i skutek: dlaczego oba mają znaczenie.",
+        "Presja grupy i odpowiedzialność świadków.",
+        "Granice w rozmowie i w komunikatorach.",
+        "Ćwiczenia: przeprosiny, naprawa i szukanie wsparcia."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--nikt-go-nie-wyzywa-po-prostu-nikt-go-nie-wybiera-jak-zatrzym": {
+      "title": "„Nikt go nie wyzywa. Po prostu nikt go nie wybiera” – jak zatrzymać wykluczenie w klasie?",
+      "description": [
+        "Nie każdy uczeń doświadcza wyzywania. Czasem problemem jest to, że nikt go nie zaprasza, nie wybiera do zespołu albo stale ignoruje. Warsztat rozwija wrażliwość na wykluczenie, uczy reagowania jako świadek i pomaga budować grupę, w której nikt nie musi walczyć o podstawowy szacunek."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać mniej widoczne formy wykluczenia.",
+        "Zauważać znaczenie drobnych gestów w relacjach.",
+        "Reagować, gdy ktoś jest celowo pomijany.",
+        "Współpracować w grupie z poszanowaniem różnic."
+      ],
+      "program": [
+        "Jak wygląda wykluczenie bez otwartej agresji.",
+        "Co może czuć osoba stale pozostająca na uboczu.",
+        "Rola obserwatorów i małe gesty włączania.",
+        "Ćwiczenia współpracy bez rywalizacji o popularność.",
+        "Jak i komu zgłosić krzywdzenie w grupie."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--szkola-wolna-od-przemocy-jak-budowac-bezpieczna-przestrzen-d": {
+      "title": "Szkoła wolna od przemocy – jak budować bezpieczną przestrzeń dla każdego ucznia? Nie tylko reagowanie, ale przede wszystkim zapobieganie",
+      "description": [
+        "Poczucie bezpieczeństwa w szkole tworzą codzienne zachowania uczniów i dorosłych. Uczestnicy rozpoznają różne formy przemocy, nauczą się stawiania granic oraz reagowania jako świadkowie. Warsztat kończy się opracowaniem kilku konkretnych zasad pomagających budować bezpieczną grupę."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Odróżniać spór od krzywdzących zachowań.",
+        "Znać bezpieczne sposoby szukania pomocy.",
+        "Reagować jako świadek bez narażania siebie.",
+        "Wspólnie ustalać normy szacunku i bezpieczeństwa."
+      ],
+      "program": [
+        "Agresja, przemoc i konflikt: co je różni.",
+        "Co pomaga zatrzymać eskalację napięcia.",
+        "Świadek przemocy: jak odpowiedzialnie zareagować.",
+        "Dorośli w szkole: gdzie i jak zgłosić problem.",
+        "Wspólne zasady bezpiecznej klasy."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--to-tylko-zarty-kiedy-konflikt-staje-sie-przemoca-rowiesnicza": {
+      "title": "„To tylko żarty!” Kiedy konflikt staje się przemocą rówieśniczą?",
+      "description": [
+        "Powtarzające się wyśmiewanie lub wykluczanie, zwłaszcza gdy jedna strona ma przewagę, wymaga reakcji dorosłych. Uczniowie poznają różnicę między kłótnią a bullyingiem, przećwiczą sposoby zgłaszania krzywdzenia i wspierania rówieśnika. Nie wymagamy osobistych relacji z doświadczenia przemocy."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać cechy bullyingu.",
+        "Nie bagatelizować cierpienia pod hasłem „to żarty”.",
+        "Wiedzieć, jak bezpiecznie zgłaszać dręczenie.",
+        "Wspierać pokrzywdzonego kolegę lub koleżankę."
+      ],
+      "program": [
+        "Zwykły konflikt a systematyczne dręczenie.",
+        "Nierównowaga sił i rola grupy.",
+        "Dlaczego nie każdy potrafi obronić się sam.",
+        "Bezpieczne zachowania świadków.",
+        "Ćwiczenia: zgłoszenie i rozmowa z zaufanym dorosłym."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--dziecko-w-sieci-jak-chronic-zamiast-tylko-zakazywac": {
+      "title": "Dziecko w sieci – jak chronić, zamiast tylko zakazywać?",
+      "description": [
+        "Internet pozwala uczyć się, tworzyć i kontaktować z innymi, ale wymaga ostrożności. Uczestnicy sprawdzą, co warto udostępniać, jak rozpoznawać podejrzane kontakty i co zrobić, gdy ktoś narusza ich granice. Zamiast zakazów pracujemy na przykładach bezpiecznych decyzji."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Chronić prywatność i dane w codziennym korzystaniu z sieci.",
+        "Rozpoznawać niepokojące wiadomości i prośby.",
+        "Reagować na cyberprzemoc i szukać pomocy.",
+        "Stawiać granice czasu ekranowego i dostępności."
+      ],
+      "program": [
+        "Mój cyfrowy ślad i ustawienia prywatności.",
+        "Znajomi online i bezpieczeństwo kontaktów.",
+        "Udostępnianie zdjęć i zgoda innych osób.",
+        "Co zrobić z krzywdzącą lub podejrzaną wiadomością.",
+        "Mój zestaw zasad bezpiecznego korzystania z sieci."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--kiedy-idol-przekracza-granice": {
+      "title": "Kiedy idol przekracza granice",
+      "description": [
+        "Idole z sieci mogą inspirować, ale popularność nie daje nikomu prawa do przekraczania granic. Uczniowie porozmawiają o zaufaniu do twórców, reklamach ukrytych w treściach oraz sytuacjach, w których warto zachować ostrożność. Ćwiczenia uczą stawiania pytań bez wyśmiewania cudzych zainteresowań."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Oddzielać popularność od wiarygodności.",
+        "Rozpoznawać niepokojące prośby i manipulację.",
+        "Szanując własne zainteresowania, zachowywać granice.",
+        "Wiedzieć, komu zgłaszać niebezpieczne zachowania online."
+      ],
+      "program": [
+        "Jak powstaje więź z internetowym twórcą.",
+        "Autorytet, reklamowanie i wpływ społeczny.",
+        "Granice kontaktu i prywatność.",
+        "Co zrobić, gdy idol zachowuje się niewłaściwie.",
+        "Ćwiczenie krytycznego oglądania wybranych przekazów."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--nie-wszystko-co-w-sieci-jest-prawda-jak-uczyc-cyfrowej-odpow": {
+      "title": "Nie wszystko, co w sieci, jest prawdą! Jak uczyć cyfrowej odpowiedzialności?",
+      "description": [
+        "Nie każda informacja, którą widzimy w Internecie, jest prawdziwa. Warsztat pokazuje, jak odróżniać fakt od opinii, sprawdzać autora i źródło oraz ostrożnie podchodzić do materiałów tworzonych przez AI. Uczniowie wykonają krótkie zadania z weryfikowania treści."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Sprawdzać źródło i datę publikacji.",
+        "Rozpoznawać emocjonalne nagłówki i manipulację.",
+        "Ostrożnie oceniać treści generowane przez AI.",
+        "Nie udostępniać bezmyślnie niezweryfikowanych informacji."
+      ],
+      "program": [
+        "Fakt, opinia i reklama w sieci.",
+        "Jak powstaje fałszywa lub myląca informacja.",
+        "Źródła, kontekst, data i potwierdzenie w innych miejscach.",
+        "Obrazy generowane przez AI i deepfake.",
+        "Ćwiczenie: sprawdzam, zanim udostępnię."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--profilaktyka-uzaleznien-behawioralnych-w-szkolach-i-placowka": {
+      "title": "Profilaktyka uzależnień behawioralnych w szkołach i placówkach oświatowych",
+      "description": [
+        "Gry, media społecznościowe i ciągłe powiadomienia potrafią pochłaniać czas. Uczestnicy przyjrzą się temu, co sprawia, że trudno oderwać się od ekranu, jak rozpoznać sygnały utraty kontroli i jak zadbać o sen oraz inne aktywności. Nie etykietujemy intensywnego zainteresowania jako uzależnienia."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Zauważać własne nawyki cyfrowe.",
+        "Rozpoznawać, kiedy ekran zaczyna wypierać ważne potrzeby.",
+        "Ćwiczyć proste sposoby odzyskiwania kontroli nad czasem.",
+        "Wiedzieć, gdzie szukać pomocy bez obawy przed oceną."
+      ],
+      "program": [
+        "Po co sięgamy po telefon i gry.",
+        "Powiadomienia, nagrody i automatyczne nawyki.",
+        "Sen, koncentracja i relacje offline.",
+        "Plan realistycznej cyfrowej równowagi.",
+        "Jak poprosić o wsparcie, jeśli trudno zmienić nawyk."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--profilaktyka-uzaleznien-od-substancji-psychoaktywnych-i-uzal": {
+      "title": "Profilaktyka uzależnień od substancji psychoaktywnych i uzależnień behawioralnych a przeciwdziałanie przemocy rówieśniczej",
+      "description": [
+        "Presja grupy, ciekawość i chęć poradzenia sobie z napięciem mogą skłaniać do ryzykownych decyzji. Warsztat umożliwia analizowanie fikcyjnych sytuacji dotyczących substancji psychoaktywnych, problemowego korzystania z mediów i przemocy rówieśniczej. Uczniowie uczą się odmawiania, szukania wsparcia oraz dbania o bezpieczeństwo."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać presję i zachowania ryzykowne.",
+        "Ćwiczyć asertywną odmowę bez upokarzania innych.",
+        "Wskazywać bezpieczne alternatywy radzenia sobie z napięciem.",
+        "Wiedzieć, kiedy i do kogo zwrócić się o pomoc."
+      ],
+      "program": [
+        "Dlaczego ludzie podejmują ryzyko.",
+        "Substancje i zachowania cyfrowe: możliwe konsekwencje.",
+        "Presja rówieśnicza i decyzje pod wpływem emocji.",
+        "Asertywna odmowa oraz wspieranie kolegi.",
+        "Mapa zaufanych dorosłych i miejsc pomocy."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--z-klasy-w-zespol-jak-budowac-relacje-ktore-wspieraja-nauke": {
+      "title": "Z klasy w zespół – jak budować relacje, które wspierają naukę?",
+      "description": [
+        "W jednej klasie spotykają się osoby o różnych zainteresowaniach, potrzebach i sposobach działania. Warsztat pomaga zauważać mocne strony członków grupy, rozmawiać o zasadach współpracy i rozwiązywać nieporozumienia. Dominują krótkie ćwiczenia zespołowe i wspólna refleksja."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Współpracować z osobami o różnych stylach działania.",
+        "Rozmawiać o konfliktach bez obrażania.",
+        "Włączać do zadań osoby pozostające na uboczu.",
+        "Wspólnie ustalać jasne i sprawiedliwe zasady."
+      ],
+      "program": [
+        "Co pomaga, a co przeszkadza w pracy zespołowej.",
+        "Role w grupie i mocne strony uczestników.",
+        "Komunikacja i słuchanie w zadaniu.",
+        "Rozwiązywanie nieporozumień.",
+        "Kontrakt klasowy: zasady, za które odpowiadamy wspólnie."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--kazdy-uczen-ma-znaczenie-dobrostan-empatia-i-edukacja-wlacza": {
+      "title": "Każdy uczeń ma znaczenie. Dobrostan, empatia i edukacja włączająca w praktyce",
+      "description": [
+        "Każdy uczeń ma inne tempo, zainteresowania i potrzeby, ale zasługuje na szacunek. Uczestnicy przyjrzą się temu, czym jest empatia, jak rozpoznawać bariery utrudniające udział w grupie i co można zrobić, aby nikt nie był wykluczany. Warsztat unika przypisywania ról i diagnozowania rówieśników."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać różne potrzeby w grupie.",
+        "Reagować na stereotypy i wykluczanie.",
+        "Pomagać innym bez narzucania się.",
+        "Budować atmosferę szacunku i współpracy."
+      ],
+      "program": [
+        "Co oznacza, że każdy jest inny.",
+        "Empatia, szacunek i osobiste granice.",
+        "Bariery w codziennych szkolnych sytuacjach.",
+        "Pomoc, o którą można zapytać, a nie narzucić.",
+        "Wspólne działania, które zwiększają udział wszystkich."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--porozumienie-bez-przemocy-jak-mowic-zeby-sie-porozumiec": {
+      "title": "Porozumienie bez przemocy – jak mówić, żeby się porozumieć?",
+      "description": [
+        "W nieporozumieniu łatwo przejść od problemu do oskarżeń. Podczas warsztatu uczniowie poznają język obserwacji, uczuć, potrzeb i próśb. Przećwiczą rozmowy o codziennych sytuacjach szkolnych: podziale zadań, niedotrzymanej umowie czy konflikcie w grupie."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Wyrażać swoje potrzeby bez obrażania drugiej osoby.",
+        "Słuchać odmiennego zdania z większą uważnością.",
+        "Stawiać granice w sposób stanowczy i spokojny.",
+        "Szukać rozwiązań, które uwzględniają obie strony."
+      ],
+      "program": [
+        "Co eskaluje, a co łagodzi konflikt.",
+        "Obserwacja a ocena w języku codziennym.",
+        "Uczucia i potrzeby w rozmowie.",
+        "Jasna prośba, odmowa i granica.",
+        "Scenki: od oskarżenia do porozumienia."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "uczniowie--roznorodnosc-wsrod-mlodziezy-jak-budowac-szkole-wolna-od-dys": {
+      "title": "Różnorodność wśród młodzieży. Jak budować szkołę wolną od dyskryminacji?",
+      "description": [
+        "Różnimy się wyglądem, sposobem komunikacji, doświadczeniami i potrzebami. Warsztat pomaga uczniom zauważać stereotypy, rozpoznawać dyskryminujące komentarze i reagować w sposób bezpieczny i pełen szacunku. Punktem wyjścia są fikcyjne sytuacje, nie ocenianie prywatnych tożsamości uczestników."
+      ],
+      "benefitsIntro": "Po warsztacie uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać stereotypy i krzywdzące uogólnienia.",
+        "Szanować odmienność i granice innych osób.",
+        "Reagować na wykluczenie jako świadek.",
+        "Współtworzyć bezpieczniejsze zasady rozmowy w grupie."
+      ],
+      "program": [
+        "Różnorodność w codziennym życiu szkoły.",
+        "Jak powstają uprzedzenia i etykiety.",
+        "Słowa, które włączają, i słowa, które wykluczają.",
+        "Bezpieczne reagowanie na obraźliwe komentarze.",
+        "Szacunek w praktyce: ćwiczenie wspólnych zasad."
+      ],
+      "descriptionHeading": "Opis warsztatu",
+      "programHeading": "Program warsztatu"
+    },
+    "biznes--pracownik-tez-ma-granice-jak-zapobiegac-wypaleniu-zawodowemu": {
+      "title": "Pracownik też ma granice. Jak zapobiegać wypaleniu zawodowemu?",
+      "subtitle": "Przeciążenie, stres, regeneracja i odpowiedzialność organizacji za warunki pracy.",
+      "description": [
+        "Nadmiar zadań, presja dostępności i coraz większa odpowiedzialność potrafią zamienić zaangażowanie w wyczerpanie. Jak zauważyć pierwsze sygnały wypalenia i reagować, zanim problemy zaczną wpływać na zdrowie i jakość pracy?",
+        "Szkolenie łączy psychologię stresu z praktyką zarządzania obciążeniem. Uczestnicy poznają strategie regeneracji, stawiania granic i samoregulacji. Menedżerowie przyjrzą się także czynnikom organizacyjnym, na które mają realny wpływ: priorytetom, autonomii, stylowi zarządzania i kulturze komunikacji."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Odróżniać przeciążenie i objawy wypalenia od zwykłego zmęczenia.",
+        "Rozpoznawać indywidualne i organizacyjne źródła przewlekłego stresu.",
+        "Korzystać z prostych technik regulacji napięcia i regeneracji.",
+        "Uzgadniać priorytety, granice dostępności i realistyczne oczekiwania.",
+        "Wskazywać działania zespołu i organizacji ograniczające ryzyko wypalenia."
+      ],
+      "program": [
+        "Wypalenie zawodowe: mechanizmy, sygnały ostrzegawcze, konsekwencje.",
+        "Obciążenie pracą, presja czasu i poczucie wpływu.",
+        "Samoregulacja: oddech, krótkie techniki relaksacyjne, uważność.",
+        "Granice i regeneracja: priorytety, odpoczynek, praca po godzinach.",
+        "Profilaktyka systemowa: odpowiedzialność menedżera, komunikacja i wsparcie."
+      ],
+      "cta": "Zadbaj o zdrowie zespołu, nie przerzucając całej odpowiedzialności na pracownika."
+    },
+    "biznes--wylacz-autopilota-praktyczny-trening-uwaznosci-w-pracy": {
+      "title": "Wyłącz autopilota – praktyczny trening uważności w pracy",
+      "subtitle": "Mindfulness i proste sposoby odzyskiwania uwagi w codziennym natłoku obowiązków.",
+      "description": [
+        "Kolejne powiadomienie, spotkanie i zadanie „na już”. Uwaga przeskakuje między obowiązkami, a ciało pozostaje w napięciu nawet po zakończeniu dnia. Jak odzyskać chwilę skupienia bez konieczności radykalnej zmiany stylu życia?",
+        "Warsztat wprowadza praktyczne ćwiczenia uważności, świadomego oddechu i obserwowania reakcji na stres. Uczestnicy uczą się stosować krótkie mikroprzerwy oraz świadomie przechodzić między zadaniami. Trening nie zastępuje wsparcia medycznego ani nie usuwa organizacyjnych przyczyn przeciążenia."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać sygnały przeciążenia i utraty koncentracji.",
+        "Wykonywać krótkie ćwiczenia oddechowe i uważności.",
+        "Ograniczać automatyczne, impulsywne reakcje na napięcie.",
+        "Planować regenerujące mikroprzerwy w dniu pracy.",
+        "Dobierać praktyki do własnych możliwości i kontekstu pracy."
+      ],
+      "program": [
+        "Uwaga i autopilot: jak działają nawyki i rozproszenie.",
+        "Stres w ciele: obserwacja sygnałów bez oceniania.",
+        "Uważny oddech i krótkie ćwiczenia przy biurku.",
+        "Mindfulness w rozmowie, spotkaniu i podczas trudnego zadania.",
+        "Plan małych praktyk: jak ćwiczyć bez dodatkowej presji."
+      ],
+      "cta": "Wprowadź do codzienności zespołu chwilę skupienia zamiast kolejnego obowiązku."
+    },
+    "biznes--rezyliencja-w-pracy-jak-wzmacniac-odpornosc-psychiczna": {
+      "title": "Rezyliencja w pracy – jak wzmacniać odporność psychiczną?",
+      "subtitle": "Radzenie sobie z niepewnością, zmianą i wyzwaniami bez presji na „bycie silnym”.",
+      "description": [
+        "Zmiany organizacyjne, niepowodzenia i niepewność potrafią odbierać poczucie wpływu. Odporność psychiczna nie oznacza jednak niewrażliwości ani ciągłej gotowości do podejmowania nowych zadań.",
+        "Podczas szkolenia uczestnicy przyjrzą się sposobom regulowania emocji, korzystania ze wsparcia oraz odzyskiwania sprawczości w trudnych sytuacjach. Ważnym elementem będą także warunki pracy, które sprzyjają elastycznej adaptacji, zamiast normalizować przeciążenie."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać własne reakcje na zmianę i niepewność.",
+        "Oddzielać to, na co mają wpływ, od czynników poza kontrolą.",
+        "Wykorzystywać zasoby, relacje i wsparcie społeczne.",
+        "Planować realistyczne działania w trudnej sytuacji.",
+        "Unikać utożsamiania odporności z koniecznością znoszenia wszystkiego."
+      ],
+      "program": [
+        "Rezyliencja: czym jest, a czym nie jest.",
+        "Stres, emocje i ocena sytuacji w środowisku pracy.",
+        "Poczucie wpływu: elastyczność, cele i małe kroki.",
+        "Wsparcie społeczne i rola bezpiecznych relacji zawodowych.",
+        "Warsztat: osobisty plan radzenia sobie ze zmianą."
+      ],
+      "cta": "Wspieraj elastyczność zespołu bez kultury nieustannego zaciskania zębów."
+    },
+    "biznes--mial-byc-zawod-z-pasja-i-co-dalej": {
+      "title": "Miał być zawód z pasją… I co dalej?",
+      "subtitle": "Sens pracy, motywacja i satysfakcja zawodowa bez kultu produktywności.",
+      "description": [
+        "Praca, która kiedyś dawała satysfakcję, z czasem może stać się serią zadań do odhaczenia. Czy spadek entuzjazmu zawsze oznacza wypalenie? Jak odzyskiwać poczucie sensu bez udawania, że każda chwila pracy musi być pasją?",
+        "Szkolenie pomaga przyjrzeć się osobistym wartościom, potrzebom i źródłom zawodowej satysfakcji. Uczestnicy analizują, które elementy swojej pracy mogą kształtować, a które wymagają rozmowy z przełożonym lub zmian organizacyjnych."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać źródła satysfakcji i frustracji zawodowej.",
+        "Oddzielać chwilowe znużenie od długotrwałego przeciążenia.",
+        "Łączyć własne wartości z realistycznymi celami zawodowymi.",
+        "Rozmawiać o potrzebach i warunkach wykonywania pracy.",
+        "Planować małe zmiany wspierające zaangażowanie i regenerację."
+      ],
+      "program": [
+        "Pasja, obowiązek i oczekiwania wobec pracy.",
+        "Co daje energię, a co ją odbiera? Mapa zasobów i obciążeń.",
+        "Motywacja wewnętrzna, autonomia i poczucie sensu.",
+        "Granice zaangażowania i profilaktyka przeciążenia.",
+        "Plan działań: małe zmiany indywidualne i zespołowe."
+      ],
+      "cta": "Pomóż ludziom odnaleźć sens pracy bez wymagania od nich stałego entuzjazmu."
+    },
+    "biznes--gdy-wspolpracownik-przezywa-kryzys-jak-rozpoznac-sygnaly-i-u": {
+      "title": "Gdy współpracownik przeżywa kryzys. Jak rozpoznać sygnały i udzielić wsparcia?",
+      "subtitle": "Pierwsza pomoc emocjonalna, rozmowa i bezpieczne kierowanie po profesjonalną pomoc.",
+      "description": [
+        "Nagłe wycofanie, silne napięcie, wyraźna zmiana zachowania lub trudna wiadomość od współpracownika. Jak zareagować z troską, a jednocześnie nie przekroczyć własnych kompetencji?",
+        "Szkolenie jest przeznaczone dla liderów, HR i zespołów. Uczy prowadzenia wspierającej rozmowy, rozpoznawania sygnałów pilnej potrzeby pomocy oraz postępowania zgodnego z wewnętrznymi procedurami. Nie przygotowuje do diagnozowania ani prowadzenia terapii."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Zauważać niepokojące zmiany bez stawiania diagnozy.",
+        "Rozpoczynać rozmowę z empatią i poszanowaniem prywatności.",
+        "Wiedzieć, kiedy skierować osobę do profesjonalnej pomocy.",
+        "Reagować na bezpośrednie zagrożenie bezpieczeństwa.",
+        "Rozróżniać rolę współpracownika, menedżera i specjalisty."
+      ],
+      "program": [
+        "Kryzys psychiczny w pracy: możliwe sygnały i ograniczenia obserwacji.",
+        "Pierwszy kontakt: jak pytać, słuchać i nie bagatelizować.",
+        "Granice wsparcia: poufność, zgoda i odpowiedzialność.",
+        "Sytuacja pilna: bezpieczeństwo i wezwanie odpowiedniej pomocy.",
+        "Dalsze wsparcie: HR, świadczenia pomocowe i powrót do pracy."
+      ],
+      "cta": "Przygotuj osoby w organizacji do mądrego reagowania, nie do zastępowania specjalistów."
+    },
+    "biznes--kiedy-nawyk-staje-sie-problemem-cyfrowa-rownowaga-w-pracy": {
+      "title": "Kiedy nawyk staje się problemem. Cyfrowa równowaga w pracy",
+      "subtitle": "Powiadomienia, rozproszenie i granice korzystania z technologii.",
+      "description": [
+        "Skrzynka odbiorcza, firmowy komunikator i telefon konkurują o uwagę przez cały dzień. Gdzie kończy się użyteczna dostępność, a zaczyna problemowe korzystanie z technologii?",
+        "Szkolenie analizuje mechanizmy nawyków cyfrowych, przeciążenia informacyjnego i FOMO. Uczestnicy wypracowują zasady komunikacji i odpoczynku, które wspierają koncentrację i ograniczają presję natychmiastowych odpowiedzi. Nie utożsamia częstego używania telefonu z uzależnieniem."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać nawyki cyfrowe utrudniające pracę i odpoczynek.",
+        "Rozumieć mechanizmy FOMO i automatycznego sprawdzania powiadomień.",
+        "Planować czas skupienia i świadome przerwy od ekranu.",
+        "Ustalać zespołowe zasady kontaktu i dostępności.",
+        "Odróżniać niekorzystny nawyk od problemu wymagającego pomocy specjalisty."
+      ],
+      "program": [
+        "Praca w trybie online: korzyści i koszt ciągłego przełączania uwagi.",
+        "Psychologia nawyków, nagrody i powiadomień.",
+        "FOMO, presja odpowiedzi i przeciążenie informacjami.",
+        "Higiena cyfrowa: skupienie, odpoczynek, granice dostępności.",
+        "Kontrakt zespołowy dotyczący komunikatorów i spotkań."
+      ],
+      "cta": "Pomóż zespołowi odzyskać uwagę bez wyłączania potrzebnej komunikacji."
+    },
+    "biznes--szakal-na-spotkaniu-komunikacja-bez-przemocy-w-pracy": {
+      "title": "Szakal na spotkaniu. Komunikacja bez przemocy w pracy",
+      "subtitle": "Empatia, jasne komunikaty i stawianie granic w zawodowych rozmowach.",
+      "description": [
+        "„Ty zawsze…”, „Znowu zawaliłeś”, „To nie mój problem”. Nawet proste ustalenia mogą zamienić się w konflikt, jeśli zamiast mówić o faktach i potrzebach, zaczynamy się oceniać.",
+        "Szkolenie wprowadza praktyczne elementy Porozumienia bez Przemocy (NVC). Uczestnicy ćwiczą rozdzielanie obserwacji od interpretacji, nazywanie potrzeb, formułowanie konkretnych próśb i stawianie granic. Nie chodzi o sztuczną uprzejmość, lecz bardziej zrozumiałą komunikację."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Oddzielać fakty od ocen i domysłów.",
+        "Komunikować potrzeby oraz oczekiwania bez oskarżeń.",
+        "Słuchać i parafrazować podczas trudnych rozmów.",
+        "Formułować konkretne prośby, odmowy i granice.",
+        "Rozbrajać nieporozumienia bez rezygnowania z własnego stanowiska."
+      ],
+      "program": [
+        "Skąd biorą się bariery komunikacyjne w pracy.",
+        "Cztery elementy NVC: obserwacje, uczucia, potrzeby i prośby.",
+        "Komunikat „ja”, aktywne słuchanie i empatia.",
+        "Granice i asertywność bez uległości oraz agresji.",
+        "Ćwiczenia: feedback, nieporozumienie i wymagająca rozmowa."
+      ],
+      "cta": "Zamień domysły i pretensje na komunikację, z której wynikają konkretne ustalenia."
+    },
+    "biznes--zgrany-zespol-jak-budowac-relacje-i-rozwiazywac-konflikty": {
+      "title": "Zgrany zespół – jak budować relacje i rozwiązywać konflikty?",
+      "subtitle": "Model Win-Win i harwardzkie zasady negocjowania w środowisku pracy.",
+      "description": [
+        "Różne priorytety, napięcia między działami i nieporozumienia o odpowiedzialność za zadania. Czy konflikt musi kończyć się wygraną jednej strony?",
+        "Szkolenie pokazuje, jak przechodzić od sztywnych stanowisk do rozmowy o interesach. Uczestnicy poznają zasady negocjacji opartych na interesach, ćwiczą rozwiązywanie sporów i budowanie ustaleń możliwych do wykonania."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Odróżniać stanowiska od rzeczywistych interesów stron.",
+        "Rozpoznawać mechanizmy eskalacji napięcia.",
+        "Prowadzić rozmowy o sporach bez personalnych ataków.",
+        "Poszukiwać rozwiązań z wykorzystaniem obiektywnych kryteriów.",
+        "Kończyć negocjacje konkretnymi, weryfikowalnymi ustaleniami."
+      ],
+      "program": [
+        "Dlaczego zespoły wchodzą w konflikt? Role, cele i emocje.",
+        "Model harwardzki: ludzie i problem, interesy, opcje, kryteria.",
+        "Aktywne słuchanie i formułowanie potrzeb.",
+        "Strategie reagowania w konflikcie i granice kompromisu.",
+        "Symulacja negocjacyjna na przykładach zawodowych."
+      ],
+      "cta": "Zadbaj o współpracę między ludźmi, których nie zawsze łączą identyczne interesy."
+    },
+    "biznes--trudny-klient-trudna-rozmowa-jak-budowac-porozumienie-i-staw": {
+      "title": "Trudny klient, trudna rozmowa – jak budować porozumienie i stawiać granice?",
+      "subtitle": "Asertywność, deeskalacja napięcia i profesjonalna obsługa wymagających sytuacji.",
+      "description": [
+        "Klient podnosi głos, kwestionuje ustalenia lub oczekuje czegoś, czego firma nie może zapewnić. Jak rozmawiać spokojnie i konkretnie, nie pozwalając na przekraczanie granic?",
+        "Warsztat uczy prowadzenia trudnych rozmów z klientami i partnerami biznesowymi. Uczestnicy ćwiczą słuchanie, wyjaśnianie faktów, przedstawianie możliwości oraz reagowanie na presję. Omawiamy również sytuacje, w których trzeba zakończyć rozmowę i uruchomić procedury bezpieczeństwa."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać moment, w którym napięcie zaczyna eskalować.",
+        "Prowadzić rozmowę w oparciu o fakty i możliwe rozwiązania.",
+        "Stawiać granice wobec agresji słownej i nieuprawnionych żądań.",
+        "Komunikować odmowę bez zbędnego zaostrzania konfliktu.",
+        "Dokumentować ustalenia i wiedzieć, kiedy przekazać sprawę dalej."
+      ],
+      "program": [
+        "Psychologia konfliktu z klientem: emocje, potrzeby, oczekiwania.",
+        "Słuchanie, parafraza i spokojne przedstawianie faktów.",
+        "Asertywność: odmowa, konsekwencja i zasady rozmowy.",
+        "Deeskalacja trudnych sytuacji i ochrona bezpieczeństwa.",
+        "Scenki: reklamacja, pretensja, presja i nierealne oczekiwania."
+      ],
+      "cta": "Wyposaż pracowników w narzędzia trudnych rozmów bez obietnic niemożliwych do spełnienia."
+    },
+    "biznes--emocjonalna-tarcza-zespolu-jak-budowac-bezpieczenstwo-psycho": {
+      "title": "Emocjonalna tarcza zespołu – jak budować bezpieczeństwo psychologiczne?",
+      "subtitle": "Zaufanie, otwartość i odpowiedzialność we współpracy.",
+      "description": [
+        "Dlaczego na jednym spotkaniu ludzie bez obaw zgłaszają problemy, a na innym milczą, choć wiedzą, że projekt zmierza w złym kierunku? W wielu zespołach o jakości współpracy decyduje to, czy można popełnić błąd lub wyrazić odmienne zdanie bez upokorzenia.",
+        "Szkolenie dotyczy zachowań budujących bezpieczeństwo psychologiczne: reagowania na błędy, zadawania pytań, informacji zwrotnej i rozwiązywania napięć. Uczestnicy opracują praktyczne normy współpracy, które łączą otwartość z odpowiedzialnością za wyniki."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać zachowania, które uciszają lub zawstydzają ludzi.",
+        "Zapraszać do zgłaszania pytań, błędów i ryzyk.",
+        "Reagować na trudne emocje z szacunkiem i jasnymi granicami.",
+        "Udzielać informacji zwrotnej bez personalnych ocen.",
+        "Uzgadniać zasady dyskusji, odpowiedzialności i współpracy."
+      ],
+      "program": [
+        "Bezpieczeństwo psychologiczne: zaufanie to nie pobłażliwość.",
+        "Stres i reakcje obronne w sytuacjach zawodowych.",
+        "Mikrozachowania liderów: pytania, ciekawość i przyjmowanie krytyki.",
+        "Błędy, konflikty i feedback bez zawstydzania.",
+        "Warsztat: zasady spotkań i komunikacji w zespole."
+      ],
+      "cta": "Zbuduj kulturę, w której ludzie mogą mówić otwarcie i brać odpowiedzialność."
+    },
+    "biznes--to-byl-tylko-zart-jak-reagowac-na-hejt-i-przemoc-w-pracy": {
+      "title": "„To był tylko żart!” – jak reagować na hejt i przemoc w pracy?",
+      "subtitle": "Upokarzające komentarze, cybernękanie i granice dopuszczalnych zachowań.",
+      "description": [
+        "Ośmieszający komentarz na firmowym czacie, wykluczanie z informacji, powtarzające się docinki czy publiczne zawstydzanie. Kiedy „żart” przestaje być niewinny, a zaczyna naruszać poczucie bezpieczeństwa współpracowników?",
+        "Szkolenie pomaga rozpoznawać zachowania przemocowe i rozumieć ich psychologiczne skutki. Uczestnicy poznają sposoby dokumentowania zdarzeń, udzielania wsparcia i korzystania z firmowych kanałów zgłoszeniowych. Poruszamy również rolę świadków oraz granice poufności. Nie zastępuje ono analizy prawnej konkretnych przypadków."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać poniżanie, nękanie i agresję w komunikacji online.",
+        "Reagować bez bagatelizowania i bez pochopnego etykietowania.",
+        "Wspierać osobę doświadczającą krzywdzenia.",
+        "Dokumentować zdarzenia i korzystać z właściwych procedur.",
+        "Rozumieć rolę świadków i odpowiedzialność liderów."
+      ],
+      "program": [
+        "Żart, konflikt, przemoc: rozpoznawanie różnic.",
+        "Mechanizmy wykluczenia i agresji w zespole oraz w sieci.",
+        "Skutki psychologiczne i rola świadków.",
+        "Interwencja: bezpieczeństwo, dokumentowanie, ścieżki zgłoszenia.",
+        "Profilaktyka: granice komunikacji i kultura szacunku."
+      ],
+      "cta": "Nie pozwól, by raniące zachowania były tłumaczone „taką atmosferą w zespole”."
+    },
+    "biznes--informacja-zwrotna-ktora-motywuje-jak-wspierac-rozwoj-pracow": {
+      "title": "Informacja zwrotna, która motywuje – jak wspierać rozwój pracowników?",
+      "subtitle": "Feedback, oczekiwania i rozmowy rozwojowe bez demotywującej krytyki.",
+      "description": [
+        "„Świetna robota” bywa zbyt ogólne, a „musisz się poprawić” nie mówi, co konkretnie zrobić inaczej. Jak przekazywać informacje zwrotne, które pomagają pracownikom rozwijać kompetencje?",
+        "Szkolenie pokazuje, jak opisywać obserwowalne zachowania, ustalać kryteria i prowadzić rozmowy rozwojowe. Uczestnicy ćwiczą docenianie, wskazywanie obszarów do poprawy i wspólne planowanie kolejnych kroków bez etykietowania osób."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dawać informację zwrotną opartą na faktach i przykładach.",
+        "Rozdzielać ocenę działania od oceny człowieka.",
+        "Doceniać postępy bez pustych komplementów.",
+        "Formułować oczekiwania i cele rozwojowe.",
+        "Prowadzić wymagającą rozmowę bez podważania godności rozmówcy."
+      ],
+      "program": [
+        "Dlaczego feedback bywa odbierany jak atak?",
+        "Fakty, interpretacje i język obserwowalnych zachowań.",
+        "Docenianie wysiłku, efektów i postępu.",
+        "Konstruktywna rozmowa korygująca: cele i kolejne kroki.",
+        "Ćwiczenia na rzeczywistych sytuacjach menedżerskich."
+      ],
+      "cta": "Spraw, by rozmowa o wynikach dawała jasność, a nie tylko napięcie."
+    },
+    "biznes--jak-rozbudzic-chec-do-dzialania-skuteczne-techniki-motywowan": {
+      "title": "Jak rozbudzić chęć do działania? Skuteczne techniki motywowania zespołu",
+      "subtitle": "Motywacja, autonomia i angażowanie pracowników w realizację celów.",
+      "description": [
+        "Premia nie zawsze zwiększa zaangażowanie, a kolejne przypomnienia często nie rozwiązują problemu. Co sprawia, że jedni pracownicy chętnie podejmują inicjatywę, a inni ograniczają się do wykonywania minimum?",
+        "Szkolenie pokazuje psychologiczne mechanizmy motywacji i rolę warunków pracy. Uczestnicy poznają strategie wzmacniania autonomii, poczucia kompetencji i sensu działania oraz sposoby rozmawiania o spadku zaangażowania bez pochopnego obwiniania."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać różne źródła zaangażowania pracowników.",
+        "Odróżniać brak motywacji od niejasnych celów i przeciążenia.",
+        "Wspierać autonomię i odpowiedzialność za zadania.",
+        "Ustalać jasne, realistyczne cele oraz kryteria sukcesu.",
+        "Prowadzić rozmowy motywujące zamiast wywierać presję."
+      ],
+      "program": [
+        "Motywacja wewnętrzna i zewnętrzna w pracy.",
+        "Autonomia, kompetencje i relacje jako czynniki zaangażowania.",
+        "Co demotywuje? Chaos, przeciążenie i brak informacji zwrotnej.",
+        "Cele, odpowiedzialność i konstruktywna rozmowa.",
+        "Warsztat: plan wspierania motywacji w zespole."
+      ],
+      "cta": "Zamień motywowanie przez presję w świadome budowanie warunków do działania."
+    },
+    "biznes--za-moich-czasow-to-nie-argument": {
+      "title": "„Za moich czasów…” to nie argument",
+      "subtitle": "Różnice pokoleniowe, stereotypy i współpraca osób o różnych doświadczeniach.",
+      "description": [
+        "Jedni wolą telefon, inni komunikator. Jedni cenią przewidywalność, inni oczekują większej elastyczności. Czy naprawdę decyduje o tym rok urodzenia?",
+        "Szkolenie pozwala krytycznie przyjrzeć się popularnym etykietom pokoleniowym i lepiej rozumieć różnice w stylu pracy. Uczestnicy ćwiczą komunikację ponad stereotypami, formułowanie wspólnych zasad i rozwiązywanie nieporozumień wynikających z odmiennych doświadczeń."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Odróżniać realne potrzeby od stereotypów o pokoleniach.",
+        "Dostrzegać wpływ doświadczeń i kontekstu na styl współpracy.",
+        "Dobierać kanały komunikacji do zadania i odbiorców.",
+        "Rozwiązywać konflikty wynikające z różnych oczekiwań.",
+        "Wykorzystywać zróżnicowane kompetencje zamiast dzielić zespół na roczniki."
+      ],
+      "program": [
+        "Pokolenia w miejscu pracy: pojęcia i ograniczenia uogólnień.",
+        "Ageizm i pułapki etykietowania.",
+        "Technologia, komunikacja i odmienne zwyczaje zawodowe.",
+        "Różnice oczekiwań: feedback, autonomia, odpowiedzialność.",
+        "Ćwiczenia: jak ustalać wspólne reguły pracy."
+      ],
+      "cta": "Wykorzystaj doświadczenie różnych osób, zamiast przypisywać im cechy według metryki."
+    },
+    "biznes--roznorodnosc-w-pracy-jak-budowac-kulture-szacunku-i-zrozumie": {
+      "title": "Różnorodność w pracy – jak budować kulturę szacunku i zrozumienia?",
+      "subtitle": "Komunikacja włączająca, uprzedzenia i współpraca w zróżnicowanym zespole.",
+      "description": [
+        "Ludzie różnią się doświadczeniem, sposobem komunikowania, potrzebami i tożsamością. W firmie te różnice mogą wzbogacać współpracę, ale także stawać się źródłem nieporozumień i wykluczenia.",
+        "Szkolenie koncentruje się na praktycznych zachowaniach: rozpoznawaniu stereotypów, języku szacunku, reagowaniu na niestosowne komentarze i tworzeniu zasad równego traktowania. Nie wymaga od uczestników identycznych poglądów; wymaga poszanowania godności i granic innych osób."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Rozpoznawać stereotypy i mechanizmy wykluczenia w zespole.",
+        "Używać języka wspierającego szacunek i współpracę.",
+        "Reagować na dyskryminujące komentarze bez publicznego upokarzania.",
+        "Uzgadniać jasne zasady komunikacji i rozwiązywania nieporozumień.",
+        "Dostrzegać, jak różnorodne doświadczenia mogą wzmacniać zespół."
+      ],
+      "program": [
+        "Równe traktowanie i kultura szacunku w praktyce.",
+        "Stereotypy, uprzedzenia i nieuświadomione założenia.",
+        "Komunikacja włączająca i granice żartu.",
+        "Reagowanie na wykluczenie i konflikt.",
+        "Warsztat: kodeks współpracy i dobre praktyki zespołowe."
+      ],
+      "cta": "Buduj środowisko, w którym różnice nie muszą oznaczać podziałów."
+    },
+    "biznes--nie-wszyscy-tak-samo-i-bardzo-dobrze-neuroroznorodnosc-w-zes": {
+      "title": "Nie wszyscy tak samo. I bardzo dobrze! Neuroróżnorodność w zespole",
+      "subtitle": "Różne style funkcjonowania, komunikacji i organizacji pracy.",
+      "description": [
+        "Jedna osoba najlepiej pracuje w ciszy i przewidywalnym rytmie, inna potrzebuje ruchu i częstych zmian aktywności. Czy wszystkie osoby w zespole powinny funkcjonować według tego samego schematu?",
+        "Szkolenie wprowadza perspektywę neuroróżnorodności w miejscu pracy, ze szczególnym uwzględnieniem autyzmu i ADHD. Uczestnicy poznają sposoby komunikacji, organizacji zadań i ograniczania barier, bez przypisywania pracownikom diagnoz na podstawie zachowania."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Dostrzegać zróżnicowane potrzeby dotyczące uwagi i komunikacji.",
+        "Ograniczać niejasne polecenia i zbędne bodźce.",
+        "Dostosowywać organizację pracy bez stygmatyzowania ludzi.",
+        "Rozmawiać o potrzebach i uzasadnionych dostosowaniach z szacunkiem.",
+        "Wykorzystywać mocne strony pracowników bez stereotypowego myślenia."
+      ],
+      "program": [
+        "Neuroróżnorodność: co oznacza, a czego nie oznacza.",
+        "Autyzm i ADHD w pracy: możliwe potrzeby i zróżnicowanie.",
+        "Komunikacja: jasność, przewidywalność i informacja zwrotna.",
+        "Środowisko pracy: bodźce, przerwy, organizacja zadań.",
+        "Warsztat: mapowanie barier i projektowanie rozwiązań."
+      ],
+      "cta": "Dostosuj sposób współpracy do realnych potrzeb, nie do etykiet."
+    },
+    "biznes--nie-wszystko-co-w-sieci-jest-prawda-ai-i-krytyczne-myslenie": {
+      "title": "Nie wszystko, co w sieci, jest prawdą! AI i krytyczne myślenie w firmie",
+      "subtitle": "Dezinformacja, deepfake, weryfikacja źródeł i odpowiedzialne korzystanie z AI.",
+      "description": [
+        "Generowane przez AI materiały bywają przekonujące, a fałszywa wiadomość może wpłynąć na decyzję biznesową. Jak odróżniać wiarygodną informację od manipulacji, gdy treści powstają i rozchodzą się coraz szybciej?",
+        "Szkolenie rozwija praktyczne nawyki weryfikowania źródeł oraz krytycznej oceny materiałów cyfrowych. Uczestnicy poznają podstawowe ograniczenia narzędzi generatywnej AI, ryzyka ujawniania danych i zasady odpowiedzialnego wykorzystywania treści w komunikacji firmowej. To szkolenie świadomościowe, nie audyt cyberbezpieczeństwa."
+      ],
+      "benefitsIntro": "Po szkoleniu uczestnicy będą potrafili:",
+      "benefits": [
+        "Weryfikować źródła i rozpoznawać sygnały manipulacji.",
+        "Wiedzieć, dlaczego AI może podawać nieprawdziwe odpowiedzi.",
+        "Dostrzegać ryzyka deepfake i podszywania się pod osoby.",
+        "Unikać wpisywania poufnych informacji do niezatwierdzonych narzędzi.",
+        "Ustalać praktyczne zasady weryfikacji treści przed publikacją."
+      ],
+      "program": [
+        "Dezinformacja i manipulacja w komunikacji biznesowej.",
+        "Sprawdzanie źródeł: autor, kontekst, data, potwierdzenie.",
+        "Generatywna AI: możliwości i ograniczenia odpowiedzi.",
+        "Deepfake, podszywanie się i naruszanie prywatności.",
+        "Warsztat: lista kontrolna bezpiecznego używania treści i AI."
+      ],
+      "cta": "Wzmocnij odporność informacyjną zespołu, zanim fałszywa treść wpłynie na decyzję."
     }
   }
 }

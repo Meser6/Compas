@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "Uniwersytet SWPS",
+      "logo": "partners/uniwersytet-swps.jpg"
+    },
+    {
+      "name": "Polskie Radio Katowice",
+      "logo": "partners/polskie-radio-katowice.jpg"
+    },
+    {
+      "name": "Śląski Festiwal Nauki Katowice",
+      "logo": "partners/slaski-festiwal-nauki.jpg"
+    },
+    {
+      "name": "EKO TUR Instytut Kształcenia",
+      "logo": "partners/eko-tur.jpg"
+    },
+    {
+      "name": "Radio Piekary 88,7 FM",
+      "logo": "partners/radio-piekary.jpg"
+    },
+    {
+      "name": "Instytut Rozwoju Edukacji",
+      "logo": "partners/instytut-rozwoju-edukacji.jpg"
+    },
+    {
+      "name": "English Montessori School",
+      "logo": "partners/english-montessori-school.jpg"
+    },
+    {
+      "name": "Science and Technology Film Festival",
+      "logo": "partners/science-and-technology-film-festival.jpg"
+    },
+    {
+      "name": "Funzeum",
+      "logo": "partners/funzeum.jpg"
+    },
+    {
+      "name": "Internationaler Bund Polska",
+      "logo": "partners/internationaler-bund-polska.jpg"
+    },
+    {
+      "name": "Classwise",
+      "logo": "partners/classwise.jpg"
+    },
+    {
+      "name": "Śląski Ruch Klimatyczny",
+      "logo": "partners/slaski-ruch-klimatyczny.jpg"
+    }
+  ]
+}

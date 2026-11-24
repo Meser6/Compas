@@ -5,10 +5,11 @@ import modals from "../content/modals.json";
 import pages from "../content/pages.json";
 import offer from "../content/offer.json";
 import opinions from "../content/opinions.json";
+import partners from "../content/partners.json";
 import media from "../content/media.json";
 import ui from "../content/ui.json";
 
-export const CONTENT = { ui, pages, about, modals, contact, offer, opinions, media };
+export const CONTENT = { ui, pages, about, modals, contact, offer, opinions, partners, media };
 
 function defaultVars() {
   return {
