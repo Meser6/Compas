@@ -696,9 +696,13 @@ main.main--subpage .tab-panels { padding-top: clamp(2.25rem, 5vw, 3.5rem); }
   display: flex;
   align-items: center;
   width: max-content;
-  animation: opinions-scroll var(--marquee-duration, 40s) linear infinite;
+  animation: partners-scroll var(--marquee-duration, 40s) linear infinite;
 }
 .partners-marquee__track:hover { animation-play-state: paused; }
+@keyframes partners-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
 .partners-logo {
   flex: 0 0 auto;
   display: flex;
