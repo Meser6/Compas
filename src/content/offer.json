@@ -601,7 +601,7 @@
     {
       "id": "uczniowie",
       "label": "Uczniowie",
-      "title": "Warsztaty i zajęcia dla dzieci i młodzieży",
+      "title": "Szkolenia i warsztaty dla dzieci i młodzieży",
       "intro": "19 propozycji do opracowania w formie warsztatowej dostosowanej do wieku uczniów",
       "image": "photos/zajecia-z-mlodzieza.jpg",
       "categories": [
@@ -755,7 +755,7 @@
       "label": "Biznes",
       "title": "Szkolenia i warsztaty dla klienta biznesowego",
       "intro": "",
-      "image": "photos/forum-psychologiczne-wyklad.jpg",
+      "image": "photos/wyklad-biznes.jpg",
       "categories": [
         {
           "id": "dobrostan-i-odpornosc-psychiczna",
@@ -866,7 +866,8 @@
             }
           ]
         }
-      ]
+      ],
+      "imagePosition": "50% 28%"
     }
   ],
   "descriptions": {

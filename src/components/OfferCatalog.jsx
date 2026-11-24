@@ -41,7 +41,7 @@ export function OfferCatalog({ onOpenTraining }) {
               onClick={() => setGroupId(g.id)}
             >
               <span className="offer-group-btn__media" aria-hidden="true">
-                <img src={g.image} alt="" loading="lazy" />
+                <img src={g.image} alt="" loading="lazy" style={g.imagePosition ? { objectPosition: g.imagePosition } : undefined} />
               </span>
               <span className="offer-group-btn__label">{tx(`offer.groups[${i}].title`, g.title)}</span>
               <span className="offer-group-btn__count">

@@ -103,9 +103,9 @@ export function TabPanels({ activeTab, onOpenModal, onOpenTraining }) {
   return (
     <div className="tab-panels container">
       <Panel id="start" active={is("start")} labelledBy="tab-start">
-        <OpinionsCarousel />
-
         <PartnersMarquee />
+
+        <OpinionsCarousel />
       </Panel>
 
       <Panel id="o-mnie" active={is("o-mnie")} labelledBy="tab-o-mnie">
