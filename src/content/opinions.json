@@ -2,81 +2,76 @@
   "items": [
     {
       "id": "o1",
-      "quote": "Szkolenie było wspaniałe! Prowadzący był doskonale przygotowany, wykazał się ogromną wiedzą i zaangażowaniem, a jego sposób przekazywania treści był niezwykle interesujący i angażujący. Ma wyjątkowy talent do przekazywania wiedzy, wnikliwego wyjaśniania nawet bardziej złożonych zagadnień oraz przedstawiania ich w sposób jasny, przystępny i zrozumiały. Przesłanie szkolenia było mądre i wartościowe, a przedstawione wskazówki – bardzo praktyczne i przydatne w codziennej pracy nauczyciela. Prezentacja była ciekawa, atrakcyjna i przykuwająca uwagę. Słuchałam z dużym zaangażowaniem, a czas spędzony na szkoleniu był dla mnie prawdziwą przyjemnością. Dawno nie uczestniczyłam w tak dobrym szkoleniu! Bardzo się cieszę, że mogłam wziąć w nim udział. Zdecydowanie oceniam je wzorowo. To szkolenie, które nie tylko poszerza wiedzę, ale również inspiruje i motywuje do wykorzystywania zdobytych umiejętności w codziennej pracy.",
-      "rating": 5
-    },
-    {
-      "id": "o2",
       "quote": "Prowadzący wykazał się znakomitą znajomością relacji szkoła–rodzic, postaw rodzicielskich i nauczycielskich, potrafił przedstawić dany problem/sytuację zarówno z punktu widzenia dziecka, rodzica jak i nauczyciela. Wiedza, doświadczenie, wysoki poziom empatii, zrozumienie potrzeb słuchaczy, konkrety, elokwencja, naturalność.",
       "rating": 5
     },
     {
-      "id": "o3",
+      "id": "o2",
       "quote": "Zrozumiały język, merytoryczne przygotowanie Prowadzącego, miłe usposobienie Prowadzącego, nie byłam znudzona, wiedzę podaje Pan w bardzo przystępny, zrozumiały sposób, czułam, że zależy Panu na słuchaczach.",
       "rating": 5
     },
     {
-      "id": "o4",
+      "id": "o3",
       "quote": "Szkolenie było bardzo wartościowe pod względem przekazywanych treści. Pan mówił bardzo ładnie i interesująco. Potrafił zaciekawić problemem, który ciągle przewija się w pracy nauczyciela.",
       "rating": 5
     },
     {
-      "id": "o5",
+      "id": "o4",
       "quote": "Stawianie na dobrostan nauczyciela, do tej pory tylko był nacisk na dobrostan ucznia.",
       "rating": 5
     },
     {
-      "id": "o6",
+      "id": "o5",
       "quote": "Wzbudził Pan moją sympatię, chętnie słuchałam, co nie zdarza się zawsze. Dla mnie ważny jest głos, tempo, intonacja, albo kogoś, albo nie. Pana słuchałam z zaciekawieniem.",
       "rating": 5
     },
     {
-      "id": "o7",
+      "id": "o6",
       "quote": "Bardzo ciekawy wykład. Poruszający ważne dla mnie kwestie. Świetnie poprowadzony. Dziękuję.",
       "rating": 5
     },
     {
-      "id": "o8",
+      "id": "o7",
       "quote": "Cenne wskazówki, dobrane przykłady, ciekawa narracja.",
       "rating": 5
     },
     {
-      "id": "o9",
+      "id": "o8",
       "quote": "Temat szkolenia, odpowiednia intensywność informacji, wyświetlana prezentacja.",
       "rating": 5
     },
     {
-      "id": "o10",
+      "id": "o9",
       "quote": "Sposób przekazania wiedzy, duża serdeczność – krótko i merytorycznie.",
       "rating": 5
     },
     {
-      "id": "o11",
+      "id": "o10",
       "quote": "Prowadzący niezwykle merytoryczny, kompetentny.",
       "rating": 5
     },
     {
-      "id": "o12",
+      "id": "o11",
       "quote": "Treściwe i obrazowe prowadzenie szkolenia.",
       "rating": 5
     },
     {
-      "id": "o13",
+      "id": "o12",
       "quote": "Konkretne informacje… merytoryczność.",
       "rating": 5
     },
     {
-      "id": "o14",
+      "id": "o13",
       "quote": "Klarowność przekazu.",
       "rating": 5
     },
     {
-      "id": "o15",
+      "id": "o14",
       "quote": "Sposób prowadzenia.",
       "rating": 5
     },
     {
-      "id": "o16",
+      "id": "o15",
       "quote": "Przekaz informacji.",
       "rating": 5
     }
