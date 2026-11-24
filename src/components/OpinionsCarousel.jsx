@@ -8,9 +8,14 @@ const AUTOPLAY_MS = 9_000;
 const SWIPE_MIN_PX = 48;
 const MOBILE_QUERY = "(max-width: 700px)";
 
+/** Dzieli na strony; niepełną ostatnią stronę dopełnia opiniami z początku, żeby zawsze były pełne ramki. */
 function chunkItems(items, size) {
   const out = [];
   for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size));
+  const last = out[out.length - 1];
+  if (last && last.length < size && items.length > size) {
+    out[out.length - 1] = [...last, ...items.slice(0, size - last.length)];
+  }
   return out;
 }
 
@@ -98,8 +103,8 @@ export function OpinionsCarousel() {
                 aria-label={`${slideIdx + 1} z ${pageCount}`}
                 aria-hidden={page !== slideIdx}
               >
-                {group.map((item, i) => {
-                  const idx = slideIdx * perSlide + i;
+                {group.map((item) => {
+                  const idx = items.indexOf(item);
                   return (
                     <article className="opinion-card" key={item.id}>
                       <div className="opinion-card__rating" aria-hidden="true">
